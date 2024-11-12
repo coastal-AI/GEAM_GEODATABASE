@@ -1,5 +1,9 @@
 # GEAM
-Metadata map to display field activities and groundtruth data.  
+Research group geodatabase to store:  
+- groundtruth data
+- drone surveys
+- underwater video transects  
+- sampling stations  
 
 Seagrass Ecology Group  
 IEO-CSIC  
