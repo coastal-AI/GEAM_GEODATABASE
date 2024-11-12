@@ -15,8 +15,10 @@ The geodatabase includes:
 
 This repository is designed for researchers and collaborators who require access to GEAM’s spatial datasets for analysis, validation, or further investigation. 
 
-Seagrass Ecology Group  
-IEO-CSIC  
+## Affiliation
+
+**Seagrass Ecology Group**  
+**IEO-CSIC**
 
 Grupo de Ecología de Angiospermas Marinas (GEAM)  
 Instituto Español de Oceanografía - Consejo Superior de Investigaciones Científicas  
