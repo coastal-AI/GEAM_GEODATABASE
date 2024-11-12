@@ -1,4 +1,4 @@
-# GEAM
+# GEAM GEODATABASE
 Research group geodatabase to store:  
 - groundtruth data
 - drone surveys
