@@ -6,6 +6,13 @@ from bokeh.models.tiles import WMTSTileSource
 from bokeh.layouts import column
 from datetime import datetime
 
+# Load the data
+groundtruth_data = pd.read_excel('data/GROUNTRUTH_DB.xlsx')
+stations_data = pd.read_excel('data/STATIONS_DB.xlsx')
+uv_data = pd.read_excel('data/UV_DB.xlsx')
+drone_data = pd.read_excel('data/DRONE_DB.xlsx')
+
+
 # Prepare the current date for output file naming
 current_date = datetime.now().strftime('%Y%m%d')
 
