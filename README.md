@@ -11,23 +11,10 @@ The geodatabase includes the following datasets:
 - **Underwater Video Transects**: Georeferenced underwater video footage documenting seagrass distribution, which aids in analyzing seagrass health and coverage.
 - **Sampling Stations**: Georeferenced coordinates for repeated sampling events, providing a spatial framework for long-term monitoring and environmental assessments.
 
-## Usage
-
-This repository is designed for researchers, environmental scientists, and collaborators working on seagrass ecosystems or related fields. It provides a preview of spatial datasets that can be used for:
-
-- **Analysis**: Use the data to perform spatial analyses and modeling.
-- **Validation**: Validate remote sensing data or other geospatial models.
-- **Investigation**: Support investigations into seagrass ecology, monitoring, and conservation efforts.
-
-
 ## Affiliation
 
-This repository is maintained by the **Seagrass Ecology Group** at **IEO-CSIC**:
+**Seagrass Ecology Group**  
+Grupo de Ecología de Angiospermas Marinas (GEAM)  
+Instituto Español de Oceanografía - Consejo Superior de Investigaciones Científicas (IEO-CSIC)  
 
-- **Seagrass Ecology Group (GEAM)**  
-  Grupo de Ecología de Angiospermas Marinas (GEAM)  
-  Instituto Español de Oceanografía - Consejo Superior de Investigaciones Científicas (IEO-CSIC)  
-  **Website**: [www.ieo.csic.es](https://www.ieo.csic.es)
-
-For inquiries, please contact the research group or consult the provided documentation.
   
