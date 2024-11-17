@@ -1,12 +1,12 @@
 # GEAM GEODATABASE  
 
-This repository hosts the GEAM Geodatabase for the Grupo de Ecología de Angiospermas Marinas (GEAM), a research group focused on the ecology and mapping of marine angiosperms. This geodatabase centralizes key data assets collected and processed by the team for various research initiatives.  
+This repository hosts the GEAM Geodatabase featuring spatial data collected in the field.
 
 ## Contents
 
 The geodatabase includes:
 
-- **Groundtruth Data**: Field data collected to validate and support spatial analyses.
+- **Groundtruth Data**: Field data collected to validate and support remote sensing studies.
 - **Drone Surveys**: High-resolution aerial imagery.
 - **Underwater Video Transects**: Georreferenced underwater video data capturing seagrass distribution.
 - **Sampling Stations**: Georeferenced points for repeated sampling events.
