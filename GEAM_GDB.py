@@ -76,7 +76,7 @@ map_figure.toolbar.active_scroll = map_figure.select_one(WheelZoomTool)
 
 # Plot the data points and lines
 underwater_video_renderer = map_figure.multi_line(xs='xs', ys='ys', source=uv_source, line_width=3, color='blue', legend_label='Underwater video tracks')
-stations_renderer = map_figure.scatter('x', 'y', source=stations_source, size=7, color='red', legend_label='Sampling stations')
+stations_renderer = map_figure.scatter('x', 'y', source=stations_source, size=5, color='red', legend_label='Sampling stations')
 groundtruth_renderer = map_figure.scatter('x', 'y', source=groundtruth_source, size=3, color='green', legend_label='Species presence/absence')
 drone_renderer = map_figure.patches('xs', 'ys', source=drone_source, fill_alpha=0.2, line_width=2, fill_color="grey", legend_label='Drone surveys')
 
