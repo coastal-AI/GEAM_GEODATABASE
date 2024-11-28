@@ -12,6 +12,8 @@ body {
 h1 {
     text-align: center;
     color: #333;
+    margin-top: 0;
+    padding-top: 20px;
 }
 p {
     text-align: center;
