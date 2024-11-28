@@ -8,20 +8,26 @@ from bokeh.plotting import figure
 from bokeh.models import ColumnDataSource, Div
 from bokeh.models.tiles import WMTSTileSource
 from bokeh.layouts import column
+from bokeh.resources import INLINE
+from bokeh.embed import file_html, components
 
+
+# Paths
+base_path = '/Users/fer/Documents/PYTHON/15_GEAM_GDB_GitHub/data/'
+output_path = '/Users/fer/Documents/PYTHON/15_GEAM_GDB_GitHub/docs/'
 
 # Load the data
-groundtruth_df = pd.read_excel('/Users/fer/Documents/PYTHON/15_GEAM_GDB_GitHub/data/GROUNDTRUTH_DB.xlsx')
+groundtruth_df = pd.read_excel(base_path + 'GROUNDTRUTH_DB.xlsx')
 groundtruth_gdf = gpd.GeoDataFrame(groundtruth_df, geometry=[Point(xy) for xy in zip(groundtruth_df['dwc:decimalLongitude'], groundtruth_df['dwc:decimalLatitude'])], crs='EPSG:4326')
 
-stations_df = pd.read_excel('/Users/fer/Documents/PYTHON/15_GEAM_GDB_GitHub/data/STATIONS_DB.xlsx')
+stations_df = pd.read_excel(base_path + 'STATIONS_DB.xlsx')
 stations_gdf = gpd.GeoDataFrame(stations_df, geometry=[Point(xy) for xy in zip(stations_df['dwc:decimalLongitude'], stations_df['dwc:decimalLatitude'])], crs='EPSG:4326')
 
-uv_df = pd.read_excel('/Users/fer/Documents/PYTHON/15_GEAM_GDB_GitHub/data/UV_DB.xlsx')
+uv_df = pd.read_excel(base_path + 'UV_DB.xlsx')
 uv_df['geometry'] = uv_df['dwc:footprintWKT'].apply(wkt.loads)  
 uv_gdf = gpd.GeoDataFrame(uv_df, geometry='geometry', crs="EPSG:4326")
 
-drone_df = pd.read_excel('/Users/fer/Documents/PYTHON/15_GEAM_GDB_GitHub/data/DRONE_DB.xlsx')
+drone_df = pd.read_excel(base_path + 'DRONE_DB.xlsx')
 drone_df['geometry'] = drone_df['dwc:footprintWKT'].apply(wkt.loads)  
 drone_gdf = gpd.GeoDataFrame(drone_df, geometry='geometry', crs="EPSG:4326")
 
@@ -71,7 +77,7 @@ map_figure = figure(
     tools="tap, wheel_zoom, pan, reset",
     sizing_mode="stretch_both"  # Make the map fill available space
 )
-map_figure.add_tile(tile_source)
+map_figure.add_tile("CartoDB Positron", retina=True)
 map_figure.toolbar.active_scroll = map_figure.select_one(WheelZoomTool)
 
 # Plot the data points and lines
@@ -97,19 +103,39 @@ map_figure.add_tools(hover_tool_event, hover_tool_occurrence, hover_tool_video, 
 event_id_div = Div(text="", width=200, height=100)
 occurrence_id_div = Div(text="", width=200, height=100)
 
-# Title for the visualization
-main_title = Div(text="""
-    <div style='text-align: center;'>
-        <div style='font-size: 2.5vw; font-weight: bold;'>SEAGRASS ECOLOGY GROUP GEODATABASE</div>
-        <div style='font-size: 2vw;'>IEO-CSIC</div>
-        <div style='font-size: 0.5vw; '>_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</div>
+show(map_figure)
+
+script, div = components(map_figure)
+
+# Construct the HTML template
+html_template = f"""
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>GEAM geodatabase</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.5.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.5.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.5.0.min.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <h1>GEAM GEODATABASE</h1>
+    <p>This map displays the group field data.</p>
+    <div>
+        {div} <!-- Placeholder for the Bokeh map -->
     </div>
-""", sizing_mode="stretch_width")
+    {script} <!-- Script to render the map -->
+</body>
+</html>
+"""
 
-# Layout setup with stretch_both for full screen use
-layout = column(main_title, map_figure, sizing_mode="stretch_both")
-output_file('/Users/fer/Documents/PYTHON/15_GEAM_GDB_GitHub/docs/index.html', title="GEAM GEODATABASE")
+# Save the HTML to a file
+output_file_path = output_path + "index.html"
+with open(output_file_path, "w") as f:
+    f.write(html_template)
 
-# Save and display
-save(layout)
-show(layout)
+print(f"Interactive map saved to {output_file_path}")
+
+
