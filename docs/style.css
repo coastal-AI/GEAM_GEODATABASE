@@ -1,35 +1,18 @@
-/* Apply a consistent font family and remove any default margin/padding */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    height: 100%;
-    overflow-x: hidden;  /* Prevent horizontal scrolling */
 }
-
-/* Style for headers, centered text and default color */
 h1 {
     text-align: center;
     color: #333;
 }
-
-/* Style for paragraphs, center-aligned with a bottom margin */
 p {
     text-align: center;
     margin-bottom: 20px;
 }
-
-/* Style for divs, adjust the height calculation and bottom margin */
 div {
     width: 100%;
-    height: calc(100vh - 250px); /* Adjust the height based on viewport */
+    height: calc(100vh - 250px);
     margin-bottom: 10px;
-    box-sizing: border-box; /* Ensure padding and border are included in the height calculation */
-}
-
-/* Normalize box sizing for all elements */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
 }

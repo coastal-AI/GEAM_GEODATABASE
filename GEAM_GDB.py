@@ -106,12 +106,11 @@ html_template = f"""<!DOCTYPE html>
     <meta charset="utf-8">
     <title>GEAM geodatabase</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.5.0.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.5.0.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.5.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.1.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.1.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.1.1.min.js" crossorigin="anonymous"></script>
 
 </head>
-
 <body>
     <h1>GEAM GEODATABASE</h1>
     <p>This map displays the group field data.</p>
