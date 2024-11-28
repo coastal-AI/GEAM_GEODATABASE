@@ -1,22 +1,17 @@
 import pandas as pd
 import geopandas as gpd
 from shapely import wkt
-from shapely.geometry import Point, Polygon
-from bokeh.io import output_file, save, show
+from shapely.geometry import Point
+from bokeh.io import show
 from bokeh.models import TapTool, CustomJS, HoverTool, WheelZoomTool
 from bokeh.plotting import figure
 from bokeh.models import ColumnDataSource, Div
-from bokeh.models.tiles import WMTSTileSource
-from bokeh.layouts import column
-from bokeh.resources import INLINE
 from bokeh.embed import file_html, components
 
 
-# Paths
-base_path = '/Users/fer/Documents/PYTHON/15_GEAM_GDB_GitHub/data/'
-output_path = '/Users/fer/Documents/PYTHON/15_GEAM_GDB_GitHub/docs/'
-
 # Load the data
+base_path = '/Users/fer/Documents/PYTHON/15_GEAM_GDB_GitHub/data/'
+
 groundtruth_df = pd.read_excel(base_path + 'GROUNDTRUTH_DB.xlsx')
 groundtruth_gdf = gpd.GeoDataFrame(groundtruth_df, geometry=[Point(xy) for xy in zip(groundtruth_df['dwc:decimalLongitude'], groundtruth_df['dwc:decimalLatitude'])], crs='EPSG:4326')
 
@@ -66,9 +61,6 @@ drone_data = {
 }
 drone_source = ColumnDataSource(data=drone_data)
 
-# Create the map plot with CartoLight tiles
-tile_url = 'https://cartodb-basemaps-a.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png'
-tile_source = WMTSTileSource(url=tile_url)
 
 # Initialize figure with required tools and responsive sizing
 map_figure = figure(
@@ -103,7 +95,7 @@ map_figure.add_tools(hover_tool_event, hover_tool_occurrence, hover_tool_video, 
 event_id_div = Div(text="", width=200, height=100)
 occurrence_id_div = Div(text="", width=200, height=100)
 
-show(map_figure)
+#show(map_figure)
 
 script, div = components(map_figure)
 
@@ -132,10 +124,15 @@ html_template = f"""
 """
 
 # Save the HTML to a file
-output_file_path = output_path + "index.html"
-with open(output_file_path, "w") as f:
+index = '/Users/fer/Documents/PYTHON/15_GEAM_GDB_GitHub/docs/index.html'
+with open(index, "w") as f:
     f.write(html_template)
 
-print(f"Interactive map saved to {output_file_path}")
+print(f"Interactive map saved to {index}")
+
+# Launch the file in the default web browser
+import webbrowser
+file_url = f"file://{index}"
+webbrowser.open(file_url)
 
 
