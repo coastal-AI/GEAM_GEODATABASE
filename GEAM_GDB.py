@@ -103,9 +103,10 @@ script, div = components(map_figure)
 html_template = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
     <title>GEAM geodatabase</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
     <script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.1.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.1.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.1.1.min.js" crossorigin="anonymous"></script>
