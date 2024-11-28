@@ -113,12 +113,18 @@ html_template = f"""<!DOCTYPE html>
 
 </head>
 <body>
-    <h1>GEAM GEODATABASE</h1>
-    <p>This map displays the group field data.</p>
+    <header>
+        <img src="assets/header.jpg" alt="Header Image" />
+        <h1 class="header-text">GEAM GEODATABASE</h1>
+    </header>
     <div>
         {div} <!-- Placeholder for the Bokeh map -->
     </div>
     {script} <!-- Script to render the map -->
+
+    <footer>
+        <img src="assets/header.jpg" alt="Footer Image" />
+    </footer>
 </body>
 </html>
 """
