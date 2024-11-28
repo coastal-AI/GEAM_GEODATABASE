@@ -100,8 +100,7 @@ occurrence_id_div = Div(text="", width=200, height=100)
 script, div = components(map_figure)
 
 # Construct the HTML template
-html_template = f"""
-<!DOCTYPE html>
+html_template = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -112,6 +111,7 @@ html_template = f"""
     <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.5.0.min.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
     <h1>GEAM GEODATABASE</h1>
     <p>This map displays the group field data.</p>
