@@ -1,6 +1,6 @@
 # GEAM Geodatabase  
 
-Welcome to the GEAM Geodatabase repository, which contains a comprehensive collection of spatial data gathered through fieldwork and remote sensing efforts. This geodatabase supports research into seagrass ecosystems, providing valuable datasets for analysis, validation, and further investigations.
+Welcome to the GEAM Geodatabase repository, which contains a comprehensive collection of spatial data gathered through fieldwork. This geodatabase supports research into seagrass ecosystems, providing valuable datasets for analysis, validation, and further investigations.
 
 ## Contents
 
