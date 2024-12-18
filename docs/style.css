@@ -1,47 +1,116 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding/border don’t affect dimensions */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures the full height of the viewport */
+}
+
+/* General Body Styles */
+body {
+    font-family: 'Open Sans', sans-serif; /* Default font */
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light gray background for contrast */
+}
+
+/* Header Section */
 header {
+    position: relative;
     text-align: center;
     color: #333;
-    margin-top: 0;
-    padding-top: 10px;
+    margin: 0; /* Remove any extra margin */
+    padding: 0; /* Remove extra padding */
 }
+
 header img {
+    display: block;
     width: 100%; /* Makes the image full width */
-    max-height: 120px; /* Limits the height to 100px */
+    max-height: 100px; /* Limits the height to 100px */
     height: auto; /* Keeps the aspect ratio */
     object-fit: cover; 
     object-position: top;
 }
+
 .header-text {
     position: absolute; /* Absolutely position the text */
-    top: 50px; /* Center vertically */
+    top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust position to truly center */
+    transform: translate(-50%, -50%); /* Adjust position to center properly */
     color: white; /* Text color */
     font-size: 40px; /* Adjust font size as needed */
-    font-family: 'Open Sans', sans-serif; /* Change font type */
     text-align: center; /* Center text */
     text-transform: uppercase; /* Make text appear in capital letters */
     font-weight: bold; /* Make text bold */
 }
 
+/* Main Content Area */
 div {
     width: 100%;
-    height: calc(100vh - 250px);
-    margin-bottom: 10px;
+    height: calc(100vh - 200px); /* Leaves space for header and footer */
+    overflow: auto; /* Ensures scrollability if content overflows */
+    box-sizing: border-box; /* Ensure padding doesn't add to the size */
+    background-color: #fff; /* White background for the content area */
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
 }
+
+/* Footer Section */
 
 footer {
     width: 100%;
-    overflow: hidden;
-    margin-top: 5px; /* Add space above footer */
+    position: relative; /* Allow stacking of logos above background image */
+    overflow: hidden; /* Prevents content overflow */
 }
 
 footer img {
-    width: 100%;
-    max-height: 80px;
-    height: auto;
+    width: 100%; /* Makes the image full width */
+    max-height: 100px; /* Limits the height to 100px */
+    height: auto; /* Keeps aspect ratio */
     object-fit: cover;
-    object-position: bottom;
-    position: relative; /* Make the footer image relative to allow stacking */
-    z-index: 1; /* Set the footer image z-index to 1 */
+    object-position: bottom; /* Focuses on the bottom of the image */
+    z-index: 1; /* Footer image is below logos */
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Adjust the space between logos */
+    position: relative; /* Absolute positioning to place on top of the footer image */
+    width: 100%;
+    z-index: 2; /* Ensure logos appear above the background image */
+}
+
+.logo {
+    max-height: 30px; /* Adjust the logo height */
+    height: auto;
+    width: auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .header-text {
+        font-size: 20px; /* Adjust text size for smaller screens */
+    }
+
+    header img, footer img {
+        max-height: 80px; /* Reduce image height for smaller screens */
+    }
+
+    div {
+        height: calc(100vh - 170px); /* Adjust main content height */
+    }
+
+    .logos {
+        gap: 10px; /* Reduce gap for small screens */
+    }
+
+    .logo {
+        max-height: 25px; /* Adjust logo size for small screens */
+    }
 }

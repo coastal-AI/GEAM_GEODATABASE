@@ -12,19 +12,22 @@ from bokeh.embed import file_html, components
 # Load the data
 base_path = '/Users/fer/Documents/PYTHON/15_GEAM_GDB_GitHub/data/'
 
-groundtruth_df = pd.read_excel(base_path + 'GROUNDTRUTH_DB.xlsx')
+groundtruth_df = pd.read_excel(base_path + '1_GROUNDTRUTH_table.xlsx')
 groundtruth_gdf = gpd.GeoDataFrame(groundtruth_df, geometry=[Point(xy) for xy in zip(groundtruth_df['dwc:decimalLongitude'], groundtruth_df['dwc:decimalLatitude'])], crs='EPSG:4326')
 
-stations_df = pd.read_excel(base_path + 'STATIONS_DB.xlsx')
-stations_gdf = gpd.GeoDataFrame(stations_df, geometry=[Point(xy) for xy in zip(stations_df['dwc:decimalLongitude'], stations_df['dwc:decimalLatitude'])], crs='EPSG:4326')
+drone_df = pd.read_excel(base_path + '2_DRONE_table.xlsx')
+drone_df['geometry'] = drone_df['dwc:footprintWKT'].apply(wkt.loads)  
+drone_gdf = gpd.GeoDataFrame(drone_df, geometry='geometry', crs="EPSG:4326")
 
-uv_df = pd.read_excel(base_path + 'UV_DB.xlsx')
+uv_df = pd.read_excel(base_path + '3_UNDERWATER_VIDEO_TRACKS_table.xlsx')
 uv_df['geometry'] = uv_df['dwc:footprintWKT'].apply(wkt.loads)  
 uv_gdf = gpd.GeoDataFrame(uv_df, geometry='geometry', crs="EPSG:4326")
 
-drone_df = pd.read_excel(base_path + 'DRONE_DB.xlsx')
-drone_df['geometry'] = drone_df['dwc:footprintWKT'].apply(wkt.loads)  
-drone_gdf = gpd.GeoDataFrame(drone_df, geometry='geometry', crs="EPSG:4326")
+stations_df = pd.read_excel(base_path + '5_STATIONS_table.xlsx')
+stations_gdf = gpd.GeoDataFrame(stations_df, geometry=[Point(xy) for xy in zip(stations_df['dwc:decimalLongitude'], stations_df['dwc:decimalLatitude'])], crs='EPSG:4326')
+
+
+
 
 # Convert all GeoDataFrames to EPSG:3857
 groundtruth_gdf = groundtruth_gdf.to_crs(epsg=3857)
@@ -73,10 +76,11 @@ map_figure.add_tile("CartoDB Positron", retina=True)
 map_figure.toolbar.active_scroll = map_figure.select_one(WheelZoomTool)
 
 # Plot the data points and lines
-underwater_video_renderer = map_figure.multi_line(xs='xs', ys='ys', source=uv_source, line_width=3, color='blue', legend_label='Underwater video tracks')
-stations_renderer = map_figure.scatter('x', 'y', source=stations_source, size=5, color='red', legend_label='Sampling stations')
-groundtruth_renderer = map_figure.scatter('x', 'y', source=groundtruth_source, size=3, color='green', legend_label='Species presence/absence')
 drone_renderer = map_figure.patches('xs', 'ys', source=drone_source, fill_alpha=0.2, line_width=2, fill_color="grey", legend_label='Drone surveys')
+underwater_video_renderer = map_figure.multi_line(xs='xs', ys='ys', source=uv_source, line_width=3, color='blue', legend_label='Underwater video tracks')
+stations_renderer = map_figure.scatter('x', 'y', source=stations_source, size=5, color='red', legend_label='Sampling stations (GEAM + Collaborators)')
+groundtruth_renderer = map_figure.scatter('x', 'y', source=groundtruth_source, size=3, color='green', legend_label='Species groundtruth')
+
 
 # Customize the legend
 map_figure.legend.title_text_font_size = '12pt'
@@ -121,9 +125,12 @@ html_template = f"""<!DOCTYPE html>
         {div} <!-- Placeholder for the Bokeh map -->
     </div>
     {script} <!-- Script to render the map -->
-
     <footer>
         <img src="assets/header.jpg" alt="Footer Image" />
+        <div class="logos">
+            <img class="logo" src="assets/logoIEO.png" alt="Logo 1">
+            <img class="logo" src="assets/logoCSIC.png" alt="Logo 2">
+        </div>
     </footer>
 </body>
 </html>
