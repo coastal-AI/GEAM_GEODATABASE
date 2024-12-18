@@ -81,7 +81,7 @@ footer img {
     justify-content: center;
     align-items: center;
     gap: 50px; /* Adjust the space between logos */
-    position: relative; /* Absolute positioning to place on top of the footer image */
+    position: absolute; /* Absolute positioning to place on top of the footer image */
     width: 100%;
     z-index: 2; /* Ensure logos appear above the background image */
 }
