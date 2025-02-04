@@ -1,20 +1,16 @@
-# GEAM Geodatabase  
+# Coastal Drone Metadata Map
 
-Welcome to the GEAM Geodatabase repository, which contains a comprehensive collection of spatial data gathered through fieldwork. This geodatabase supports research into seagrass ecosystems, providing valuable datasets for analysis, validation, and further investigations.
+This platform is a joint initiative involving multiple institutions working with drones for coastal habitat mapping. Its primary goal is to provide insights into areas where drone flights have already been conducted, helping to prevent duplication of efforts. This collaborative metadata map displays information from photogrammetric drone flights, offering users access to flight dates, spatial extents, and other relevant data. Previews of orthomosaics captured during these flights are also available, though the full orthomosaics are not provided here. To request access to the complete orthomosaics, please contact the listed representative.
 
-## Contents
+All metadata and orthomosaic previews are shared under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/deed.en). Contributing institutions retain the right to determine the terms for sharing the full orthomosaics, including the relevant licensing conditions.
 
-The geodatabase includes the following datasets:
 
-- **Groundtruth Data**: Field-collected observations that validate and support remote sensing studies, essential for confirming species presence and environmental conditions.
-- **Drone Surveys**: High-resolution aerial imagery captured through drone surveys to map and monitor seagrass meadows across various locations.
-- **Underwater Video Transects**: Georeferenced underwater video footage documenting seagrass distribution, which aids in analyzing seagrass health and coverage.
-- **Sampling Stations**: Georeferenced coordinates for repeated sampling events, providing a spatial framework for long-term monitoring and environmental assessments.
+## About Us
 
-## Affiliation
+The Coastal Drone Metadata Map is the result of collaboration between the following research groups:
 
-**Seagrass Ecology Group**  
-Grupo de Ecología de Angiospermas Marinas (GEAM)  
-Instituto Español de Oceanografía - Consejo Superior de Investigaciones Científicas (IEO-CSIC)  
+- **[Seagrass Ecology Group (GEAM IEO-CSIC)](https://www.ieo.es/es/)**
+- **[Center of Advanced Studies of Blanes (CEAB-CSIC)](https://www.ceab.csic.es)**
+- **[Artificial Intelligence Center (AIC-University of Oviedo)](https://www.aic.uniovi.es)**
 
-  
+
