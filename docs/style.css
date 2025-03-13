@@ -32,93 +32,36 @@ header {
 
 /* Align header-text to the left */
 header .header-text {
-    margin: 0; /* Remove default margin */
+    position: absolute; /* Absolutely position the text */
+    top: 30px; /* Adjust to be below the title */
+    left: 50px; /* Center horizontally */
     font-size: clamp(2.5vw, 3vw, 3vw);
-    white-space: nowrap;
     font-family: 'Roboto', sans-serif;
     font-weight: 300; /* Font weight */
     color: white;
-    text-align: left; /* Align the title text to the left */
-    flex-grow: 1; /* Allow the header text to occupy the remaining space */
+
 }
 
 .subtitle {
     position: absolute; /* Absolutely position the text */
-    top: 110px; /* Adjust to be below the title */
-    left: 190px; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust position to truly center */
+    top: 100px; /* Adjust to be below the title */
+    left: 60px; /* Center horizontally */
     color: white; /* Text color */
-    font-size: 18px; /* Match font size as needed */
+    font-size: clamp(0.5vw, 0.8vw, 0.8vw);
     font-family: 'Roboto', sans-serif;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Add a shadow for better visibility */
-    text-align: center; /* Center text */
     text-transform: none; /* Make text appear in capital letters */
-    font-weight:; /* Make text bold */
-    font-style: bold;
+    font-weight:300; /* Make text bold */
 }
 
-/* Hero Section */
-.hero-section {
-    position: relative;
-    width: 100%;
-    height: calc(100vh - 130px); /* Adjusted for 100px header */
-    margin-top: 130px; /* Adjust for new header height */
-    overflow: hidden;
-}
-
-.hero-section img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image covers the section */
-}
-
-.hero-section .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Transparent dark overlay */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /*flex-start or center*/
-    justify-content: center;
-    color: white;
-    text-align: left;
-    padding: 50px;
-    box-sizing: border-box; /* Ensure padding does not affect width/height */
-    
-}
-
-/* Hero Section Title */
-.hero-section .overlay h1 {
-    font-size: clamp(1.5vw, 2vw, 2vw);
-    font-family: 'Roboto', sans-serif;
-    white-space: nowrap;
-    font-weight: 300;
-    margin: 0;
-    line-height: 3;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Text shadow for better visibility */
-}
-
-/* Hero Section Paragraph */
-.hero-section .overlay p {
-    font-size: clamp(1vw, 1.3vw, 1.3vw);
-    font-family: 'Roboto', sans-serif;
-    white-space: nowrap;
-    margin: 0;
-    line-height: 3;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Text shadow for better visibility */
-}
 
 /* Map Section */
 #map {
     width: 100%;
-    height: calc(100vh - 100px - 80px); /* Adjusted for 100px header */
+    height: calc(100vh - 130px - 80px); /* Adjusted for 100px header */
+    margin-top: 130px;
 }
+
+
 .leaflet-popup-content {
     width: 600px !important; /* Set your desired width */
     max-width: 100%; /* Ensure it doesn't exceed the viewport */

@@ -19,23 +19,8 @@
         <div class="subtitle">Seagrass Ecology Group IEO-CSIC</a></div>
     </header>
 
-    <!-- Full-screen Image Section -->
-    <div class="hero-section">
-        <img src="assets/instructions.jpg" alt="Hero Image">
-        <div class="overlay">
-            <h1>Grupo de Ecología de Angiospermas Marinas (GEAM)</h1>
-            <h1>Instituto Español de Oceanografía </h1>
-            <h1>IEO-CSIC </h1>
-            <p>Seagrass Ecology Group</p>
-            <p>Take a look at our fieldwork</p>
-            <p>Scroll down to explore the map</p>
-        </div>
-    </div>
-
-    <!-- Scrollable Map Section -->
     <div id="map"></div>
 
-    <!-- Footer Section -->
     <footer>
         <!-- New line of text before logos -->
         <div class="logos">
@@ -52,9 +37,8 @@
     <script>
         // Initialize the map
         var map = L.map('map', {
-            scrollWheelZoom: false, // Disable scroll zoom initially
             attributionControl: false
-        }).setView([40, 2], 6); // Center the map and set zoom level
+        }).setView([35, -5], 5); // Center the map and set zoom level
 
         // Add tile layer from Carto
         L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
@@ -258,28 +242,20 @@
         groundtruthLayer.addTo(map);
         stationsLayer.addTo(map);
 
-        
-
-         // Add layer control for toggling layers
+        // Add layer control for toggling layers
         var overlayMaps = {
-        "Seagrass Presence/Absence data": groundtruthLayer,
-        "Drone Surveys": droneLayer,
-        "Underwater Video Tracks": uv_tracksLayer,
-        "Sampling Stations": stationsLayer
+            "Seagrass Presence/Absence data": groundtruthLayer,
+            "Drone Surveys": droneLayer,
+            "Underwater Video Tracks": uv_tracksLayer,
+            "Sampling Stations": stationsLayer
         };
 
-        L.control.layers(null, overlayMaps, { collapsed: false }).addTo(map);
+        L.control.layers(null, overlayMaps, {
+            collapsed: false,
+            position: 'topright'
+        }).addTo(map);
 
 
-        // Enable scroll zoom when map is clicked
-        map.on('click', function() {
-            map.scrollWheelZoom.enable(); // Enable scroll zoom
-        });
-
-        // Optionally, you can also disable scroll zoom again if the map loses focus
-        map.on('mouseout', function() {
-            map.scrollWheelZoom.disable(); // Disable scroll zoom when mouse leaves the map
-        });
 
     </script>
 
