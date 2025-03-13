@@ -11,7 +11,8 @@
     <script src="data/1_GROUNDTRUTH_table.js"></script> 
     <script src="data/2_DRONE_table.js"></script> 
     <script src="data/3_UNDERWATER_VIDEO_TRACKS_table.js"></script> 
-    <script src="data/5_STATIONS_table.js"></script> 
+    <script src="data/5_STATIONS_geam_table.js"></script> 
+    <script src="data/5_STATIONS_collaborators_table.js"></script> 
 </head>
 <body>
     <header>
@@ -168,7 +169,8 @@
         var groundtruthLayer = L.layerGroup();
         var droneLayer = L.layerGroup();
         var uv_tracksLayer = L.layerGroup();
-        var stationsLayer = L.layerGroup();
+        var stations_geamLayer = L.layerGroup();
+        var stations_collaboratorsLayer = L.layerGroup();
 
         //GROUNDTRUTH
         groundtruth.forEach(function(item) {
@@ -225,7 +227,7 @@
         });
 
         //STATIONS
-        stations.forEach(function(item) {
+        stations_geam.forEach(function(item) {
             var marker = L.marker([item.decimalLatitude, item.decimalLongitude], {
                 icon: L.divIcon({
                     className: 'cross-marker',  // Custom class for styling
@@ -233,7 +235,23 @@
                     iconSize: [20, 20],  // Size of the marker
                     iconAnchor: [10, 10]  // Center the cross in the marker
                 })
-            }).addTo(stationsLayer);
+            }).addTo(stations_geamLayer);
+            ;
+
+            marker.on('click', function() {
+                showMarkerInfo(item);
+            });
+        });
+
+        stations_collaborators.forEach(function(item) {
+            var marker = L.marker([item.decimalLatitude, item.decimalLongitude], {
+                icon: L.divIcon({
+                    className: 'cross-marker',  // Custom class for styling
+                    html: '<div style="font-size: 18px; color: purple; font-weight: bold; transform: rotate(45deg);">+</div>',  // The cross symbol
+                    iconSize: [20, 20],  // Size of the marker
+                    iconAnchor: [10, 10]  // Center the cross in the marker
+                })
+            }).addTo(stations_collaboratorsLayer);
             ;
 
             marker.on('click', function() {
@@ -245,21 +263,63 @@
         droneLayer.addTo(map);
         uv_tracksLayer.addTo(map);
         groundtruthLayer.addTo(map);
-        stationsLayer.addTo(map);
+        stations_geamLayer.addTo(map);
+        stations_collaboratorsLayer.addTo(map);
 
         // Add layer control for toggling layers
         var overlayMaps = {
             "Seagrass Presence/Absence data": groundtruthLayer,
             "Drone Surveys": droneLayer,
             "Underwater Video Tracks": uv_tracksLayer,
-            "Sampling Stations": stationsLayer
+            "Sampling Stations GEAM": stations_geamLayer,
+            "Sampling Stations Collaborators": stations_collaboratorsLayer
         };
 
         L.control.layers(null, overlayMaps, {
-            collapsed: false,
+            collapsed: true,
             position: 'topright'
         }).addTo(map);
+        
+        
+        var legend = L.control({ position: 'bottomright' });
 
+        legend.onAdd = function () {
+            var div = L.DomUtil.create('div', 'info legend');
+            
+            // Define the symbols and labels for each layer
+            var layersInfo = [
+                { 
+                    label: 'Seagrass Presence/Absence', 
+                    symbol: '<div class="green-dot"></div>'  // Green dot for Seagrass Presence/Absence
+                },
+                { 
+                    label: 'Drone Surveys', 
+                    symbol: '<div class="blue-square"></div>'  // Light blue square with dark blue border for Drone Surveys
+                },
+                { 
+                    label: 'Underwater Video Tracks', 
+                    symbol: '<div class="red-line"></div>'  // Red line for Underwater Video Tracks
+                },
+                { 
+                    label: 'Monitoring Stations (GEAM)', 
+                    symbol: '<div class="black-cross"></div>'  // Black cross for Sampling Stations
+                },
+
+                { 
+                    label: 'Monitoring Stations (Collaborators)', 
+                    symbol: '<div class="purple-cross"></div>'  // Black cross for Sampling Stations
+                }
+            ];
+
+            // Loop through each layer and create a legend entry with symbol
+            layersInfo.forEach(function (layer) {
+                div.innerHTML += layer.symbol + ' ' + layer.label + '<br>';
+            });
+
+            return div;
+        };
+
+        legend.addTo(map);
 
 
     </script>

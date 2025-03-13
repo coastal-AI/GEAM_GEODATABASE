@@ -119,29 +119,98 @@ header {
     margin-bottom: 5px; /* Space between title and info */
 }
 
-.legend {
+/* Style the legend */
+.info.legend {
     background: white;
-    padding: 8px;
     border-radius: 5px;
-    line-height: 18px;
-    font-size: 14px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    font-family: Arial, sans-serif;
 }
 
-.legend h4 {
-    margin: 0 0 5px;
-    font-size: 16px;
+.info.legend div {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
-.legend i {
-    width: 18px;
-    height: 18px;
-    float: left;
-    margin-right: 8px;
-    opacity: 0.7;
-    border-radius: 3px;
+/* Green Dot for Seagrass Presence/Absence */
+.green-dot {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
 }
 
+/* Light Blue Square with Dark Blue Border for Drone Surveys */
+.blue-square {
+    width: 15px;
+    height: 15px;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+}
+
+/* Red Line for Underwater Video Tracks */
+.red-line {
+    width: 15px;
+    height: 2px;
+    background-color: red;
+}
+
+/* Black X for Sampling Stations */
+.black-cross {
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+
+.black-cross::before,
+.black-cross::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 2px;
+    height: 15px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.black-cross::before {
+    transform: translateX(-50%) rotate(45deg);  /* Rotate to form one line of the X */
+}
+
+.black-cross::after {
+    transform: translateX(-50%) rotate(-45deg);  /* Rotate to form the other line of the X */
+}
+
+
+/* Purple X for Sampling Stations */
+.purple-cross {
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+
+.purple-cross::before,
+.purple-cross::after {
+    content: '';
+    position: absolute;
+    background-color: purple;
+    width: 2px;
+    height: 15px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.purple-cross::before {
+    transform: translateX(-50%) rotate(45deg);  /* Rotate to form one line of the X */
+}
+
+.purple-cross::after {
+    transform: translateX(-50%) rotate(-45deg);  /* Rotate to form the other line of the X */
+}
 
 
 footer {
