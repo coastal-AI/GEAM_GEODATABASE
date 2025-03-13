@@ -9,14 +9,14 @@
 html, body {
     height: 100%;
     overflow-x: hidden; /* Prevent horizontal scroll */
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300; /* Normal weight */
 }
 
 /* Header */
 header {
     width: 100%;
-    height: 100px; /* Updated header height */
+    height: 130px; /* Updated header height */
     background-color: #505050; /* Gray background */
     color: white;
     position: fixed; /* Fixed at the top of the screen */
@@ -42,12 +42,27 @@ header .header-text {
     flex-grow: 1; /* Allow the header text to occupy the remaining space */
 }
 
+.subtitle {
+    position: absolute; /* Absolutely position the text */
+    top: 110px; /* Adjust to be below the title */
+    left: 190px; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to truly center */
+    color: white; /* Text color */
+    font-size: 18px; /* Match font size as needed */
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Add a shadow for better visibility */
+    text-align: center; /* Center text */
+    text-transform: none; /* Make text appear in capital letters */
+    font-weight:; /* Make text bold */
+    font-style: bold;
+}
+
 /* Hero Section */
 .hero-section {
     position: relative;
     width: 100%;
-    height: calc(100vh - 100px); /* Adjusted for 100px header */
-    margin-top: 100px; /* Adjust for new header height */
+    height: calc(100vh - 130px); /* Adjusted for 100px header */
+    margin-top: 130px; /* Adjust for new header height */
     overflow: hidden;
 }
 
