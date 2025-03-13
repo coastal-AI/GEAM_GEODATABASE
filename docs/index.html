@@ -271,8 +271,8 @@
             "Seagrass Presence/Absence data": groundtruthLayer,
             "Drone Surveys": droneLayer,
             "Underwater Video Tracks": uv_tracksLayer,
-            "Sampling Stations GEAM": stations_geamLayer,
-            "Sampling Stations Collaborators": stations_collaboratorsLayer
+            "Monitoring Stations GEAM + Collaborators": stations_geamLayer,
+            "Monitoring Stations Collaborators": stations_collaboratorsLayer
         };
 
         L.control.layers(null, overlayMaps, {
@@ -301,7 +301,7 @@
                     symbol: '<div class="red-line"></div>'  // Red line for Underwater Video Tracks
                 },
                 { 
-                    label: 'Monitoring Stations (GEAM)', 
+                    label: 'Monitoring Stations (GEAM + Collaborators)', 
                     symbol: '<div class="black-cross"></div>'  // Black cross for Sampling Stations
                 },
 
