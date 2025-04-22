@@ -325,17 +325,5 @@
 
     </script>
 
-    <script>
-        function adjustHeroHeight() {
-            const heroSection = document.querySelector('.hero-section');
-            const headerHeight = document.querySelector('header').offsetHeight;
-
-            // Use JavaScript to adjust the height as a fallback
-            heroSection.style.height = `${window.innerHeight - headerHeight}px`;
-        }
-
-        window.addEventListener('load', adjustHeroHeight);
-        window.addEventListener('resize', adjustHeroHeight);
-    </script>
 </body>
 </html>
