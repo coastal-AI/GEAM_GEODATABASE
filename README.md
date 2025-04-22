@@ -15,11 +15,17 @@ The geodatabase contains the following datasets:
 
 
 ### Funding
-
 Data displayed in the viewer has been collected as part of various initiatives:
 
 - BIODIV project: “Scientific and technical support for the monitoring of marine biodiversity: state-jurisdiction marine protected areas and species (2022-2025).” The project is funded by the European Union – NextGenerationEU through the Recovery, Transformation, and Resilience Plan, and is promoted by the Directorate-General for Biodiversity, Forests, and Desertification of the Ministry for Ecological Transition and Demographic Challenge, and the CSIC, through the Spanish Institute of Oceanography (IEO).
 
-- ESMARES2 project: entrusted to the Spanish Institute of Oceanography (IEO-CSIC), by the Directorate-General for the Coast and the Sea of the Ministry for the Ecological Transition and the Demographic Challenge (MITERD) of the Spanish Government for the implementation of the Marine Strategy Framework Directive (MSFD) in Spanish waters. 
+- ESMARES2 project: entrusted to the Spanish Institute of Oceanography (IEO-CSIC), by the Directorate-General for the Coast and the Sea of the Ministry for the Ecological Transition and the Demographic Challenge (MITERD) of the Spanish Government for the implementation of the Marine Strategy Framework Directive (MSFD) in Spanish waters.
+
+
+### Data requests
+The GEODATABASE displays only the metadata for each entry.  We are in the process of finalizing our data-sharing policy, and in the interim, access to detailed data associated with these locations is unavailable. For further inquiries, please contact us at geam@ieo.csic.es.
+
+### Note
+This website is currently under development, and we are actively working to provide proper attribution to all collaborators. If you notice any discrepancies or errors, please feel free to get in touch at f.garcia@ieo.csic.es. Your feedback is greatly appreciated.
 
   
