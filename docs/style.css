@@ -73,8 +73,8 @@ header {
 /* Map Section */
 #map {
     width: 100%;
-    height: calc(100vh - 120px - 100px); /* Adjusted for 100px header */
-    margin-top: 120px;
+    height: calc(100vh - 130px - 100px); /* Adjusted for 100px header */
+    margin-top: 130px;
 }
 
 

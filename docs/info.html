@@ -1,90 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-        <title>GEAM GEODATABASE Info</title>
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            background: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: left;
-        }
-        h1, h2 {
-            text-align: center;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GEAM Info</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
-        h3 {
-            text-align: left;
-        }
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background:url('assets/image.jpg') no-repeat center top fixed;
+      background-size: cover;
+      color: #333;
+    }
 
-        .footer {
-            margin-top: 20px;
-            padding: 10px;
-            background: #333;
-            color: white;
-            text-align: center;
-        }
-        a {
-            color: #0077cc;
-            text-decoration: none;
-        }
-    </style>
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>GEAM GEODATABASE</h1>
-        <h2>Grupo de Ecología de Angiospermas Marinas (GEAM)</h2>
-        <h2>Seagrass Ecology Group</h2>
-        <h2><a href="https://www.ieo.es/es/">IEO-CSIC</a></h2>
-        <br>
 
-        <h3>Interactive Platform to Display Fieldwork Activities</h3>
-        <p>This geospatial data viewer provides an updated insight into the group's field activities. 
-            Each entry of the GEODATABASE is tagged with a unique ID. </p>
-        <br>
+  <div class="container">
+    <div id="markdown">Cargando contenido desde GitHub...</div>
+  </div>
 
-        <h3>Data Types</h3>
+  <script>
+    const rawMarkdownUrl = 'https://raw.githubusercontent.com/coastal-AI/GEAM_GEODATABASE/refs/heads/main/README.md';
 
-        <p><strong>- Monitoring stations:</strong> Fixed locations where meadow parameters are routinely monitored.</p>
+    fetch(rawMarkdownUrl)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.text();
+      })
+      .then(markdown => {
+        document.getElementById('markdown').innerHTML = marked.parse(markdown);
+      })
+      .catch(error => {
+        document.getElementById('markdown').innerHTML = 'Error al cargar el README.';
+        console.error('Error fetching markdown:', error);
+      });
+  </script>
 
-        <p><strong>- Presence/absence data:</strong> Georeferenced above-water or underwater locations documenting the presence or absence of seagrass species along with habitat information.</p>
-
-        <p><strong>- Underwater video data:</strong> Georeferenced recordings of the seabed along transects.</p>
-
-        <p><strong>- Drone data:</strong> Georeferenced orthomosaics of the coastline and seabed.</p>
-        <br>
-        
-        <h3>Data Requests</h3>
-        <p>The GEODATABASE displays only the metadata for each entry. Access to the detailed data associated with these locations is currently unavailable. For further inquiries, please contact us at <a href="mailto:geam@ieo.csic.es">geam@ieo.csic.es</a>.</p>
-        <br>
-
-        <h3>Note</h3>
-        <p>This website is currently under development, and we are actively working to provide proper attribution to all collaborators. If you notice any discrepancies or errors, please feel free to get in touch at <a href="mailto:f.garcia@ieo.csic.es">f.garcia@ieo.csic.es</a>. Your feedback is greatly appreciated.</p>
-        <br>
-
-        <h3>Funding</h3>
-        <p>This initiative is part of the BIODIV project: “Scientific and technical support for the monitoring of marine biodiversity: state-jurisdiction marine protected areas and species (2022-2025).” The project is funded by the European Union – NextGenerationEU through the Recovery, Transformation, and Resilience Plan, and is promoted by the Directorate-General for Biodiversity, Forests, and Desertification of the Ministry for Ecological Transition and Demographic Challenge, and the CSIC, through the Spanish Institute of Oceanography (IEO).</p>
-        <br>
-    
-    
-    </div>
-
-    <div class="footer">
-        <p>&copy; 2025 Seagrass Ecology Group</p>
-    </div>
 </body>
 </html>
