@@ -21,6 +21,8 @@ Data displayed in the viewer has been collected as part of various initiatives:
 
 - ESMARES2 project: entrusted to the Spanish Institute of Oceanography (IEO-CSIC), by the Directorate-General for the Coast and the Sea of the Ministry for the Ecological Transition and the Demographic Challenge (MITERD) of the Spanish Government for the implementation of the Marine Strategy Framework Directive (MSFD) in Spanish waters.
 
+- ESMARES3 project: "Monitoring of the Marine Strategies, Marine Environment Assessment, and Definition of Good Environmental Status (ESMARES3)". The project is carried out by the IEO-CSIC as part of the Interdepartmental Collaboration Agreement between the Ministry for the Ecological Transition and the Demographic Challenge and the Ministry of Science, Innovation, and Universities. It is co-funded by the European Maritime, Fisheries and Aquaculture Fund.
+
 
 ### Data requests
 The GEODATABASE displays only the metadata for each entry.  We are in the process of finalizing our data-sharing policy, and in the interim, access to detailed data associated with these locations is unavailable. For further inquiries, please contact us at geam@ieo.csic.es.
