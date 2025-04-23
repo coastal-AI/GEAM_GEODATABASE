@@ -73,7 +73,7 @@ header {
 /* Map Section */
 #map {
     width: 100%;
-    height: calc(100vh - 130px - 100px); /* Adjusted for 100px header */
+    height: calc((var(--vh, 1vh) * 100) - 130px - 100px);
     margin-top: 130px;
 }
 
@@ -222,7 +222,7 @@ footer {
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
-    min-height: 100px; 
+    height: 100px; 
     width: 100%;
     position: relative;
 }
