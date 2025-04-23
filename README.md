@@ -26,7 +26,7 @@ Data displayed in the viewer has been collected as part of various initiatives:
 
 
 ### Data requests
-The GEODATABASE displays only the metadata for each entry.  We are in the process of finalizing our data-sharing policy, and in the interim, access to detailed data associated with these locations is unavailable. For further inquiries, please contact us at geam@ieo.csic.es.
+The GEODATABASE displays only the metadata for each entry.  We are in the process of finalizing our data-sharing policy, and in the interim, access to detailed data associated with these locations is unavailable. For further inquiries, please contact us at jaime.bernardeau@ieo.csic.es.
 
 ### Note
 This website is currently under development, and we are actively working to provide proper attribution to all collaborators. If you notice any discrepancies or errors, please feel free to get in touch at f.garcia@ieo.csic.es. Your feedback is greatly appreciated.
