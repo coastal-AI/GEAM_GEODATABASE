@@ -17,11 +17,11 @@ The geodatabase contains the following datasets:
 ### Funding
 Data displayed in the viewer has been collected as part of various initiatives:
 
-- BIODIV project: “Scientific and technical support for the monitoring of marine biodiversity: state-jurisdiction marine protected areas and species (2022-2025).” The project is funded by the European Union – NextGenerationEU through the Recovery, Transformation, and Resilience Plan, and is promoted by the Directorate-General for Biodiversity, Forests, and Desertification of the Ministry for Ecological Transition and Demographic Challenge, and the CSIC, through the Spanish Institute of Oceanography (IEO).
+- **BIODIV project:** “Scientific and technical support for the monitoring of marine biodiversity: state-jurisdiction marine protected areas and species (2022-2025).” The project is funded by the European Union – NextGenerationEU through the Recovery, Transformation, and Resilience Plan, and is promoted by the Directorate-General for Biodiversity, Forests, and Desertification of the Ministry for Ecological Transition and Demographic Challenge, and the CSIC, through the Spanish Institute of Oceanography (IEO).
 
-- ESMARES2 project: entrusted to the Spanish Institute of Oceanography (IEO-CSIC), by the Directorate-General for the Coast and the Sea of the Ministry for the Ecological Transition and the Demographic Challenge (MITERD) of the Spanish Government for the implementation of the Marine Strategy Framework Directive (MSFD) in Spanish waters.
+- **ESMARES2 project:** entrusted to the Spanish Institute of Oceanography (IEO-CSIC), by the Directorate-General for the Coast and the Sea of the Ministry for the Ecological Transition and the Demographic Challenge (MITERD) of the Spanish Government for the implementation of the Marine Strategy Framework Directive (MSFD) in Spanish waters.
 
-- ESMARES3 project: "Monitoring of the Marine Strategies, Marine Environment Assessment, and Definition of Good Environmental Status (ESMARES3)". The project is carried out by the IEO-CSIC as part of the Interdepartmental Collaboration Agreement between the Ministry for the Ecological Transition and the Demographic Challenge and the Ministry of Science, Innovation, and Universities. It is co-funded by the European Maritime, Fisheries and Aquaculture Fund.
+- **ESMARES3 project:** "Monitoring of the Marine Strategies, Marine Environment Assessment, and Definition of Good Environmental Status (ESMARES3)". The project is carried out by the IEO-CSIC as part of the Interdepartmental Collaboration Agreement between the Ministry for the Ecological Transition and the Demographic Challenge and the Ministry of Science, Innovation, and Universities. It is co-funded by the European Maritime, Fisheries and Aquaculture Fund.
 
 
 ### Data requests
