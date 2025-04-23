@@ -233,13 +233,14 @@ footer .logos {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: clamp(1vw, 7vw, 7vw);
+    gap: 0.5vh clamp(1vw, 5vw, 5vw); /* Less vertical space, responsive horizontal gap */
     width: 100%;
-
+    padding:10px 1vw;
+    box-sizing: border-box;
 }
 
 footer .logo {
-    height: clamp(30px, 2.5vw, 60px);  /* Standardized height */
+    height: clamp(0px, 4vw, 50px);  /* Standardized height */
     width: auto;
     object-fit: contain;
 }
