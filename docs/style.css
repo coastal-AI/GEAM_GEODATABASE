@@ -222,9 +222,8 @@ footer {
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
-    height: 100px;  /* Set a height */
+    min-height: 100px; 
     width: 100%;
-    overflow: hidden;
     position: relative;
 }
 
