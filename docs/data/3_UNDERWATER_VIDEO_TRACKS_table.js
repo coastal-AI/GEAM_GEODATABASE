@@ -75778,7 +75778,7 @@ var uv_tracks = [
     },
     {
         "eventID": "20250522_133742_NORGRASS25_T1",
-        "eventDate": NaN,
+        "eventDate": "2025-05-22T13:37:42",
         "institutionCode": "GEAM IEO-CSIC",
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "url": NaN,
@@ -75989,7 +75989,7 @@ var uv_tracks = [
     },
     {
         "eventID": "20250522_142159_NORGRASS25_T2",
-        "eventDate": NaN,
+        "eventDate": "2025-05-22T14:21:59",
         "institutionCode": "GEAM IEO-CSIC",
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "url": NaN,
@@ -76200,7 +76200,7 @@ var uv_tracks = [
     },
     {
         "eventID": "20250522_155041_NORGRASS25_T3",
-        "eventDate": NaN,
+        "eventDate": "2025-05-22T15:50:41",
         "institutionCode": "GEAM IEO-CSIC",
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "url": NaN,
@@ -76411,7 +76411,7 @@ var uv_tracks = [
     },
     {
         "eventID": "20250522_155656_NORGRASS25_T4",
-        "eventDate": NaN,
+        "eventDate": "2025-05-22T15:56:56",
         "institutionCode": "GEAM IEO-CSIC",
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "url": NaN,
@@ -76622,7 +76622,7 @@ var uv_tracks = [
     },
     {
         "eventID": "20250523_123423_NORGRASS25_T5",
-        "eventDate": NaN,
+        "eventDate": "2025-05-23T12:34:23",
         "institutionCode": "GEAM IEO-CSIC",
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "url": NaN,
@@ -76833,7 +76833,7 @@ var uv_tracks = [
     },
     {
         "eventID": "20250523_132628_NORGRASS25_T6",
-        "eventDate": NaN,
+        "eventDate": "2025-05-23T13:26:28",
         "institutionCode": "GEAM IEO-CSIC",
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "url": NaN,
@@ -77044,7 +77044,7 @@ var uv_tracks = [
     },
     {
         "eventID": "20250523_141235_NORGRASS25_T7",
-        "eventDate": NaN,
+        "eventDate": "2025-05-23T14:12:35",
         "institutionCode": "GEAM IEO-CSIC",
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "url": NaN,
@@ -77255,7 +77255,7 @@ var uv_tracks = [
     },
     {
         "eventID": "20250523_150157_NORGRASS25_T8",
-        "eventDate": NaN,
+        "eventDate": "2025-05-23T15:01:57",
         "institutionCode": "GEAM IEO-CSIC",
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "url": NaN,
