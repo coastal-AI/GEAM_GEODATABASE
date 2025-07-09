@@ -99,7 +99,8 @@
                 <div class="popup-info-container">
                     <div class="popup-info">
                         <p><strong>Event Date:</strong> ${item.eventDate}</p>
-                        <p><strong>Institution:</strong> ${item.institutionCode}</p>
+                        <p><strong>Recorded by:</strong> ${item.recordedBy || item.institutionCode}</p>
+                        <p><strong>Project:</strong> ${item.datasetName}</p>
                         <p><strong>Contact:</strong> ${item.contact}</p>
                     </div>
                     <div class="image-container">
@@ -155,7 +156,7 @@
                 <div class="popup-info-container">
                     <div class="popup-info">
                         <p><strong>Event Date:</strong> ${item.eventDate}</p>
-                        <p><strong>Institution:</strong> ${item.institutionCode}</p>
+                        <p><strong>Project:</strong> ${item.project}</p>
                         <p><strong>Contact:</strong> ${item.contact}</p>
                     </div>
                     <div class="video-container">

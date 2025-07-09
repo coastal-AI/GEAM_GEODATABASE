@@ -4,6 +4,7 @@ var stations_collaborators = [
         "decimalLatitude": 43.446824,
         "decimalLongitude": -3.771508,
         "institutionCode": "IHCantabria",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "barbara.ondiviela@unican.es"
     },
     {
@@ -11,6 +12,7 @@ var stations_collaborators = [
         "decimalLatitude": 43.44799,
         "decimalLongitude": -3.77409,
         "institutionCode": "IHCantabria",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "barbara.ondiviela@unican.es"
     },
     {
@@ -18,6 +20,7 @@ var stations_collaborators = [
         "decimalLatitude": 43.376,
         "decimalLongitude": -2.68163,
         "institutionCode": "AZTI",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jgarmendia@azti.es"
     },
     {
@@ -25,6 +28,7 @@ var stations_collaborators = [
         "decimalLatitude": 43.37387,
         "decimalLongitude": -2.68168,
         "institutionCode": "AZTI",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jgarmendia@azti.es"
     },
     {
@@ -32,6 +36,7 @@ var stations_collaborators = [
         "decimalLatitude": 43.39525,
         "decimalLongitude": -2.68088,
         "institutionCode": "AZTI",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jgarmendia@azti.es"
     }
 ];
