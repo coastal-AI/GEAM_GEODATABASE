@@ -1293,7 +1293,7 @@ var drone = [
         "decimalLongitude": -7.674055508384,
         "recordedBy": "GARCIA-GONZALEZ F., MARTINEZ-GARRIDO J., ROJO-MORENO I, MOMPEAN-DELAROSA M.C., GARCIA-SANCHEZ M., BELANDO-TORRENTES M.D., BERNARDEAU-ESTELLER J., RUIZ-FERNANDEZ J. M.",
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "resolution": 7.03,
+        "resolution": 0.703,
         "contact": "f.garcia@ieo.csic.es",
         "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240528_155900_NORGRASS24_BARQUEIRO_PUERTOVICEDO_NANO20m_image.jpg",
         "polygon": [
@@ -1320,35 +1320,233 @@ var drone = [
         ]
     },
     {
-        "eventID": "20250523_074700_NORGRASS25_FERROL_NANO1_50m",
-        "eventDate": "2025-05-25T07:47:00",
-        "decimalLatitude": 43.45773742,
-        "decimalLongitude": -8.26758123,
-        "recordedBy": "GARCIA-GONZALEZ F.",
+        "eventID": "20250523_074700_NORGRASS25_GAL_NANO_18_50m",
+        "eventDate": "2025-05-23T07:47:00",
+        "decimalLatitude": 43.45764813908941,
+        "decimalLongitude": -8.26764514553027,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "resolution": NaN,
+        "resolution": 1.52,
         "contact": "f.garcia@ieo.csic.es",
-        "url": NaN,
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20250523_074700_NORGRASS25_GAL_NANO_18_50m.jpg",
         "polygon": [
             [
+                43.45459039297884,
+                -8.264118511851736
+            ],
+            [
                 43.460705885199985,
                 -8.264118511851736
-            ],
-            [
-                43.45459039297884,
-                -8.264118511851736
-            ],
-            [
-                43.45459039297884,
-                -8.271171779208803
             ],
             [
                 43.460705885199985,
                 -8.271171779208803
             ],
             [
-                43.460705885199985,
+                43.45459039297884,
+                -8.271171779208803
+            ],
+            [
+                43.45459039297884,
                 -8.264118511851736
+            ]
+        ]
+    },
+    {
+        "eventID": "20250524_085100_NORGRASS25_GAL_NANO_19_12m",
+        "eventDate": "2025-05-24T08:51:00",
+        "decimalLatitude": 43.46097878393916,
+        "decimalLongitude": -8.200915247395141,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "resolution": 0.359,
+        "contact": "f.garcia@ieo.csic.es",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20250524_085100_NORGRASS25_GAL_NANO_19_12m.jpg",
+        "polygon": [
+            [
+                43.460358482795286,
+                -8.200047753744158
+            ],
+            [
+                43.46159908508305,
+                -8.200047753744158
+            ],
+            [
+                43.46159908508305,
+                -8.201782741046124
+            ],
+            [
+                43.460358482795286,
+                -8.201782741046124
+            ],
+            [
+                43.460358482795286,
+                -8.200047753744158
+            ]
+        ]
+    },
+    {
+        "eventID": "20250524_090900_NORGRASS25_GAL_NANO_19_50m",
+        "eventDate": "2025-05-24T09:09:00",
+        "decimalLatitude": 43.46074379484154,
+        "decimalLongitude": -8.202317146521068,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "resolution": 1.43,
+        "contact": "f.garcia@ieo.csic.es",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20250524_090900_NORGRASS25_GAL_NANO_19_50m.jpg",
+        "polygon": [
+            [
+                43.45929145095331,
+                -8.199168512228438
+            ],
+            [
+                43.46219613872979,
+                -8.199168512228438
+            ],
+            [
+                43.46219613872979,
+                -8.205465780813697
+            ],
+            [
+                43.45929145095331,
+                -8.205465780813697
+            ],
+            [
+                43.45929145095331,
+                -8.199168512228438
+            ]
+        ]
+    },
+    {
+        "eventID": "20250524_201900_NORGRASS25_ARES1_25m",
+        "eventDate": "2025-05-24T20:19:00",
+        "decimalLatitude": 43.41246457496688,
+        "decimalLongitude": -8.165801878216572,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "resolution": 0.652,
+        "contact": "f.garcia@ieo.csic.es",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20250524_201900_NORGRASS25_ARES1_25m.jpg",
+        "polygon": [
+            [
+                43.410981291159814,
+                -8.16288942400866
+            ],
+            [
+                43.41394785877393,
+                -8.16288942400866
+            ],
+            [
+                43.41394785877393,
+                -8.168714332424482
+            ],
+            [
+                43.410981291159814,
+                -8.168714332424482
+            ],
+            [
+                43.410981291159814,
+                -8.16288942400866
+            ]
+        ]
+    },
+    {
+        "eventID": "20250524_205200_NORGRASS25_ARES2_70m",
+        "eventDate": "2025-05-24T20:52:00",
+        "decimalLatitude": 43.41155246531601,
+        "decimalLongitude": -8.16212959747962,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "resolution": 1.43,
+        "contact": "f.garcia@ieo.csic.es",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20250524_205200_NORGRASS25_ARES2_70m.jpg",
+        "polygon": [
+            [
+                43.40979206959821,
+                -8.15824770127373
+            ],
+            [
+                43.413312861033816,
+                -8.15824770127373
+            ],
+            [
+                43.413312861033816,
+                -8.166011493685506
+            ],
+            [
+                43.40979206959821,
+                -8.166011493685506
+            ],
+            [
+                43.40979206959821,
+                -8.15824770127373
+            ]
+        ]
+    },
+    {
+        "eventID": "20250524_211300_NORGRASS25_ARES3_50m",
+        "eventDate": "2025-05-24T21:13:00",
+        "decimalLatitude": 43.41222463430275,
+        "decimalLongitude": -8.155991970259645,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "resolution": 1.46,
+        "contact": "f.garcia@ieo.csic.es",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20250524_211300_NORGRASS25_ARES3_50m.jpg",
+        "polygon": [
+            [
+                43.41093038172673,
+                -8.154235789679465
+            ],
+            [
+                43.413518886878755,
+                -8.154235789679465
+            ],
+            [
+                43.413518886878755,
+                -8.157748150839826
+            ],
+            [
+                43.41093038172673,
+                -8.157748150839826
+            ],
+            [
+                43.41093038172673,
+                -8.154235789679465
+            ]
+        ]
+    },
+    {
+        "eventID": "20250525_210000_NORGRASS25_FERROL_NEDA_65m",
+        "eventDate": "2025-05-25T21:00:00",
+        "decimalLatitude": 43.4932658804816,
+        "decimalLongitude": -8.167102218048942,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "resolution": 1.75,
+        "contact": "f.garcia@ieo.csic.es",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20250525_210000_NORGRASS25_FERROL_NEDA_65m.jpg",
+        "polygon": [
+            [
+                43.488184263750284,
+                -8.162434029104807
+            ],
+            [
+                43.49834749721291,
+                -8.162434029104807
+            ],
+            [
+                43.49834749721291,
+                -8.171770406993076
+            ],
+            [
+                43.488184263750284,
+                -8.171770406993076
+            ],
+            [
+                43.488184263750284,
+                -8.162434029104807
             ]
         ]
     }
