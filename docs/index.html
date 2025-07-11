@@ -94,19 +94,19 @@
             popupContent.className = "popup-content";
 
             // Type of data
-            let layerName = "Data";
+            let layerName = "DATA ID";
             if (layer === stations_geamLayer || layer === stations_collaboratorsLayer) {
-                layerName = "Monitoring Station";
+                layerName = "MONITORING STATION";
             } else if (layer === groundtruthLayer) {
-                layerName = "Field Observation";
+                layerName = "FIELD OBSERVATION";
             } else if (layer === droneLayer) {
-                layerName = "Drone Flight";
+                layerName = "DRONE FLIGHT";
             }
            
 
             // Add text content, including the eventID above the image
             popupContent.innerHTML = `
-                <h3>${layerName} ID: ${item.eventID || item.occurrenceID || item.locationID}</h3>  <!-- Display the eventID or occurrenceID as the title -->
+                <h2>${layerName}: ${item.eventID || item.occurrenceID || item.locationID}</h2>  <!-- Display the eventID or occurrenceID as the title -->
                 <div class="popup-info-container">
                     <div class="popup-info">
                         <p><strong>Event Date:</strong> ${item.eventDate}</p>
@@ -163,7 +163,7 @@
 
             // Construct the popup content
             popupContent.innerHTML = `
-                <h3>Underwater Video Track ID: ${item.eventID || item.occurrenceID}</h3>  <!-- Display the eventID or occurrenceID -->
+                <h2>UNDERWATER VIDEO TRACK: ${item.eventID || item.occurrenceID}</h2>  <!-- Display the eventID or occurrenceID -->
                 <div class="popup-info-container">
                     <div class="popup-info">
                         <p><strong>Event Date:</strong> ${item.eventDate}</p>
