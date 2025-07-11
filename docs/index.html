@@ -85,7 +85,7 @@
         L.control.scale().addTo(map);
 
 
-        function showMarkerInfo(item) {
+        function showMarkerInfo(item, layer) {
             // Create the content for the popup
             var latlng = [item.decimalLatitude, item.decimalLongitude];
 
@@ -93,9 +93,20 @@
             var popupContent = document.createElement("div");
             popupContent.className = "popup-content";
 
+            // Type of data
+            let layerName = "Data";
+            if (layer === stations_geamLayer || layer === stations_collaboratorsLayer) {
+                layerName = "Monitoring Station";
+            } else if (layer === groundtruthLayer) {
+                layerName = "Observation";
+            } else if (layer === droneLayer) {
+                layerName = "Flight";
+            }
+           
+
             // Add text content, including the eventID above the image
             popupContent.innerHTML = `
-                <h3>Data ID: ${item.eventID || item.occurrenceID || item.locationID}</h3>  <!-- Display the eventID or occurrenceID as the title -->
+                <h3>${layerName} ID: ${item.eventID || item.occurrenceID || item.locationID}</h3>  <!-- Display the eventID or occurrenceID as the title -->
                 <div class="popup-info-container">
                     <div class="popup-info">
                         <p><strong>Event Date:</strong> ${item.eventDate}</p>
@@ -152,7 +163,7 @@
 
             // Construct the popup content
             popupContent.innerHTML = `
-                <h3>Data ID: ${item.eventID || item.occurrenceID}</h3>  <!-- Display the eventID or occurrenceID -->
+                <h3>Underwater Video Track ID: ${item.eventID || item.occurrenceID}</h3>  <!-- Display the eventID or occurrenceID -->
                 <div class="popup-info-container">
                     <div class="popup-info">
                         <p><strong>Event Date:</strong> ${item.eventDate}</p>
@@ -217,7 +228,7 @@
             ;
 
             marker.on('click', function() {
-                showMarkerInfo(item);
+                showMarkerInfo(item, groundtruthLayer);
             });
         });
     
@@ -242,7 +253,7 @@
             }).addTo(droneLayer);
 
             marker.on('click', function() {
-                showMarkerInfo(item);
+                showMarkerInfo(item, droneLayer);
             });
         });
 
@@ -274,7 +285,7 @@
             ;
 
             marker.on('click', function() {
-                showMarkerInfo(item);
+                showMarkerInfo(item, stations_geamLayer);
             });
         });
 
@@ -290,7 +301,7 @@
             ;
 
             marker.on('click', function() {
-                showMarkerInfo(item);
+                showMarkerInfo(item, stations_collaboratorsLayer);
             });
         });
 
