@@ -8,7 +8,7 @@ var drone = [
         "datasetName": "MSFD (MITECO-IEO-CSIC)",
         "resolution": 2.07,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20230925_090700_CATGRASS23_CREUS_RUSTELLA_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20230925_090700_CATGRASS23_CREUS_RUSTELLA.jpg",
         "polygon": [
             [
                 42.244891287469,
@@ -41,7 +41,7 @@ var drone = [
         "datasetName": "MSFD (MITECO-IEO-CSIC)",
         "resolution": 2.48,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20230925_095100_CATGRASS23_CREUS_MONTJOI_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20230925_095100_CATGRASS23_CREUS_MONTJOI.jpg",
         "polygon": [
             [
                 42.252491761185134,
@@ -74,7 +74,7 @@ var drone = [
         "datasetName": "MSFD (MITECO-IEO-CSIC)",
         "resolution": 2.38,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20230925_110000_CATGRASS23_CREUS_PELOSA_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20230925_110000_CATGRASS23_CREUS_PELOSA.jpg",
         "polygon": [
             [
                 42.25119347924394,
@@ -107,7 +107,7 @@ var drone = [
         "datasetName": "MSFD (MITECO-IEO-CSIC)",
         "resolution": 1.94,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20230925_141200_CATGRASS23_CREUS_JUGADORA_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20230925_141200_CATGRASS23_CREUS_JUGADORA.jpg",
         "polygon": [
             [
                 42.31827884442748,
@@ -140,7 +140,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 2.48,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240124_091200_NORGRASS24_RIBADESELLA_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240124_091200_NORGRASS24_RIBADESELLA.jpg",
         "polygon": [
             [
                 43.46337398396899,
@@ -173,7 +173,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.8,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240124_121400_NORGRASS24_TINAMAYOR_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240124_121400_NORGRASS24_TINAMAYOR.jpg",
         "polygon": [
             [
                 43.386457586185635,
@@ -206,7 +206,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.22,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240212_112400_NORGRASS24_VILLAVICIOSA_ENCIENONA_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240212_112400_NORGRASS24_VILLAVICIOSA_ENCIENONA.jpg",
         "polygon": [
             [
                 43.51489176081837,
@@ -239,7 +239,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.22,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240212_124000_NORGRASS24_VILLAVICIOSA_MISIEGO_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240212_124000_NORGRASS24_VILLAVICIOSA_MISIEGO.jpg",
         "polygon": [
             [
                 43.526949294962506,
@@ -272,7 +272,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.24,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240216_140600_NORGRASS24_NIEMBRO1_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240216_140600_NORGRASS24_NIEMBRO1.jpg",
         "polygon": [
             [
                 43.4351406023846,
@@ -305,7 +305,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 0.0383,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240216_143200_NORGRASS24_NIEMBRO_ZOOM_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240216_143200_NORGRASS24_NIEMBRO_ZOOM.jpg",
         "polygon": [
             [
                 43.43444065383422,
@@ -338,7 +338,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.24,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240216_154000_NORGRASS24_COBIJERO_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240216_154000_NORGRASS24_COBIJERO.jpg",
         "polygon": [
             [
                 43.39670711388225,
@@ -371,7 +371,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.23,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240216_163600_NORGRASS24_NIEMBRO2_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240216_163600_NORGRASS24_NIEMBRO2.jpg",
         "polygon": [
             [
                 43.435961572045294,
@@ -404,7 +404,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.32,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240315_123300_NORGRASS24_VILLAVICIOSA_BORNIZAL_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240315_123300_NORGRASS24_VILLAVICIOSA_BORNIZAL.jpg",
         "polygon": [
             [
                 43.52460292723967,
@@ -437,7 +437,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.92,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240405_101600_NORGRASS24_VILLAVICIOSA_BORNIZAL2_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240405_101600_NORGRASS24_VILLAVICIOSA_BORNIZAL2.jpg",
         "polygon": [
             [
                 43.52286479858917,
@@ -470,7 +470,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.08,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240410_112400_NORGRASS24_VILLAVICIOSA_IZQ1_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240410_112400_NORGRASS24_VILLAVICIOSA_IZQ1.jpg",
         "polygon": [
             [
                 43.50832872200161,
@@ -503,7 +503,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.74,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240411_124600_NORGRASS24_VILLAVICIOSA_BORNIZAL3_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240411_124600_NORGRASS24_VILLAVICIOSA_BORNIZAL3.jpg",
         "polygon": [
             [
                 43.518227044288764,
@@ -536,7 +536,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.13,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240411_133200_NORGRASS24_VILLAVICIOSA_MOLINO1_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240411_133200_NORGRASS24_VILLAVICIOSA_MOLINO1.jpg",
         "polygon": [
             [
                 43.512181639258245,
@@ -569,7 +569,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.61,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240411_140800_NORGRASS24_VILLAVICIOSA_MOLINO2_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240411_140800_NORGRASS24_VILLAVICIOSA_MOLINO2.jpg",
         "polygon": [
             [
                 43.510857458723486,
@@ -602,7 +602,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.61,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240412_130400_NORGRASS24_VILLAVICIOSA_IZQ2_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240412_130400_NORGRASS24_VILLAVICIOSA_IZQ2.jpg",
         "polygon": [
             [
                 43.518884727683485,
@@ -635,7 +635,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.65,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240412_141800_NORGRASS24_VILLAVICIOSA_IZQ3_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240412_141800_NORGRASS24_VILLAVICIOSA_IZQ3.jpg",
         "polygon": [
             [
                 43.52675714243936,
@@ -668,7 +668,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.13,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240412_150700_NORGRASS24_VILLAVICIOSA_IZQ4_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240412_150700_NORGRASS24_VILLAVICIOSA_IZQ4.jpg",
         "polygon": [
             [
                 43.53679134639706,
@@ -701,7 +701,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.21,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240507_094600_NORGRASS24_VILLAVICIOSA_DCHA_REMATE1_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240507_094600_NORGRASS24_VILLAVICIOSA_DCHA_REMATE1.jpg",
         "polygon": [
             [
                 43.51412885739475,
@@ -734,7 +734,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.37,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240507_102900_NORGRASS24_VILLAVICIOSA_DCHA_REMATE3_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240507_102900_NORGRASS24_VILLAVICIOSA_DCHA_REMATE3.jpg",
         "polygon": [
             [
                 43.520156755695325,
@@ -767,7 +767,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 1.34,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240507_105400_NORGRASS24_VILLAVICIOSA_DCHA_REMATE2_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240507_105400_NORGRASS24_VILLAVICIOSA_DCHA_REMATE2.jpg",
         "polygon": [
             [
                 43.52751325474389,
@@ -800,7 +800,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 2.79,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240516_075800_NORGRASS24_SANTON\u0303A_REGATON_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240516_075800_NORGRASS24_SANTON\u0303A_REGATON.jpg",
         "polygon": [
             [
                 43.415679670138694,
@@ -833,7 +833,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 5.88,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240516_171900_NORGRASS24_SANTON\u0303A_ARENILLA_ZOS_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240516_171900_NORGRASS24_SANTON\u0303A_ARENILLA_ZOS.jpg",
         "polygon": [
             [
                 43.43878711100292,
@@ -866,7 +866,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 3.74,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240516_181500_NORGRASS24_SANTON\u0303A_ARENILLA_NANO_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240516_181500_NORGRASS24_SANTON\u0303A_ARENILLA_NANO.jpg",
         "polygon": [
             [
                 43.43847645911682,
@@ -899,7 +899,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 4.15,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240517_090000_NORGRASS24_SANTON\u0303A_SOLLAGUA_NANO_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240517_090000_NORGRASS24_SANTON\u0303A_SOLLAGUA_NANO.jpg",
         "polygon": [
             [
                 43.422105381520865,
@@ -932,7 +932,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 2.8,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240518_090700_NORGRASS24_SANTON\u0303A_REGATON_NANO_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240518_090700_NORGRASS24_SANTON\u0303A_REGATON_NANO.jpg",
         "polygon": [
             [
                 43.4169587551926,
@@ -965,7 +965,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 3.54,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240520_104500_NORGRASS24_VILLAVICIOSA_ALBATROS_NANO_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240520_104500_NORGRASS24_VILLAVICIOSA_ALBATROS_NANO.jpg",
         "polygon": [
             [
                 43.51756369503251,
@@ -998,7 +998,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 4.7,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240523_112500_NORGRASS24_EO_LINIERA_NANO12m_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240523_112500_NORGRASS24_EO_LINIERA_NANO12m.jpg",
         "polygon": [
             [
                 43.52652767075552,
@@ -1031,7 +1031,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 2.08,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240523_114900_NORGRASS24_EO_LINIERA_NANO120m_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240523_114900_NORGRASS24_EO_LINIERA_NANO120m.jpg",
         "polygon": [
             [
                 43.530386587510044,
@@ -1064,7 +1064,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 0.053,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240525_111600_NORGRASS24_ORTIGUEIRA_FIGUEIROA_NANO20m_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240525_111600_NORGRASS24_ORTIGUEIRA_FIGUEIROA_NANO20m.jpg",
         "polygon": [
             [
                 43.712988002217365,
@@ -1097,7 +1097,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 2.82,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240525_114300_NORGRASS24_ORTIGUEIRA_FIGUEIROA_NANO120m_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240525_114300_NORGRASS24_ORTIGUEIRA_FIGUEIROA_NANO120m.jpg",
         "polygon": [
             [
                 43.71569044966523,
@@ -1130,7 +1130,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 0.0421,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240526_103600_NORGRASS24_ORTIGUEIRA_SISMUNDI_ZOS12m_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240526_103600_NORGRASS24_ORTIGUEIRA_SISMUNDI_ZOS12m.jpg",
         "polygon": [
             [
                 43.70516933355983,
@@ -1163,7 +1163,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 3.45,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240526_114200_NORGRASS24_ORTIGUEIRA_SISMUNDI_ZOS120m_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240526_114200_NORGRASS24_ORTIGUEIRA_SISMUNDI_ZOS120m.jpg",
         "polygon": [
             [
                 43.70592976326598,
@@ -1196,7 +1196,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 3.85,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240526_125500_NORGRASS24_BARQUEIRO_CREIXIMIL_NANO12m_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240526_125500_NORGRASS24_BARQUEIRO_CREIXIMIL_NANO12m.jpg",
         "polygon": [
             [
                 43.714361212815476,
@@ -1229,7 +1229,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 2.82,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240526_132900_NORGRASS24_BARQUEIRO_CREIXIMIL_NANO100m_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240526_132900_NORGRASS24_BARQUEIRO_CREIXIMIL_NANO100m.jpg",
         "polygon": [
             [
                 43.71521360575043,
@@ -1262,7 +1262,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 3.02,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240527_145000_NORGRASS24_BARQUEIRO_PUERTOVICEDO_NANO100m_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240527_145000_NORGRASS24_BARQUEIRO_PUERTOVICEDO_NANO100m.jpg",
         "polygon": [
             [
                 43.73857639811545,
@@ -1295,7 +1295,7 @@ var drone = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "resolution": 0.703,
         "contact": "f.garcia@ieo.csic.es",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240528_155900_NORGRASS24_BARQUEIRO_PUERTOVICEDO_NANO20m_image.jpg",
+        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/2_DRONE/20240528_155900_NORGRASS24_BARQUEIRO_PUERTOVICEDO_NANO20m.jpg",
         "polygon": [
             [
                 43.73745796003204,
