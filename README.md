@@ -2,7 +2,7 @@
 ## Seagrass Ecology Group / Grupo de Ecología de Angiospermas Marinas (GEAM) / [IEO-CSIC](https://www.ieo.es/es/)
 
 ### Info
-Welcome to the GEAM geodatabase, which contains a comprehensive collection of spatial data gathered through fieldwork by our group. This geodatabase supports research into seagrass ecosystems, providing valuable datasets for analysis, validation, and further investigations.
+Welcome to the GEAM geodatabase, which contains a comprehensive collection of spatial data gathered through fieldwork by our group and collaborating institutions. This geodatabase supports research into seagrass ecosystems, providing valuable datasets for analysis, validation, and further investigations.
 
 ### Contents
 The geodatabase contains the following datasets:
