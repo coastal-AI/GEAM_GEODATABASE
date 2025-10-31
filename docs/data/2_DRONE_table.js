@@ -1549,5 +1549,170 @@ var drone = [
                 -8.162434029104807
             ]
         ]
+    },
+    {
+        "eventID": "20250925_101900_NORGRASS24_VILLAVICIOSA_BORNIZAL_120m",
+        "eventDate": "2025-09-25T12:00:00",
+        "decimalLatitude": 43.522632,
+        "decimalLongitude": -5.383515,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "resolution": NaN,
+        "contact": "f.garcia@ieo.csic.es",
+        "url": NaN,
+        "polygon": [
+            [
+                43.516875,
+                -5.391927
+            ],
+            [
+                43.516875,
+                -5.378623
+            ],
+            [
+                43.527331,
+                -5.378623
+            ],
+            [
+                43.527331,
+                -5.391927
+            ],
+            [
+                43.516875,
+                -5.391927
+            ]
+        ]
+    },
+    {
+        "eventID": "20250925_105600_NORGRASS24_VILLAVICIOSA_BORNIZAL_12m",
+        "eventDate": "2025-09-25T13:00:0",
+        "decimalLatitude": 43.523099,
+        "decimalLongitude": -5.38079,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "resolution": NaN,
+        "contact": "f.garcia@ieo.csic.es",
+        "url": NaN,
+        "polygon": [
+            [
+                43.522671,
+                -5.381262
+            ],
+            [
+                43.522671,
+                -5.380007
+            ],
+            [
+                43.523628,
+                -5.380007
+            ],
+            [
+                43.523628,
+                -5.381262
+            ],
+            [
+                43.522671,
+                -5.381262
+            ]
+        ]
+    },
+    {
+        "eventID": "20250926_113600_NORGRASS24_VILLAVICIOSA_ALBATROS_120m",
+        "eventDate": "2025-09-26T12:00:00",
+        "decimalLatitude": 43.515132,
+        "decimalLongitude": -5.405531,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "resolution": NaN,
+        "contact": "f.garcia@ieo.csic.es",
+        "url": NaN,
+        "polygon": [
+            [
+                43.511958,
+                -5.413728
+            ],
+            [
+                43.511958,
+                -5.393429
+            ],
+            [
+                43.520361,
+                -5.393429
+            ],
+            [
+                43.520361,
+                -5.413728
+            ],
+            [
+                43.511958,
+                -5.413728
+            ]
+        ]
+    },
+    {
+        "eventID": "20250926_115800_NORGRASS24_VILLAVICIOSA_ALBATROS_12m",
+        "eventDate": "2025-09-26T13:00:00",
+        "decimalLatitude": 43.514957,
+        "decimalLongitude": -5.404946,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "resolution": NaN,
+        "contact": "f.garcia@ieo.csic.es",
+        "url": NaN,
+        "polygon": [
+            [
+                43.514821,
+                -5.405493
+            ],
+            [
+                43.514821,
+                -5.404506
+            ],
+            [
+                43.515171,
+                -5.404506
+            ],
+            [
+                43.515171,
+                -5.405493
+            ],
+            [
+                43.514821,
+                -5.405493
+            ]
+        ]
+    },
+    {
+        "eventID": "20250926_125300_NORGRASS24_VILLAVICIOSA_PUNTAL_50m",
+        "eventDate": "2025-09-26T14:00:00",
+        "decimalLatitude": 43.532465,
+        "decimalLongitude": -5.388708,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "resolution": NaN,
+        "contact": "f.garcia@ieo.csic.es",
+        "url": NaN,
+        "polygon": [
+            [
+                43.529229,
+                -5.389695
+            ],
+            [
+                43.529229,
+                -5.386777
+            ],
+            [
+                43.536509,
+                -5.386777
+            ],
+            [
+                43.536509,
+                -5.389695
+            ],
+            [
+                43.529229,
+                -5.389695
+            ]
+        ]
     }
 ];

@@ -59538,5 +59538,1915 @@ var groundtruth = [
         "datasetName": "BIODIV (MITECO-IEO-CSIC)",
         "url": NaN,
         "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250822_114227_COBIJERO",
+        "eventDate": "2025-08-22 11:42:27",
+        "decimalLatitude": 43.39574437,
+        "decimalLongitude": -4.61165393,
+        "recordedBy": "Pablo Rhodes (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250822_114120_COBIJERO",
+        "eventDate": "2025-08-22 11:41:20",
+        "decimalLatitude": 43.39588395,
+        "decimalLongitude": -4.61149709,
+        "recordedBy": "Pablo Rhodes (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250822_113916_COBIJERO",
+        "eventDate": "2025-08-22 11:39:16",
+        "decimalLatitude": 43.39605647,
+        "decimalLongitude": -4.61167785,
+        "recordedBy": "Pablo Rhodes (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250822_113810_COBIJERO",
+        "eventDate": "2025-08-22 11:38:10",
+        "decimalLatitude": 43.39611121,
+        "decimalLongitude": -4.61165183,
+        "recordedBy": "Pablo Rhodes (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250822_113713_COBIJERO",
+        "eventDate": "2025-08-22 11:37:13",
+        "decimalLatitude": 43.39606901,
+        "decimalLongitude": -4.61163969,
+        "recordedBy": "Pablo Rhodes (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250822_113555_COBIJERO",
+        "eventDate": "2025-08-22 11:35:55",
+        "decimalLatitude": 43.39602182,
+        "decimalLongitude": -4.61156934,
+        "recordedBy": "Pablo Rhodes (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250822_113459_COBIJERO",
+        "eventDate": "2025-08-22 11:34:59",
+        "decimalLatitude": 43.39595771,
+        "decimalLongitude": -4.61154245,
+        "recordedBy": "Pablo Rhodes (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250822_113412_COBIJERO",
+        "eventDate": "2025-08-22 11:34:12",
+        "decimalLatitude": 43.39595319,
+        "decimalLongitude": -4.61164204,
+        "recordedBy": "Pablo Rhodes (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250822_113317_COBIJERO",
+        "eventDate": "2025-08-22 11:33:17",
+        "decimalLatitude": 43.39582083,
+        "decimalLongitude": -4.61162979,
+        "recordedBy": "Pablo Rhodes (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250822_113214_COBIJERO",
+        "eventDate": "2025-08-22 11:32:14",
+        "decimalLatitude": 43.39579137,
+        "decimalLongitude": -4.61166027,
+        "recordedBy": "Pablo Rhodes (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250822_113109_COBIJERO",
+        "eventDate": "2025-08-22 11:31:09",
+        "decimalLatitude": 43.39571715,
+        "decimalLongitude": -4.61159897,
+        "recordedBy": "Pablo Rhodes (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251009_143955_PONTEVEDRA",
+        "eventDate": "2025-10-09 14:39:55",
+        "decimalLatitude": 42.42415277,
+        "decimalLongitude": -8.655398805,
+        "recordedBy": "Charo Brinquis (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251009_143247_PONTEVEDRA",
+        "eventDate": "2025-10-09 14:32:47",
+        "decimalLatitude": 42.42384268,
+        "decimalLongitude": -8.655755455,
+        "recordedBy": "Charo Brinquis (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251009_142819_PONTEVEDRA",
+        "eventDate": "2025-10-09 14:28:19",
+        "decimalLatitude": 42.42363208,
+        "decimalLongitude": -8.655976318,
+        "recordedBy": "Charo Brinquis (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251009_142627_PONTEVEDRA",
+        "eventDate": "2025-10-09 14:26:27",
+        "decimalLatitude": 42.42383367,
+        "decimalLongitude": -8.655995848,
+        "recordedBy": "Charo Brinquis (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251009_142341_PONTEVEDRA",
+        "eventDate": "2025-10-09 14:23:41",
+        "decimalLatitude": 42.42353884,
+        "decimalLongitude": -8.656485435,
+        "recordedBy": "Charo Brinquis (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251009_141718_PONTEVEDRA",
+        "eventDate": "2025-10-09 14:17:18",
+        "decimalLatitude": 42.42329408,
+        "decimalLongitude": -8.656919533,
+        "recordedBy": "Charo Brinquis (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251009_141507_PONTEVEDRA",
+        "eventDate": "2025-10-09 14:15:07",
+        "decimalLatitude": 42.423092,
+        "decimalLongitude": -8.657305017,
+        "recordedBy": "Charo Brinquis (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251009_141043_PONTEVEDRA",
+        "eventDate": "2025-10-09 14:10:43",
+        "decimalLatitude": 42.42292205,
+        "decimalLongitude": -8.657860653,
+        "recordedBy": "Charo Brinquis (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251009_140531_PONTEVEDRA",
+        "eventDate": "2025-10-09 14:05:31",
+        "decimalLatitude": 42.42278702,
+        "decimalLongitude": -8.657870041,
+        "recordedBy": "Charo Brinquis (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251009_134430_PONTEVEDRA",
+        "eventDate": "2025-10-09 13:44:30",
+        "decimalLatitude": 42.42254663,
+        "decimalLongitude": -8.658699598,
+        "recordedBy": "Charo Brinquis (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251009_133653_PONTEVEDRA",
+        "eventDate": "2025-10-09 13:36:53",
+        "decimalLatitude": 42.42244617,
+        "decimalLongitude": -8.659022469,
+        "recordedBy": "Charo Brinquis (AMA-MITECO)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_112708_CAGAFRECHO",
+        "eventDate": "2025-06-06 11:27:08",
+        "decimalLatitude": 28.920272,
+        "decimalLongitude": -13.637837,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_112852_CAGAFRECHO",
+        "eventDate": "2025-06-06 11:28:52",
+        "decimalLatitude": 28.918922,
+        "decimalLongitude": -13.638319,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_113114_CAGAFRECHO",
+        "eventDate": "2025-06-06 11:31:14",
+        "decimalLatitude": 28.91764,
+        "decimalLongitude": -13.638922,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_113407_CAGAFRECHO",
+        "eventDate": "2025-06-06 11:34:07",
+        "decimalLatitude": 28.915849,
+        "decimalLongitude": -13.639533,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_113948_CAGAFRECHO",
+        "eventDate": "2025-06-06 11:39:48",
+        "decimalLatitude": 28.916221,
+        "decimalLongitude": -13.643426,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_114319_CAGAFRECHO",
+        "eventDate": "2025-06-06 11:43:19",
+        "decimalLatitude": 28.917542,
+        "decimalLongitude": -13.643808,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_114505_CAGAFRECHO",
+        "eventDate": "2025-06-06 11:45:05",
+        "decimalLatitude": 28.918123,
+        "decimalLongitude": -13.644149,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_115055_CAGAFRECHO",
+        "eventDate": "2025-06-06 11:50:55",
+        "decimalLatitude": 28.918217,
+        "decimalLongitude": -13.641917,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_115616_CAGAFRECHO",
+        "eventDate": "2025-06-06 11:56:16",
+        "decimalLatitude": 28.918173,
+        "decimalLongitude": -13.643377,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_115856_CAGAFRECHO",
+        "eventDate": "2025-06-06 11:58:56",
+        "decimalLatitude": 28.918722,
+        "decimalLongitude": -13.643614,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_120118_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:01:18",
+        "decimalLatitude": 28.917922,
+        "decimalLongitude": -13.644449,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_120358_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:03:58",
+        "decimalLatitude": 28.917277,
+        "decimalLongitude": -13.645258,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_120609_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:06:09",
+        "decimalLatitude": 28.916544,
+        "decimalLongitude": -13.645883,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_120954_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:09:54",
+        "decimalLatitude": 28.917561,
+        "decimalLongitude": -13.647811,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_121114_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:11:14",
+        "decimalLatitude": 28.917852,
+        "decimalLongitude": -13.648215,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_121251_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:12:51",
+        "decimalLatitude": 28.917882,
+        "decimalLongitude": -13.649223,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_121512_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:15:12",
+        "decimalLatitude": 28.918273,
+        "decimalLongitude": -13.6501,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_121707_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:17:07",
+        "decimalLatitude": 28.917543,
+        "decimalLongitude": -13.651251,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_121935_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:19:35",
+        "decimalLatitude": 28.916793,
+        "decimalLongitude": -13.652831,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_122152_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:21:52",
+        "decimalLatitude": 28.916356,
+        "decimalLongitude": -13.653784,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_122433_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:24:33",
+        "decimalLatitude": 28.916355,
+        "decimalLongitude": -13.655277,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_122948_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:29:48",
+        "decimalLatitude": 28.917908,
+        "decimalLongitude": -13.658244,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250606_123146_CAGAFRECHO",
+        "eventDate": "2025-06-06 12:31:46",
+        "decimalLatitude": 28.918193,
+        "decimalLongitude": -13.658844,
+        "recordedBy": "Jose Mart\u00ednez-Garrido (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_121453_ENTINAS",
+        "eventDate": "2025-10-14 12:14:53",
+        "decimalLatitude": 36.68777855816654,
+        "decimalLongitude": -2.691101784587885,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_124438_ENTINAS",
+        "eventDate": "2025-10-14 12:44:38",
+        "decimalLatitude": 36.6807920902696,
+        "decimalLongitude": -2.693493673962401,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_130017_ENTINAS",
+        "eventDate": "2025-10-14 13:00:17",
+        "decimalLatitude": 36.67453865928601,
+        "decimalLongitude": -2.701449138906205,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_130922_ENTINAS",
+        "eventDate": "2025-10-14 13:09:22",
+        "decimalLatitude": 36.67703964000239,
+        "decimalLongitude": -2.709812018462433,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_131442_ENTINAS",
+        "eventDate": "2025-10-14 13:14:42",
+        "decimalLatitude": 36.6790198505664,
+        "decimalLongitude": -2.712926969404201,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_132501_ENTINAS",
+        "eventDate": "2025-10-14 13:25:01",
+        "decimalLatitude": 36.67778344218939,
+        "decimalLongitude": -2.719396637667851,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_132944_ENTINAS",
+        "eventDate": "2025-10-14 13:29:44",
+        "decimalLatitude": 36.67611629722357,
+        "decimalLongitude": -2.720846657254598,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_133702_ENTINAS",
+        "eventDate": "2025-10-14 13:37:02",
+        "decimalLatitude": 36.67656849218816,
+        "decimalLongitude": -2.724091214542169,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_134228_ENTINAS",
+        "eventDate": "2025-10-14 13:42:28",
+        "decimalLatitude": 36.6765517815714,
+        "decimalLongitude": -2.726771706295802,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_135000_ENTINAS",
+        "eventDate": "2025-10-14 13:50:00",
+        "decimalLatitude": 36.67880691425614,
+        "decimalLongitude": -2.721410759663926,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_135236_ENTINAS",
+        "eventDate": "2025-10-14 13:52:36",
+        "decimalLatitude": 36.67966765074814,
+        "decimalLongitude": -2.719998292410059,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_135909_ENTINAS",
+        "eventDate": "2025-10-14 13:59:09",
+        "decimalLatitude": 36.68071954350296,
+        "decimalLongitude": -2.713119297244758,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_140419_ENTINAS",
+        "eventDate": "2025-10-14 14:04:19",
+        "decimalLatitude": 36.68226464557281,
+        "decimalLongitude": -2.70925665614977,
+        "recordedBy": "Fernando Garcia-Gonzalez (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_163306_ENTINAS",
+        "eventDate": "2025-10-14 16:33:06",
+        "decimalLatitude": 36.68531568,
+        "decimalLongitude": -2.68495224,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_163439_ENTINAS",
+        "eventDate": "2025-10-14 16:34:39",
+        "decimalLatitude": 36.67357086,
+        "decimalLongitude": -2.68287024,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_163949_ENTINAS",
+        "eventDate": "2025-10-14 16:39:49",
+        "decimalLatitude": 36.67129873,
+        "decimalLongitude": -2.67972872,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_164805_ENTINAS",
+        "eventDate": "2025-10-14 16:48:05",
+        "decimalLatitude": 36.67398905,
+        "decimalLongitude": -2.67610514,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_165301_ENTINAS",
+        "eventDate": "2025-10-14 16:53:01",
+        "decimalLatitude": 36.67332345,
+        "decimalLongitude": -2.67189646,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_165656_ENTINAS",
+        "eventDate": "2025-10-14 16:56:56",
+        "decimalLatitude": 36.67748908,
+        "decimalLongitude": -2.67134818,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_170145_ENTINAS",
+        "eventDate": "2025-10-14 17:01:45",
+        "decimalLatitude": 36.68151506,
+        "decimalLongitude": -2.66722709,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_170526_ENTINAS",
+        "eventDate": "2025-10-14 17:05:26",
+        "decimalLatitude": 36.68362416,
+        "decimalLongitude": -2.6653624,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_170837_ENTINAS",
+        "eventDate": "2025-10-14 17:08:37",
+        "decimalLatitude": 36.68923732,
+        "decimalLongitude": -2.66713964,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_171331_ENTINAS",
+        "eventDate": "2025-10-14 17:13:31",
+        "decimalLatitude": 36.68892547,
+        "decimalLongitude": -2.6640227,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_171711_ENTINAS",
+        "eventDate": "2025-10-14 17:17:11",
+        "decimalLatitude": 36.68565648,
+        "decimalLongitude": -2.65748979,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_172200_ENTINAS",
+        "eventDate": "2025-10-14 17:22:00",
+        "decimalLatitude": 36.68534496,
+        "decimalLongitude": -2.65539906,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_172636_ENTINAS",
+        "eventDate": "2025-10-14 17:26:36",
+        "decimalLatitude": 36.68143814,
+        "decimalLongitude": -2.65799085,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_173338_ENTINAS",
+        "eventDate": "2025-10-14 17:33:38",
+        "decimalLatitude": 36.6793879,
+        "decimalLongitude": -2.65479814,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_173753_ENTINAS",
+        "eventDate": "2025-10-14 17:37:53",
+        "decimalLatitude": 36.6851429,
+        "decimalLongitude": -2.65227967,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_174319_ENTINAS",
+        "eventDate": "2025-10-14 17:43:19",
+        "decimalLatitude": 36.68634817,
+        "decimalLongitude": -2.64401968,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_174648_ENTINAS",
+        "eventDate": "2025-10-14 17:46:48",
+        "decimalLatitude": 36.68903263,
+        "decimalLongitude": -2.64315191,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_175156_ENTINAS",
+        "eventDate": "2025-10-14 17:51:56",
+        "decimalLatitude": 36.69414843,
+        "decimalLongitude": -2.64528172,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_175406_ENTINAS",
+        "eventDate": "2025-10-14 17:54:06",
+        "decimalLatitude": 36.70012055,
+        "decimalLongitude": -2.64990572,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_175716_ENTINAS",
+        "eventDate": "2025-10-14 17:57:16",
+        "decimalLatitude": 36.69866355,
+        "decimalLongitude": -2.64617855,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_180204_ENTINAS",
+        "eventDate": "2025-10-14 18:02:04",
+        "decimalLatitude": 36.69705589,
+        "decimalLongitude": -2.6357614,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_180337_ENTINAS",
+        "eventDate": "2025-10-14 18:03:37",
+        "decimalLatitude": 36.69720563,
+        "decimalLongitude": -2.63545957,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_180632_ENTINAS",
+        "eventDate": "2025-10-14 18:06:32",
+        "decimalLatitude": 36.70384307,
+        "decimalLongitude": -2.63414429,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_180934_ENTINAS",
+        "eventDate": "2025-10-14 18:09:34",
+        "decimalLatitude": 36.70150726,
+        "decimalLongitude": -2.63942208,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_183203_ENTINAS",
+        "eventDate": "2025-10-14 18:32:03",
+        "decimalLatitude": 36.67871653,
+        "decimalLongitude": -2.74217248,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_183429_ENTINAS",
+        "eventDate": "2025-10-14 18:34:29",
+        "decimalLatitude": 36.67992377,
+        "decimalLongitude": -2.74496927,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_183653_ENTINAS",
+        "eventDate": "2025-10-14 18:36:53",
+        "decimalLatitude": 36.67869215,
+        "decimalLongitude": -2.74710682,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_184021_ENTINAS",
+        "eventDate": "2025-10-14 18:40:21",
+        "decimalLatitude": 36.67713026,
+        "decimalLongitude": -2.74432558,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_184457_ENTINAS",
+        "eventDate": "2025-10-14 18:44:57",
+        "decimalLatitude": 36.67099396,
+        "decimalLongitude": -2.74118285,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_184856_ENTINAS",
+        "eventDate": "2025-10-14 18:48:56",
+        "decimalLatitude": 36.67084973,
+        "decimalLongitude": -2.74831127,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_185544_ENTINAS",
+        "eventDate": "2025-10-14 18:55:44",
+        "decimalLatitude": 36.66077625,
+        "decimalLongitude": -2.74411828,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_190121_ENTINAS",
+        "eventDate": "2025-10-14 19:01:21",
+        "decimalLatitude": 36.66594603,
+        "decimalLongitude": -2.72799839,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_190533_ENTINAS",
+        "eventDate": "2025-10-14 19:05:33",
+        "decimalLatitude": 36.66627549,
+        "decimalLongitude": -2.71991792,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_191324_ENTINAS",
+        "eventDate": "2025-10-14 19:13:24",
+        "decimalLatitude": 36.66705465,
+        "decimalLongitude": -2.71316149,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_191521_ENTINAS",
+        "eventDate": "2025-10-14 19:15:21",
+        "decimalLatitude": 36.66337413,
+        "decimalLongitude": -2.70842407,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_191843_ENTINAS",
+        "eventDate": "2025-10-14 19:18:43",
+        "decimalLatitude": 36.66366657,
+        "decimalLongitude": -2.70099755,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_192842_ENTINAS",
+        "eventDate": "2025-10-14 19:28:42",
+        "decimalLatitude": 36.67505777,
+        "decimalLongitude": -2.75393778,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_193251_ENTINAS",
+        "eventDate": "2025-10-14 19:32:51",
+        "decimalLatitude": 36.67252556,
+        "decimalLongitude": -2.76154749,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_193601_ENTINAS",
+        "eventDate": "2025-10-14 19:36:01",
+        "decimalLatitude": 36.67275633,
+        "decimalLongitude": -2.76719222,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_194414_ENTINAS",
+        "eventDate": "2025-10-14 19:44:14",
+        "decimalLatitude": 36.67135386,
+        "decimalLongitude": -2.77325802,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251014_194905_ENTINAS",
+        "eventDate": "2025-10-14 19:49:05",
+        "decimalLatitude": 36.68005636,
+        "decimalLongitude": -2.77244985,
+        "recordedBy": "Jaime Bernardeau (GEAM IEO-CSIC)",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_093952_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 09:39:52",
+        "decimalLatitude": 37.368468,
+        "decimalLongitude": -1.642147,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_094345_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 09:43:45",
+        "decimalLatitude": 37.366228,
+        "decimalLongitude": -1.644542,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_094714_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 09:47:14",
+        "decimalLatitude": 37.365654,
+        "decimalLongitude": -1.642765,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_095142_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 09:51:42",
+        "decimalLatitude": 37.36548,
+        "decimalLongitude": -1.641272,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_095441_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 09:54:41",
+        "decimalLatitude": 37.364948,
+        "decimalLongitude": -1.639023,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_100011_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 10:00:11",
+        "decimalLatitude": 37.355462,
+        "decimalLongitude": -1.646473,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_100341_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 10:03:41",
+        "decimalLatitude": 37.352444,
+        "decimalLongitude": -1.651057,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_100842_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 10:08:42",
+        "decimalLatitude": 37.343347,
+        "decimalLongitude": -1.651944,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_101547_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 10:15:47",
+        "decimalLatitude": 37.351923,
+        "decimalLongitude": -1.671108,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_101937_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 10:19:37",
+        "decimalLatitude": 37.348439,
+        "decimalLongitude": -1.676657,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_102236_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 10:22:36",
+        "decimalLatitude": 37.348075,
+        "decimalLongitude": -1.679445,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_102716_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 10:27:16",
+        "decimalLatitude": 37.340086,
+        "decimalLongitude": -1.680262,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_103202_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 10:32:02",
+        "decimalLatitude": 37.32969,
+        "decimalLongitude": -1.683898,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_103640_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 10:36:40",
+        "decimalLatitude": 37.32352,
+        "decimalLongitude": -1.684144,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_104224_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 10:42:24",
+        "decimalLatitude": 37.311919,
+        "decimalLongitude": -1.684781,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_105503_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 10:55:03",
+        "decimalLatitude": 37.311673,
+        "decimalLongitude": -1.702152,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_110515_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 11:05:15",
+        "decimalLatitude": 37.30086,
+        "decimalLongitude": -1.706712,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_110950_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 11:09:50",
+        "decimalLatitude": 37.296873,
+        "decimalLongitude": -1.705392,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_111606_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 11:16:06",
+        "decimalLatitude": 37.29585,
+        "decimalLongitude": -1.716117,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_112818_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 11:28:18",
+        "decimalLatitude": 37.279034,
+        "decimalLongitude": -1.729857,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_113428_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 11:34:28",
+        "decimalLatitude": 37.266001,
+        "decimalLongitude": -1.743135,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_113840_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 11:38:40",
+        "decimalLatitude": 37.261547,
+        "decimalLongitude": -1.751398,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_114247_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 11:42:47",
+        "decimalLatitude": 37.259083,
+        "decimalLongitude": -1.756945,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_114605_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 11:46:05",
+        "decimalLatitude": 37.256747,
+        "decimalLongitude": -1.759108,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_114927_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 11:49:27",
+        "decimalLatitude": 37.255633,
+        "decimalLongitude": -1.75993,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_115334_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 11:53:34",
+        "decimalLatitude": 37.253132,
+        "decimalLongitude": -1.76217,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_115830_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 11:58:30",
+        "decimalLatitude": 37.249323,
+        "decimalLongitude": -1.761959,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_120502_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 12:05:02",
+        "decimalLatitude": 37.242151,
+        "decimalLongitude": -1.772143,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_121431_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 12:14:31",
+        "decimalLatitude": 37.236643,
+        "decimalLongitude": -1.764259,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_122003_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 12:20:03",
+        "decimalLatitude": 37.229747,
+        "decimalLongitude": -1.776453,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_122742_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 12:27:42",
+        "decimalLatitude": 37.227302,
+        "decimalLongitude": -1.78427,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_123125_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 12:31:25",
+        "decimalLatitude": 37.231492,
+        "decimalLongitude": -1.789402,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_124031_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 12:40:31",
+        "decimalLatitude": 37.21955,
+        "decimalLongitude": -1.784893,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_124403_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 12:44:03",
+        "decimalLatitude": 37.21698,
+        "decimalLongitude": -1.78994,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_124729_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 12:47:29",
+        "decimalLatitude": 37.220338,
+        "decimalLongitude": -1.800963,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_125434_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 12:54:34",
+        "decimalLatitude": 37.212841,
+        "decimalLongitude": -1.78759,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_125955_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 12:59:55",
+        "decimalLatitude": 37.209168,
+        "decimalLongitude": -1.794374,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_130355_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 13:03:55",
+        "decimalLatitude": 37.205623,
+        "decimalLongitude": -1.796193,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_130821_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 13:08:21",
+        "decimalLatitude": 37.201459,
+        "decimalLongitude": -1.798267,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250919_132013_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-19 13:20:13",
+        "decimalLatitude": 37.196003,
+        "decimalLongitude": -1.810114,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250924_083010_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-24 08:30:10",
+        "decimalLatitude": 37.164241,
+        "decimalLongitude": -1.818573,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250924_083400_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-24 08:34:00",
+        "decimalLatitude": 37.161901,
+        "decimalLongitude": -1.817145,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250924_084140_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-24 08:41:40",
+        "decimalLatitude": 37.142252,
+        "decimalLongitude": -1.820581,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250924_084622_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-24 08:46:22",
+        "decimalLatitude": 37.139099,
+        "decimalLongitude": -1.826116,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250924_085226_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-24 08:52:26",
+        "decimalLatitude": 37.121929,
+        "decimalLongitude": -1.824686,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250924_085854_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-24 08:58:54",
+        "decimalLatitude": 37.110268,
+        "decimalLongitude": -1.829594,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250924_090403_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-24 09:04:03",
+        "decimalLatitude": 37.106167,
+        "decimalLongitude": -1.833942,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250924_090825_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-24 09:08:25",
+        "decimalLatitude": 37.104207,
+        "decimalLongitude": -1.839525,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250924_091540_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-24 09:15:40",
+        "decimalLatitude": 37.086143,
+        "decimalLongitude": -1.846082,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250924_092316_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-24 09:23:16",
+        "decimalLatitude": 37.066939,
+        "decimalLongitude": -1.848248,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250924_092937_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-24 09:29:37",
+        "decimalLatitude": 37.054002,
+        "decimalLongitude": -1.857702,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20250924_093526_LEVANTEALMERIENSE",
+        "eventDate": "2025-09-24 09:35:26",
+        "decimalLatitude": 37.043069,
+        "decimalLongitude": -1.857314,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_104200_ROQUETAS",
+        "eventDate": "2025-10-13 10:42:00",
+        "decimalLatitude": 36.77333,
+        "decimalLongitude": -2.59023,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_105000_ROQUETAS",
+        "eventDate": "2025-10-13 10:50:00",
+        "decimalLatitude": 36.7829,
+        "decimalLongitude": -2.59058,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_105500_ROQUETAS",
+        "eventDate": "2025-10-13 10:55:00",
+        "decimalLatitude": 36.79213,
+        "decimalLongitude": -2.58267,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_110000_ROQUETAS",
+        "eventDate": "2025-10-13 11:00:00",
+        "decimalLatitude": 36.78507,
+        "decimalLongitude": -2.58441,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_111000_ROQUETAS",
+        "eventDate": "2025-10-13 11:10:00",
+        "decimalLatitude": 36.78637,
+        "decimalLongitude": -2.5834,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_112000_ROQUETAS",
+        "eventDate": "2025-10-13 11:20:00",
+        "decimalLatitude": 36.78434,
+        "decimalLongitude": -2.58978,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_112500_ROQUETAS",
+        "eventDate": "2025-10-13 11:25:00",
+        "decimalLatitude": 36.79317,
+        "decimalLongitude": -2.57995,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_113000_ROQUETAS",
+        "eventDate": "2025-10-13 11:30:00",
+        "decimalLatitude": 36.78094,
+        "decimalLongitude": -2.58686,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_113500_ROQUETAS",
+        "eventDate": "2025-10-13 11:35:00",
+        "decimalLatitude": 36.77528,
+        "decimalLongitude": -2.59262,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_114000_ROQUETAS",
+        "eventDate": "2025-10-13 11:40:00",
+        "decimalLatitude": 36.78784,
+        "decimalLongitude": -2.58474,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_114500_ROQUETAS",
+        "eventDate": "2025-10-13 11:45:00",
+        "decimalLatitude": 36.77302,
+        "decimalLongitude": -2.59447,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_115000_ROQUETAS",
+        "eventDate": "2025-10-13 11:50:00",
+        "decimalLatitude": 36.7914,
+        "decimalLongitude": -2.58068,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_115200_ROQUETAS",
+        "eventDate": "2025-10-13 11:52:00",
+        "decimalLatitude": 36.78899,
+        "decimalLongitude": -2.58308,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_115400_ROQUETAS",
+        "eventDate": "2025-10-13 11:54:00",
+        "decimalLatitude": 36.77974,
+        "decimalLongitude": -2.59275,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_115600_ROQUETAS",
+        "eventDate": "2025-10-13 11:56:00",
+        "decimalLatitude": 36.78055,
+        "decimalLongitude": -2.59126,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_115800_ROQUETAS",
+        "eventDate": "2025-10-13 11:58:00",
+        "decimalLatitude": 36.77744,
+        "decimalLongitude": -2.59713,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_115900_ROQUETAS",
+        "eventDate": "2025-10-13 11:59:00",
+        "decimalLatitude": 36.78521,
+        "decimalLongitude": -2.58892,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_120000_ROQUETAS",
+        "eventDate": "2025-10-13 12:00:00",
+        "decimalLatitude": 36.77948,
+        "decimalLongitude": -2.59467,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_120300_ROQUETAS",
+        "eventDate": "2025-10-13 12:03:00",
+        "decimalLatitude": 36.78404,
+        "decimalLongitude": -2.59146,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_120600_ROQUETAS",
+        "eventDate": "2025-10-13 12:06:00",
+        "decimalLatitude": 36.79172,
+        "decimalLongitude": -2.58505,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_120900_ROQUETAS",
+        "eventDate": "2025-10-13 12:09:00",
+        "decimalLatitude": 36.79493,
+        "decimalLongitude": -2.582,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_121200_ROQUETAS",
+        "eventDate": "2025-10-13 12:12:00",
+        "decimalLatitude": 36.78099,
+        "decimalLongitude": -2.59358,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_121500_ROQUETAS",
+        "eventDate": "2025-10-13 12:15:00",
+        "decimalLatitude": 36.7869,
+        "decimalLongitude": -2.58807,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_121800_ROQUETAS",
+        "eventDate": "2025-10-13 12:18:00",
+        "decimalLatitude": 36.77273,
+        "decimalLongitude": -2.59603,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_122100_ROQUETAS",
+        "eventDate": "2025-10-13 12:21:00",
+        "decimalLatitude": 36.78636,
+        "decimalLongitude": -2.58802,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_122400_ROQUETAS",
+        "eventDate": "2025-10-13 12:24:00",
+        "decimalLatitude": 36.79179,
+        "decimalLongitude": -2.58435,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_122700_ROQUETAS",
+        "eventDate": "2025-10-13 12:27:00",
+        "decimalLatitude": 36.77208,
+        "decimalLongitude": -2.5983,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_123000_ROQUETAS",
+        "eventDate": "2025-10-13 12:30:00",
+        "decimalLatitude": 36.7885,
+        "decimalLongitude": -2.58791,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_123500_ROQUETAS",
+        "eventDate": "2025-10-13 12:35:00",
+        "decimalLatitude": 36.78598,
+        "decimalLongitude": -2.5896,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_124500_ROQUETAS",
+        "eventDate": "2025-10-13 12:45:00",
+        "decimalLatitude": 36.79335,
+        "decimalLongitude": -2.58387,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_125000_ROQUETAS",
+        "eventDate": "2025-10-13 12:50:00",
+        "decimalLatitude": 36.78996,
+        "decimalLongitude": -2.57727,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_130000_ROQUETAS",
+        "eventDate": "2025-10-13 13:00:00",
+        "decimalLatitude": 36.79173,
+        "decimalLongitude": -2.57605,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_131000_ROQUETAS",
+        "eventDate": "2025-10-13 13:10:00",
+        "decimalLatitude": 36.78445,
+        "decimalLongitude": -2.58217,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_131500_ROQUETAS",
+        "eventDate": "2025-10-13 13:15:00",
+        "decimalLatitude": 36.78874,
+        "decimalLongitude": -2.57849,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_132000_ROQUETAS",
+        "eventDate": "2025-10-13 13:20:00",
+        "decimalLatitude": 36.78584,
+        "decimalLongitude": -2.58099,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_132500_ROQUETAS",
+        "eventDate": "2025-10-13 13:25:00",
+        "decimalLatitude": 36.78402,
+        "decimalLongitude": -2.5827,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_133000_ROQUETAS",
+        "eventDate": "2025-10-13 13:30:00",
+        "decimalLatitude": 36.78234,
+        "decimalLongitude": -2.58327,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_133500_ROQUETAS",
+        "eventDate": "2025-10-13 13:35:00",
+        "decimalLatitude": 36.7813,
+        "decimalLongitude": -2.58407,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_134000_ROQUETAS",
+        "eventDate": "2025-10-13 13:40:00",
+        "decimalLatitude": 36.78862,
+        "decimalLongitude": -2.58136,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
+    },
+    {
+        "occurrenceID": "20251013_135000_ROQUETAS",
+        "eventDate": "2025-10-13 13:50:00",
+        "decimalLatitude": 36.76528,
+        "decimalLongitude": -2.59937,
+        "recordedBy": "GEAM IEO-CSIC",
+        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
+        "url": NaN,
+        "contact": "f.garcia@ieo.csic.es"
     }
 ];
