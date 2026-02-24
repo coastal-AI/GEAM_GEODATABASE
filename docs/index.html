@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="data/1_GROUNDTRUTH_table.js"></script> 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <script src="data/1_SEATRUTH_table.js"></script> 
     <script src="data/2_DRONE_table.js"></script> 
-    <script src="data/3_UNDERWATER_VIDEO_TRACKS_table.js"></script> 
-    <script src="data/5_STATIONS_geam_table.js"></script> 
-    <script src="data/5_STATIONS_collaborators_table.js"></script> 
+    <script src="data/3_VIDEO_TRACKS_table.js"></script> 
+    <script src="data/6_STATIONS_table.js"></script> 
 </head>
 <body>
     <header>
@@ -69,166 +71,131 @@
         var map = L.map('map', {
             center: [36, -5], // Center the map
             zoom: 5, // Initial zoom level
-            layers: [cartoLight], // Default layer
-            scrollWheelZoom: true // Disable scroll zoom initially
-        })
-        // Add layer control
+            layers: [esriSat], // Default layer
+            scrollWheelZoom: true, // Disable scroll zoom initially
+            zoomControl: false // Disable default zoom control
+        });
+        
+        // Add single zoom control at bottom right
+        L.control.zoom({ position: 'topright' }).addTo(map);
+
+        // Define basemap layers
         const baseMaps = {
-            "Carto Light": cartoLight,
-            "Esri Satellite": esriSat
+            "Esri Satellite": esriSat,
+            "Carto Light": cartoLight
         };
 
-        L.control.layers(baseMaps).addTo(map);
 
 
-        // Add a scale control to the map
-        L.control.scale().addTo(map);
 
 
-        function showMarkerInfo(item, layer) {
-            // Create the content for the popup
-            var latlng = [item.decimalLatitude, item.decimalLongitude];
-
-            // Create a container element for the popup
-            var popupContent = document.createElement("div");
-            popupContent.className = "popup-content";
-
-            // Type of data
-            let layerName = "DATA ID";
-            if (layer === stations_geamLayer || layer === stations_collaboratorsLayer) {
-                layerName = "MONITORING STATION";
-            } else if (layer === groundtruthLayer) {
-                layerName = "FIELD OBSERVATION";
+        // Helper function to determine layer name
+        function getLayerName(layer) {
+            if (layer === stationsLayer) {
+                return "MONITORING STATION";
+            } else if (layer === seatruthLayer) {
+                return "FIELD OBSERVATION";
             } else if (layer === droneLayer) {
-                layerName = "DRONE FLIGHT";
+                return "DRONE FLIGHT";
+            } else if (layer === tracksLayer) {
+                return "UNDERWATER VIDEO TRACK";
             }
-           
-
-            // Add text content, including the eventID above the image
-            popupContent.innerHTML = `
-                <h2>${layerName}: ${item.eventID || item.occurrenceID || item.locationID}</h2>  <!-- Display the eventID or occurrenceID as the title -->
-                <div class="popup-info-container">
-                    <div class="popup-info">
-                        <p><strong>Event Date:</strong> ${item.eventDate}</p>
-                        <p><strong>Recorded by:</strong> ${item.recordedBy || item.institutionCode}</p>
-                        <p><strong>Project:</strong> ${item.datasetName}</p>
-                        <p><strong>Contact:</strong> ${item.contact}</p>
-                    </div>
-                    <div class="image-container">
-                        <p class="image-title"><strong>Preview:</strong></p>
-                        <p class="loading-text">Loading...</p>
-                        <a href="${item.url}" target="_blank">
-                            <img src="${item.url}" class="popup-image" style="display: none;" />
-                        </a>
-                        <p class="click-to-enlarge" style="display: none;">Click to enlarge</p> <!-- Initially hidden -->
-                    </div>
-                </div>
-            `;
-
-            // Create the popup and bind it to the map
-            var popup = L.popup()
-                .setLatLng(latlng)
-                .setContent(popupContent)
-                .openOn(map);
-
-            // Handle the image load event
-            var image = popupContent.querySelector("img");
-            var loadingText = popupContent.querySelector(".loading-text");
-            var clickToEnlarge = popupContent.querySelector(".click-to-enlarge");
-
-            image.onload = function () {
-                // Once the image is loaded, make it visible, hide the loading message and show the "Click to enlarge"
-                image.style.display = "block";
-                loadingText.style.display = "none";
-                clickToEnlarge.style.display = "block"; // Show the "Click to enlarge" message
-
-                // Reposition the popup to ensure it fits within the map
-                map.invalidateSize();
-                popup.update();
-            };
-
-            // If the image fails to load, handle the error
-            image.onerror = function () {
-                // Replace loading text with an error message
-                loadingText.textContent = "Not available";
-                loadingText.style.display = "block";
-                clickToEnlarge.style.display = "none"; // Don't show "Click to enlarge" if the image is not available
-            };
+            return "DATA ID";
         }
 
-        function showLineInfo(item, latlng) {
-            // Create a container element for the popup
+        // Helper function to get color for institution using deterministic hash
+        function getInstitutionColor(institution) {
+            // Handle null/undefined/NaN
+            if (!institution || institution === 'nan' || institution === null) {
+                return "#CCCCCC"; // Light gray for unknown
+            }
+            
+            // Define a palette of distinctive colors
+            const colors = [
+                '#FF6B6B', '#4ECDC4', '#FFE66D', '#95E1D3', '#6C5CE7', '#A8E6CF',
+                '#FFD93D', '#FF8B94', '#D4A5A5', '#5DADE2', '#F8B88B', '#AA96DA',
+                '#FCBAD3', '#A0DE82', '#FFA07A', '#20B2AA', '#DDA0DD', '#F0E68C',
+                '#87CEEB', '#F4A460', '#98D8C8', '#F7DC6F', '#B19CD9', '#FF69B4'
+            ];
+            
+            // Simple hash function for institution string
+            let hash = 0;
+            for (let i = 0; i < institution.length; i++) {
+                hash = institution.charCodeAt(i) + ((hash << 5) - hash);
+            }
+            
+            // Use hash to select color deterministically
+            return colors[Math.abs(hash) % colors.length];
+        }
+
+        // Simplified popup function - info only
+        function showPopupInfo(item, latlng, layer) {
             var popupContent = document.createElement("div");
             popupContent.className = "popup-content";
 
-            // Construct the popup content
+            const layerName = getLayerName(layer);
+            const itemId = item.observation_id || item.flight_id || item.station_id || item.track_id || item.id;
+
             popupContent.innerHTML = `
-                <h2>UNDERWATER VIDEO TRACK: ${item.eventID || item.occurrenceID}</h2>  <!-- Display the eventID or occurrenceID -->
-                <div class="popup-info-container">
-                    <div class="popup-info">
-                        <p><strong>Event Date:</strong> ${item.eventDate}</p>
-                        <p><strong>Recorded by:</strong> ${item.recordedBy || item.institutionCode}</p>
-                        <p><strong>Project:</strong> ${item.datasetName}</p>
-                        <p><strong>Contact:</strong> ${item.contact}</p>
+                <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; padding: 10px; margin: -3px;">
+                    <div style="border-bottom: 2px solid #f0f0f0; padding-bottom: 8px; margin-bottom: 10px;">
+                        <div style="font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600;">${layerName}</div>
+                        <div style="font-size: 14px; font-weight: 700; color: #222; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${itemId}</div>
                     </div>
-                    <div class="video-container">
-                        <p class="video-title"><strong>Preview:</strong></p>
-                        <p class="loading-text">Loading...</p>
-                        <a href="${item.url}" target="_blank" class="video-link" style="display: none;">
-                            <img src="${item.thumbnail_url}" class="popup-image" />
-                        </a>
-                        <p class="click-to-watch" style="display: none;">Click to watch</p>
+                    <div style="font-size: 12px; color: #555; line-height: 1.6;">
+                        ${item.date_time ? `<div><span style="color: #999;">Date:</span> ${item.date_time}</div>` : ''}
+                        ${item.recorded_by_institution ? `<div><span style="color: #999;">Institution:</span> ${item.recorded_by_institution}</div>` : ''}
+                        ${item.project ? `<div><span style="color: #999;">Project:</span> ${item.project}</div>` : ''}
+                        ${item.contact ? `<div><span style="color: #999;">Contact:</span> ${item.contact}</div>` : ''}
                     </div>
                 </div>
             `;
 
-            // Create the popup and bind it to the map
-            var popup = L.popup()
+            L.popup({ maxWidth: 260 })
                 .setLatLng(latlng)
                 .setContent(popupContent)
                 .openOn(map);
-
-            // Handle the thumbnail loading
-            var thumbnail = popupContent.querySelector(".popup-image");
-            var loadingText = popupContent.querySelector(".loading-text");
-            var videoLink = popupContent.querySelector(".video-link");
-            var clickToWatch = popupContent.querySelector(".click-to-watch");
-
-            if (item.thumbnail_url) {
-                // Load thumbnail if available
-                thumbnail.onload = function () {
-                    videoLink.style.display = "block"; // Show the video link
-                    loadingText.style.display = "none"; // Hide loading text
-                    clickToWatch.style.display = "block"; // Show "Click to watch" text
-                };
-
-                thumbnail.onerror = function () {
-                    loadingText.textContent = "Preview not available";
-                };
-            } else {
-                // No thumbnail available
-                loadingText.textContent = "Preview not available";
-            }
         }
+
 
         // LAYERS
-        var groundtruthLayer = L.layerGroup();
+        var seatruthLayer = L.markerClusterGroup({
+            maxClusterRadius: 60, // Cluster if markers within 60px radius
+            disableClusteringAtZoom: 13, 
+            iconCreateFunction: function(cluster) {
+                return L.divIcon({
+                    html: '<svg width="40" height="40" viewBox="0 0 40 40" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));"><circle cx="20" cy="20" r="15" fill="#2ecc71" fill-opacity="0.7" stroke="#2ecc71" stroke-width="2" /><text x="20" y="25" text-anchor="middle" fill="white" font-weight="bold" font-size="14">' + cluster.getChildCount() + '</text></svg>',
+                    iconSize: [40, 40],
+                    className: 'seatruth-cluster'
+                });
+            }
+        });
         var droneLayer = L.layerGroup();
-        var uv_tracksLayer = L.layerGroup();
-        var stations_geamLayer = L.layerGroup();
-        var stations_collaboratorsLayer = L.layerGroup();
+        var tracksLayer = L.layerGroup();
+        var stationsLayer = L.markerClusterGroup({
+            maxClusterRadius: 50, // Cluster if markers within 50px radius
+            disableClusteringAtZoom: 9, 
+            iconCreateFunction: function(cluster) {
+                return L.divIcon({
+                    html: '<svg width="40" height="40" viewBox="0 0 40 40" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));"><rect x="5" y="5" width="30" height="30" fill="#95a5a6" fill-opacity="0.7" stroke="#95a5a6" stroke-width="2" /><text x="20" y="25" text-anchor="middle" fill="#444444" font-weight="bold" font-size="14">' + cluster.getChildCount() + '</text></svg>',
+                    iconSize: [40, 40],
+                    className: 'stations-cluster'
+                });
+            }
+        });
+  
 
-        //GROUNDTRUTH
-        groundtruth.forEach(function(item) {
-            var marker = L.circleMarker([item.decimalLatitude, item.decimalLongitude], {
+        //SEATRUTH
+        seatruth.forEach(function(item) {
+            var marker = L.circleMarker([item.lat, item.lon], {
                 radius: 0.5, // Adjust the radius as needed
                 color: 'green', // Adjust the color as needed
                 fillOpacity: 0.5 // Adjust the fill opacity as needed
-            }).addTo(groundtruthLayer);
+            }).addTo(seatruthLayer);
             ;
 
             marker.on('click', function() {
-                showMarkerInfo(item, groundtruthLayer);
+                showPopupInfo(item, [item.lat, item.lon], seatruthLayer);
             });
         });
     
@@ -245,7 +212,7 @@
 
         // Add markers 
         drone.forEach(function(item) {
-            var marker = L.circleMarker([item.decimalLatitude, item.decimalLongitude], {
+            var marker = L.circleMarker([item.lat, item.lon], {
                 radius: 4, // Adjust the radius as needed
                 color: 'lightblue', // Adjust the color as needed
                 fillColor: 'blue', // Adjust the fill color to light blue
@@ -253,119 +220,134 @@
             }).addTo(droneLayer);
 
             marker.on('click', function() {
-                showMarkerInfo(item, droneLayer);
+                showPopupInfo(item, [item.lat, item.lon], droneLayer);
             });
         });
 
-        //UV TRACKS
+        //TRACKS
         // Add lines
-        uv_tracks.forEach(function(item) {
+        tracks.forEach(function(item) {
             var line = L.polyline(item.line, {
             color: 'red', 
             weight: 4 // Adjust the line width as needed
-            }).addTo(uv_tracksLayer);
+            }).addTo(tracksLayer);
 
             // Add click event to show popup
             line.on('click', function(e) {
-            showLineInfo(item, e.latlng);
-        });
+                showPopupInfo(item, e.latlng, tracksLayer);
+            });
 
         });
 
         //STATIONS
-        stations_geam.forEach(function(item) {
-            var marker = L.marker([item.decimalLatitude, item.decimalLongitude], {
+        stations.forEach(function(item) {
+            var color = getInstitutionColor(item.recorded_by_institution);
+            var marker = L.marker([item.lat, item.lon], {
                 icon: L.divIcon({
-                    className: 'cross-marker',  // Custom class for styling
-                    html: '<div style="font-size: 18px; color: black; font-weight: bold; transform: rotate(45deg);">+</div>',  // The cross symbol
+                    className: 'square-marker',  // Custom class for styling
+                    html: '<svg width="15" height="15" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" stroke="' + color + '" stroke-width="2" fill="none" /></svg>',  // Square outline with dynamic color
                     iconSize: [20, 20],  // Size of the marker
-                    iconAnchor: [10, 10]  // Center the cross in the marker
+                    iconAnchor: [10, 10]  // Center the square in the marker
                 })
-            }).addTo(stations_geamLayer);
+            }).addTo(stationsLayer);
             ;
 
             marker.on('click', function() {
-                showMarkerInfo(item, stations_geamLayer);
+                showPopupInfo(item, [item.lat, item.lon], stationsLayer);
             });
         });
 
-        stations_collaborators.forEach(function(item) {
-            var marker = L.marker([item.decimalLatitude, item.decimalLongitude], {
-                icon: L.divIcon({
-                    className: 'cross-marker',  // Custom class for styling
-                    html: '<div style="font-size: 18px; color: purple; font-weight: bold; transform: rotate(45deg);">+</div>',  // The cross symbol
-                    iconSize: [20, 20],  // Size of the marker
-                    iconAnchor: [10, 10]  // Center the cross in the marker
-                })
-            }).addTo(stations_collaboratorsLayer);
-            ;
-
-            marker.on('click', function() {
-                showMarkerInfo(item, stations_collaboratorsLayer);
-            });
-        });
-
+    
         // Add layers to the map 
+        seatruthLayer.addTo(map);
         droneLayer.addTo(map);
-        uv_tracksLayer.addTo(map);
-        groundtruthLayer.addTo(map);
-        stations_geamLayer.addTo(map);
-        stations_collaboratorsLayer.addTo(map);
+        tracksLayer.addTo(map);
+        stationsLayer.addTo(map);
 
-        // Add layer control for toggling layers
-        var overlayMaps = {
-            "Seagrass Presence/Absence data": groundtruthLayer,
-            "Drone Surveys": droneLayer,
-            "Underwater Video Tracks": uv_tracksLayer,
-            "Monitoring Stations GEAM + Collaborators": stations_geamLayer,
-            "Monitoring Stations Collaborators": stations_collaboratorsLayer
-        };
 
-        L.control.layers(null, overlayMaps, {
-            collapsed: true,
-            position: 'topright'
-        }).addTo(map);
+        L.control.scale({ position: 'bottomright' }).addTo(map);
+
+
         
         
-        var legend = L.control({ position: 'bottomright' });
+        var legend = L.control({ position: 'topleft' });
 
         legend.onAdd = function () {
             var div = L.DomUtil.create('div', 'info legend');
             
             // Define the symbols and labels for each layer
             var layersInfo = [
+                 { 
+                    label: 'Monitoring Stations (color by institution)', 
+                    symbol: '<svg width="20" height="20" viewBox="0 0 20 20" style="display: inline-block; vertical-align: middle;"><rect x="2" y="2" width="16" height="16" fill="#95a5a6" fill-opacity="0.7" stroke="#95a5a6" stroke-width="1.5" /></svg>'  // Square with gray edge and 0.7 opacity fill
+                },
                 { 
                     label: 'Seagrass Presence/Absence', 
-                    symbol: '<div class="green-dot"></div>'  // Green dot for Seagrass Presence/Absence
+                    symbol: '<svg width="20" height="20" viewBox="0 0 20 20" style="display: inline-block; vertical-align: middle;"><circle cx="10" cy="10" r="8" fill="#2ecc71" fill-opacity="0.8" stroke="#2ecc71" stroke-width="1.5" /></svg>'  // Green circle with edge and 0.8 opacity fill
                 },
                 { 
                     label: 'Drone Surveys', 
-                    symbol: '<div class="blue-square"></div>'  // Light blue square with dark blue border for Drone Surveys
+                    symbol: '<svg width="12" height="12" viewBox="0 0 20 20" style="display: inline-block; vertical-align: middle;"><circle cx="10" cy="10" r="8" fill="lightblue" stroke="darkblue" stroke-width="1.5" /></svg>'  // Circle with light blue fill and dark blue border
                 },
                 { 
                     label: 'Underwater Video Tracks', 
                     symbol: '<div class="red-line"></div>'  // Red line for Underwater Video Tracks
-                },
-                { 
-                    label: 'Monitoring Stations GEAM', 
-                    symbol: '<div class="black-cross"></div>'  // Black cross for Sampling Stations
-                },
-
-                { 
-                    label: 'Monitoring Stations Collaborators', 
-                    symbol: '<div class="purple-cross"></div>'  // Black cross for Sampling Stations
                 }
+               
             ];
 
-            // Loop through each layer and create a legend entry with symbol
+            // Add all layers to legend
             layersInfo.forEach(function (layer) {
-                div.innerHTML += layer.symbol + ' ' + layer.label + '<br>';
+                div.innerHTML += '<span style="display: inline-flex; align-items: center; width: 24px; height: 24px; margin-right: 8px;">' + layer.symbol + '</span>' + layer.label + '<br>';
             });
 
             return div;
         };
 
         legend.addTo(map);
+
+                // Add layer control for toggling layers
+        var overlayMaps = {
+            "Seagrass Presence/Absence data": seatruthLayer,
+            "Drone Surveys": droneLayer,
+            "Underwater Video Tracks": tracksLayer,
+            "Monitoring Stations": stationsLayer,
+        };
+
+        L.control.layers(null, overlayMaps, {
+            collapsed: true,
+            position: 'topleft'
+        }).addTo(map);
+
+        // Zoom level and coordinates display
+        var zoomInfo = L.control({ position: 'bottomright' });
+
+        zoomInfo.onAdd = function () {
+            var div = L.DomUtil.create('div', 'info zoom-info');
+            div.style.marginTop = '50px'; // Space below legend
+            div.innerHTML = '<div style="font-size: 11px; color: #666; line-height: 1.6;">Zoom: <span id="zoom-level">5</span><br>Lat: <span id="lat-value">36.00</span><br>Lng: <span id="lng-value">-5.00</span></div>';
+            return div;
+        };
+
+        zoomInfo.addTo(map);
+
+        // Update zoom level and mouse coordinates
+        function updateZoomAndCoords(e) {
+            document.getElementById('zoom-level').textContent = map.getZoom();
+            if (e && e.latlng) {
+                // e.latlng is updated on mousemove
+                document.getElementById('lat-value').textContent = e.latlng.lat.toFixed(4);
+                document.getElementById('lng-value').textContent = e.latlng.lng.toFixed(4);
+            }
+        }
+
+        map.on('zoom', updateZoomAndCoords);
+        map.on('mousemove', updateZoomAndCoords);
+        updateZoomAndCoords(); // Initial update
+
+        // Add base layer control (after other controls so it appears below)
+        L.control.layers(baseMaps, null, { position: 'topleft' }).addTo(map);
+    
 
 
     </script>
