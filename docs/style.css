@@ -62,7 +62,7 @@ header {
 
 /* Subtitle (under the header text) */
 .subtitle {
-    font-size: clamp(0.5vw, 1.2vw, 1.2vw);
+    font-size: clamp(12px, 2.5vw, 22px);
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: white;
