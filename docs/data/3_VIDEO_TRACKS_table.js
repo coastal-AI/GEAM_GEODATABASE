@@ -1,12 +1,9 @@
-var uv_tracks = [
+var tracks = [
     {
-        "eventID": "20210715_091456_IF_T5",
-        "eventDate": "2021-07-15T09:14:56",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210715_091456_IF_T5",
+        "date_time": "2021-07-15 09:14:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -212,13 +209,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210715_092426_IF_T6",
-        "eventDate": "2021-07-15T09:24:26",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210715_092426_IF_T6",
+        "date_time": "2021-07-15 09:24:26",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -424,13 +418,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210715_093926_IF_T4",
-        "eventDate": "2021-07-15T09:39:26",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210715_093926_IF_T4",
+        "date_time": "2021-07-15 09:39:26",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -636,13 +627,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210715_094910_IF_T7",
-        "eventDate": "2021-07-15T09:49:10",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210715_094910_IF_T7",
+        "date_time": "2021-07-15 09:49:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -848,13 +836,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210715_101540_IF_T8",
-        "eventDate": "2021-07-15T10:15:40",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210715_101540_IF_T8",
+        "date_time": "2021-07-15 10:15:40",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -1020,13 +1005,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210715_135818_IF_T3",
-        "eventDate": "2021-07-15T13:58:18",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210715_135818_IF_T3",
+        "date_time": "2021-07-15 13:58:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -1232,13 +1214,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210715_140940_IF_T1",
-        "eventDate": "2021-07-15T14:09:40",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210715_140940_IF_T1",
+        "date_time": "2021-07-15 14:09:40",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -1444,13 +1423,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210715_143412_IF_T2",
-        "eventDate": "2021-07-15T14:34:12",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210715_143412_IF_T2",
+        "date_time": "2021-07-15 14:34:12",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -1656,13 +1632,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210716_084118_IF_T10",
-        "eventDate": "2021-07-16T08:41:18",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210716_084118_IF_T10",
+        "date_time": "2021-07-16 08:41:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -1868,13 +1841,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210716_154445_IF_T9",
-        "eventDate": "2021-07-16T15:44:45",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210716_154445_IF_T9",
+        "date_time": "2021-07-16 15:44:45",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -2080,13 +2050,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210716_161516_IF_T19",
-        "eventDate": "2021-07-16T16:15:16",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210716_161516_IF_T19",
+        "date_time": "2021-07-16 16:15:16",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -2292,13 +2259,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210716_164504_IF_T20",
-        "eventDate": "2021-07-16T16:45:04",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210716_164504_IF_T20",
+        "date_time": "2021-07-16 16:45:04",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -2504,13 +2468,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210916_073718_CHE_ALI_T2",
-        "eventDate": "2021-09-16T07:37:18",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210916_073718_CHE_ALI_T2",
+        "date_time": "2021-09-16 07:37:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -2716,13 +2677,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210916_075018_CHE_ALI_T3",
-        "eventDate": "2021-09-16T07:50:18",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210916_075018_CHE_ALI_T3",
+        "date_time": "2021-09-16 07:50:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -2820,13 +2778,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210916_080438_CHE_ALI_T4",
-        "eventDate": "2021-09-16T08:04:38",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210916_080438_CHE_ALI_T4",
+        "date_time": "2021-09-16 08:04:38",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -3032,13 +2987,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210916_084922_CHE_ALI_T1",
-        "eventDate": "2021-09-16T08:49:22",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210916_084922_CHE_ALI_T1",
+        "date_time": "2021-09-16 08:49:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -3244,13 +3196,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210916_132604_CHE_ALI_T6",
-        "eventDate": "2021-09-16T13:26:04",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210916_132604_CHE_ALI_T6",
+        "date_time": "2021-09-16 13:26:04",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -3456,13 +3405,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210916_142604_CHE_ALI_T8",
-        "eventDate": "2021-09-16T14:26:04",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210916_142604_CHE_ALI_T8",
+        "date_time": "2021-09-16 14:26:04",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -3668,13 +3614,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210917_110036_CHE_ALI_T5",
-        "eventDate": "2021-09-17T11:00:36",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210917_110036_CHE_ALI_T5",
+        "date_time": "2021-09-17 11:00:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -3880,13 +3823,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210917_115550_CHE_ALI_T7",
-        "eventDate": "2021-09-17T11:55:50",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210917_115550_CHE_ALI_T7",
+        "date_time": "2021-09-17 11:55:50",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -4092,13 +4032,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210918_082112_CHE_ALI_T9",
-        "eventDate": "2021-09-18T08:21:12",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210918_082112_CHE_ALI_T9",
+        "date_time": "2021-09-18 08:21:12",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -4212,13 +4149,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210918_084218_CHE_ALI_T10",
-        "eventDate": "2021-09-18T08:42:18",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210918_084218_CHE_ALI_T10",
+        "date_time": "2021-09-18 08:42:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -4424,13 +4358,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210918_102536_CHE_TBC_T1",
-        "eventDate": "2021-09-18T10:25:36",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210918_102536_CHE_TBC_T1",
+        "date_time": "2021-09-18 10:25:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -4636,13 +4567,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210927_144636_CHE_DEN_T9",
-        "eventDate": "2021-09-27T14:46:36",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210927_144636_CHE_DEN_T9",
+        "date_time": "2021-09-27 14:46:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -4784,13 +4712,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210927_152756_CHE_DEN_T5",
-        "eventDate": "2021-09-27T15:27:56",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210927_152756_CHE_DEN_T5",
+        "date_time": "2021-09-27 15:27:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -4996,13 +4921,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210928_091154_CHE_DEN_T1",
-        "eventDate": "2021-09-28T09:11:54",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210928_091154_CHE_DEN_T1",
+        "date_time": "2021-09-28 09:11:54",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -5208,13 +5130,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210928_095200_CHE_DEN_T2",
-        "eventDate": "2021-09-28T09:52:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210928_095200_CHE_DEN_T2",
+        "date_time": "2021-09-28 09:52:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -5420,13 +5339,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210928_111322_CHE_DEN_T3",
-        "eventDate": "2021-09-28T11:13:22",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210928_111322_CHE_DEN_T3",
+        "date_time": "2021-09-28 11:13:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -5632,13 +5548,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210928_115958_CHE_DEN_T4",
-        "eventDate": "2021-09-28T11:59:58",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210928_115958_CHE_DEN_T4",
+        "date_time": "2021-09-28 11:59:58",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -5844,13 +5757,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210928_122708_CHE_DEN_T6",
-        "eventDate": "2021-09-28T12:27:08",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210928_122708_CHE_DEN_T6",
+        "date_time": "2021-09-28 12:27:08",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -5964,13 +5874,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210928_131952_CHE_DEN_T7",
-        "eventDate": "2021-09-28T13:19:52",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210928_131952_CHE_DEN_T7",
+        "date_time": "2021-09-28 13:19:52",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -6060,13 +5967,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210928_143144_CHE_DEN_T8",
-        "eventDate": "2021-09-28T14:31:44",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210928_143144_CHE_DEN_T8",
+        "date_time": "2021-09-28 14:31:44",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -6272,13 +6176,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210928_152102_CHE_DEN_T10",
-        "eventDate": "2021-09-28T15:21:02",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210928_152102_CHE_DEN_T10",
+        "date_time": "2021-09-28 15:21:02",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -6484,13 +6385,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210929_081154_CHE_DEN_T11",
-        "eventDate": "2021-09-29T08:11:54",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210929_081154_CHE_DEN_T11",
+        "date_time": "2021-09-29 08:11:54",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -6684,13 +6582,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210929_091148_CHE_DEN_T12",
-        "eventDate": "2021-09-29T09:11:48",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210929_091148_CHE_DEN_T12",
+        "date_time": "2021-09-29 09:11:48",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -6896,13 +6791,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20210929_102924_CHE_DEN_T13",
-        "eventDate": "2021-09-29T10:29:24",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20210929_102924_CHE_DEN_T13",
+        "date_time": "2021-09-29 10:29:24",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -7108,13 +7000,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211002_111600_CHE_BEN_T1",
-        "eventDate": "2021-10-02T11:16:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211002_111600_CHE_BEN_T1",
+        "date_time": "2021-10-02 11:16:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -7320,13 +7209,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211002_122756_CHE_CB_T1",
-        "eventDate": "2021-10-02T12:27:56",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211002_122756_CHE_CB_T1",
+        "date_time": "2021-10-02 12:27:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -7520,13 +7406,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211019_073458_CHE_SUR_T2",
-        "eventDate": "2021-10-19T07:34:58",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211019_073458_CHE_SUR_T2",
+        "date_time": "2021-10-19 07:34:58",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -7624,13 +7507,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211019_075922_CHE_SUR_T1",
-        "eventDate": "2021-10-19T07:59:22",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211019_075922_CHE_SUR_T1",
+        "date_time": "2021-10-19 07:59:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -7692,13 +7572,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211019_082036_CHE_SUR_T4",
-        "eventDate": "2021-10-19T08:20:36",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211019_082036_CHE_SUR_T4",
+        "date_time": "2021-10-19 08:20:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -7776,13 +7653,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211019_083338_CHE_SUR_T5",
-        "eventDate": "2021-10-19T08:33:38",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211019_083338_CHE_SUR_T5",
+        "date_time": "2021-10-19 08:33:38",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -7848,13 +7722,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211019_110812_CHE_SUR_T3",
-        "eventDate": "2021-10-19T11:08:12",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211019_110812_CHE_SUR_T3",
+        "date_time": "2021-10-19 11:08:12",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8060,13 +7931,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211019_121338_CHE_SUR_T6",
-        "eventDate": "2021-10-19T12:13:38",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211019_121338_CHE_SUR_T6",
+        "date_time": "2021-10-19 12:13:38",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8132,13 +8000,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211019_122128_CHE_SUR_T7",
-        "eventDate": "2021-10-19T12:21:28",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211019_122128_CHE_SUR_T7",
+        "date_time": "2021-10-19 12:21:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8172,13 +8037,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211020_073746_CHE_LOB_T2",
-        "eventDate": "2021-10-20T07:37:46",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211020_073746_CHE_LOB_T2",
+        "date_time": "2021-10-20 07:37:46",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8248,13 +8110,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211020_080212_CHE_LOB_T3",
-        "eventDate": "2021-10-20T08:02:12",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211020_080212_CHE_LOB_T3",
+        "date_time": "2021-10-20 08:02:12",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8296,13 +8155,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211020_081240_CHE_LOB_T1",
-        "eventDate": "2021-10-20T08:12:40",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211020_081240_CHE_LOB_T1",
+        "date_time": "2021-10-20 08:12:40",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8340,13 +8196,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211021_070214_CHE_GRO_T1",
-        "eventDate": "2021-10-21T07:02:14",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211021_070214_CHE_GRO_T1",
+        "date_time": "2021-10-21 07:02:14",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8436,13 +8289,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211021_073132_CHE_GRO_T2",
-        "eventDate": "2021-10-21T07:31:32",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211021_073132_CHE_GRO_T2",
+        "date_time": "2021-10-21 07:31:32",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8512,13 +8362,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211021_080934_CHE_FER_T5",
-        "eventDate": "2021-10-21T08:09:34",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211021_080934_CHE_FER_T5",
+        "date_time": "2021-10-21 08:09:34",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8572,13 +8419,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211021_082318_CHE_FER_T4",
-        "eventDate": "2021-10-21T08:23:18",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211021_082318_CHE_FER_T4",
+        "date_time": "2021-10-21 08:23:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8624,13 +8468,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211021_085358_CHE_FER_T3",
-        "eventDate": "2021-10-21T08:53:58",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211021_085358_CHE_FER_T3",
+        "date_time": "2021-10-21 08:53:58",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8664,13 +8505,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211021_090656_CHE_FER_T2",
-        "eventDate": "2021-10-21T09:06:56",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211021_090656_CHE_FER_T2",
+        "date_time": "2021-10-21 09:06:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8712,13 +8550,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211021_094416_CHE_FER_T1",
-        "eventDate": "2021-10-21T09:44:16",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211021_094416_CHE_FER_T1",
+        "date_time": "2021-10-21 09:44:16",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8764,13 +8599,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211023_092100_CHE_NUL_T3",
-        "eventDate": "2021-10-23T09:21:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211023_092100_CHE_NUL_T3",
+        "date_time": "2021-10-23 09:21:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -8892,13 +8724,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211023_110536_CHE_NUL_T5",
-        "eventDate": "2021-10-23T11:05:36",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211023_110536_CHE_NUL_T5",
+        "date_time": "2021-10-23 11:05:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -9084,13 +8913,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211023_115146_CHE_NUL_T6",
-        "eventDate": "2021-10-23T11:51:46",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211023_115146_CHE_NUL_T6",
+        "date_time": "2021-10-23 11:51:46",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -9180,13 +9006,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211023_144550_CHE_NUL_T7",
-        "eventDate": "2021-10-23T14:45:50",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211023_144550_CHE_NUL_T7",
+        "date_time": "2021-10-23 14:45:50",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -9392,13 +9215,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211023_161548_CHE_NUL_T4",
-        "eventDate": "2021-10-23T16:15:48",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211023_161548_CHE_NUL_T4",
+        "date_time": "2021-10-23 16:15:48",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -9492,13 +9312,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211024_091430_CHE_NUL_T1",
-        "eventDate": "2021-10-24T09:14:30",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211024_091430_CHE_NUL_T1",
+        "date_time": "2021-10-24 09:14:30",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -9636,13 +9453,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211024_102941_CHE_NUL_T2",
-        "eventDate": "2021-10-24T10:29:41",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211024_102941_CHE_NUL_T2",
+        "date_time": "2021-10-24 10:29:41",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -9744,13 +9558,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211025_085238_CHE_ORO_T2",
-        "eventDate": "2021-10-25T08:52:38",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211025_085238_CHE_ORO_T2",
+        "date_time": "2021-10-25 08:52:38",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -9932,13 +9743,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211025_111430_CHE_ORO_T6",
-        "eventDate": "2021-10-25T11:14:30",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211025_111430_CHE_ORO_T6",
+        "date_time": "2021-10-25 11:14:30",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -10124,13 +9932,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211025_125440_CHE_ORO_T5",
-        "eventDate": "2021-10-25T12:54:40",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211025_125440_CHE_ORO_T5",
+        "date_time": "2021-10-25 12:54:40",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -10292,13 +10097,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211025_144810_CHE_ORO_T3",
-        "eventDate": "2021-10-25T14:48:10",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211025_144810_CHE_ORO_T3",
+        "date_time": "2021-10-25 14:48:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -10452,13 +10254,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211025_161234_CHE_ORO_T4",
-        "eventDate": "2021-10-25T16:12:34",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211025_161234_CHE_ORO_T4",
+        "date_time": "2021-10-25 16:12:34",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -10588,13 +10387,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211026_082320_CHE_ORO_T1",
-        "eventDate": "2021-10-26T08:23:20",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211026_082320_CHE_ORO_T1",
+        "date_time": "2021-10-26 08:23:20",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -10688,13 +10484,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211026_094748_CHE_ORO_T7",
-        "eventDate": "2021-10-26T09:47:48",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211026_094748_CHE_ORO_T7",
+        "date_time": "2021-10-26 09:47:48",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -10792,13 +10585,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211123_031926_CHE_CRO_T1",
-        "eventDate": "2021-11-23T03:19:26",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211123_031926_CHE_CRO_T1",
+        "date_time": "2021-11-23 03:19:26",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -10888,13 +10678,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211123_110744_CHE_CRO_T2",
-        "eventDate": "2021-11-23T11:07:44",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211123_110744_CHE_CRO_T2",
+        "date_time": "2021-11-23 11:07:44",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -10972,13 +10759,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211123_122554_CHE_TOR_T1",
-        "eventDate": "2021-11-23T12:25:54",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211123_122554_CHE_TOR_T1",
+        "date_time": "2021-11-23 12:25:54",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -11076,13 +10860,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211130_114012_CHE_GUA_T3",
-        "eventDate": "2021-11-30T11:40:12",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211130_114012_CHE_GUA_T3",
+        "date_time": "2021-11-30 11:40:12",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -11172,13 +10953,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211130_123642_CHE_GUA_T2",
-        "eventDate": "2021-11-30T12:36:42",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211130_123642_CHE_GUA_T2",
+        "date_time": "2021-11-30 12:36:42",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -11280,13 +11058,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20211130_140056_CHE_GUA_T1",
-        "eventDate": "2021-11-30T14:00:56",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20211130_140056_CHE_GUA_T1",
+        "date_time": "2021-11-30 14:00:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -11420,13 +11195,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220531_163926_MEN_T1",
-        "eventDate": "2022-05-31T16:39:26",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220531_163926_MEN_T1",
+        "date_time": "2022-05-31 16:39:26",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -11632,13 +11404,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220601_083919_MEN_T3",
-        "eventDate": "2022-06-01T08:39:19",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220601_083919_MEN_T3",
+        "date_time": "2022-06-01 08:39:19",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -11844,13 +11613,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220602_130321_MEN_T4",
-        "eventDate": "2022-06-02T13:03:21",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220602_130321_MEN_T4",
+        "date_time": "2022-06-02 13:03:21",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -12056,13 +11822,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220602_132734_MEN_T5",
-        "eventDate": "2022-06-02T13:27:34",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220602_132734_MEN_T5",
+        "date_time": "2022-06-02 13:27:34",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -12268,13 +12031,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220604_083028_MEN_T2",
-        "eventDate": "2022-06-04T08:30:28",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220604_083028_MEN_T2",
+        "date_time": "2022-06-04 08:30:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -12480,13 +12240,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220606_080309_MEN_T7",
-        "eventDate": "2022-06-06T08:03:09",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220606_080309_MEN_T7",
+        "date_time": "2022-06-06 08:03:09",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -12692,13 +12449,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220606_090248_MEN_T8",
-        "eventDate": "2022-06-06T09:02:48",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220606_090248_MEN_T8",
+        "date_time": "2022-06-06 09:02:48",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -12904,13 +12658,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220606_101332_MEN_T9",
-        "eventDate": "2022-06-06T10:13:32",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220606_101332_MEN_T9",
+        "date_time": "2022-06-06 10:13:32",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -13116,13 +12867,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220606_120230_MEN_T10",
-        "eventDate": "2022-06-06T12:02:30",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220606_120230_MEN_T10",
+        "date_time": "2022-06-06 12:02:30",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -13328,13 +13076,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220606_131713_MEN_T11",
-        "eventDate": "2022-06-06T13:17:13",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220606_131713_MEN_T11",
+        "date_time": "2022-06-06 13:17:13",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -13540,13 +13285,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220606_154513_MEN_T12",
-        "eventDate": "2022-06-06T15:45:13",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220606_154513_MEN_T12",
+        "date_time": "2022-06-06 15:45:13",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -13752,13 +13494,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220606_170753_MEN_T13",
-        "eventDate": "2022-06-06T17:07:53",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220606_170753_MEN_T13",
+        "date_time": "2022-06-06 17:07:53",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -13964,13 +13703,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220608_114358_MEN_T14",
-        "eventDate": "2022-06-08T11:43:58",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220608_114358_MEN_T14",
+        "date_time": "2022-06-08 11:43:58",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -14176,13 +13912,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220610_181906_MEN_T6",
-        "eventDate": "2022-06-10T18:19:06",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220610_181906_MEN_T6",
+        "date_time": "2022-06-10 18:19:06",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -14388,13 +14121,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220611_153440_MALL_T1",
-        "eventDate": "2022-06-11T15:34:40",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220611_153440_MALL_T1",
+        "date_time": "2022-06-11 15:34:40",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -14600,13 +14330,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220705_163510_IF_T11",
-        "eventDate": "2022-07-05T16:35:10",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220705_163510_IF_T11",
+        "date_time": "2022-07-05 16:35:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -14812,13 +14539,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220707_071216_IF_T13",
-        "eventDate": "2022-07-07T07:12:16",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220707_071216_IF_T13",
+        "date_time": "2022-07-07 07:12:16",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -15024,13 +14748,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220707_081623_IF_T14",
-        "eventDate": "2022-07-07T08:16:23",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220707_081623_IF_T14",
+        "date_time": "2022-07-07 08:16:23",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -15236,13 +14957,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220707_085350_IF_T15",
-        "eventDate": "2022-07-07T08:53:50",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220707_085350_IF_T15",
+        "date_time": "2022-07-07 08:53:50",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -15448,13 +15166,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220707_093458_IF_T12",
-        "eventDate": "2022-07-07T09:34:58",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220707_093458_IF_T12",
+        "date_time": "2022-07-07 09:34:58",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -15660,13 +15375,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220707_180501_IF_T18",
-        "eventDate": "2022-07-07T18:05:01",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220707_180501_IF_T18",
+        "date_time": "2022-07-07 18:05:01",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -15872,13 +15584,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220709_105837_IF_T17",
-        "eventDate": "2022-07-09T10:58:37",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220709_105837_IF_T17",
+        "date_time": "2022-07-09 10:58:37",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -16084,13 +15793,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220712_083040_IF_T16",
-        "eventDate": "2022-07-12T08:30:40",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220712_083040_IF_T16",
+        "date_time": "2022-07-12 08:30:40",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -16296,13 +16002,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220916_145939_MALL_T2",
-        "eventDate": "2022-09-16T14:59:39",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220916_145939_MALL_T2",
+        "date_time": "2022-09-16 14:59:39",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -16508,13 +16211,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220917_160443_MALL_T5",
-        "eventDate": "2022-09-17T16:04:43",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220917_160443_MALL_T5",
+        "date_time": "2022-09-17 16:04:43",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -16720,13 +16420,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220917_172502_MALL_T4",
-        "eventDate": "2022-09-17T17:25:02",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220917_172502_MALL_T4",
+        "date_time": "2022-09-17 17:25:02",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -16932,13 +16629,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220918_164121_MALL_T6",
-        "eventDate": "2022-09-18T16:41:21",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220918_164121_MALL_T6",
+        "date_time": "2022-09-18 16:41:21",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -17144,13 +16838,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220918_172938_MALL_T3",
-        "eventDate": "2022-09-18T17:29:38",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220918_172938_MALL_T3",
+        "date_time": "2022-09-18 17:29:38",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -17300,13 +16991,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220919_153309_MALL_T8",
-        "eventDate": "2022-09-19T15:33:09",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220919_153309_MALL_T8",
+        "date_time": "2022-09-19 15:33:09",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -17512,13 +17200,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220920_141903_MALL_T16",
-        "eventDate": "2022-09-20T14:19:03",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220920_141903_MALL_T16",
+        "date_time": "2022-09-20 14:19:03",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -17724,13 +17409,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220920_150821_MALL_T15",
-        "eventDate": "2022-09-20T15:08:21",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220920_150821_MALL_T15",
+        "date_time": "2022-09-20 15:08:21",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -17936,13 +17618,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220920_155640_MALL_T14",
-        "eventDate": "2022-09-20T15:56:40",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220920_155640_MALL_T14",
+        "date_time": "2022-09-20 15:56:40",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -18072,13 +17751,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220921_094726_MALL_T13",
-        "eventDate": "2022-09-21T09:47:26",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220921_094726_MALL_T13",
+        "date_time": "2022-09-21 09:47:26",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -18216,13 +17892,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220921_105156_MALL_T11",
-        "eventDate": "2022-09-21T10:51:56",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220921_105156_MALL_T11",
+        "date_time": "2022-09-21 10:51:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -18364,13 +18037,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220921_153033_MALL_T12",
-        "eventDate": "2022-09-21T15:30:33",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220921_153033_MALL_T12",
+        "date_time": "2022-09-21 15:30:33",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -18436,13 +18106,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220921_162159_MALL_T10",
-        "eventDate": "2022-09-21T16:21:59",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220921_162159_MALL_T10",
+        "date_time": "2022-09-21 16:21:59",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -18648,13 +18315,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220922_124448_MALL_T9",
-        "eventDate": "2022-09-22T12:44:48",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220922_124448_MALL_T9",
+        "date_time": "2022-09-22 12:44:48",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -18860,13 +18524,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20220923_170146_MALL_T7",
-        "eventDate": "2022-09-23T17:01:46",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20220923_170146_MALL_T7",
+        "date_time": "2022-09-23 17:01:46",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -18920,13 +18581,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221017_103900_MUR_T3",
-        "eventDate": "2022-10-17T10:39:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221017_103900_MUR_T3",
+        "date_time": "2022-10-17 10:39:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -19000,13 +18658,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221017_114800_MUR_T1",
-        "eventDate": "2022-10-17T11:48:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221017_114800_MUR_T1",
+        "date_time": "2022-10-17 11:48:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -19120,13 +18775,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221017_120800_MUR_T4",
-        "eventDate": "2022-10-17T12:08:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221017_120800_MUR_T4",
+        "date_time": "2022-10-17 12:08:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -19236,13 +18888,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221017_124600_MUR_T5",
-        "eventDate": "2022-10-17T12:46:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221017_124600_MUR_T5",
+        "date_time": "2022-10-17 12:46:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -19340,13 +18989,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221018_110400_MUR_T2",
-        "eventDate": "2022-10-18T11:04:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221018_110400_MUR_T2",
+        "date_time": "2022-10-18 11:04:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -19516,13 +19162,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221018_114500_MUR_T6",
-        "eventDate": "2022-10-18T11:45:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221018_114500_MUR_T6",
+        "date_time": "2022-10-18 11:45:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -19600,13 +19243,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221018_121700_MUR_T8",
-        "eventDate": "2022-10-18T12:17:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221018_121700_MUR_T8",
+        "date_time": "2022-10-18 12:17:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -19684,13 +19324,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221018_125400_MUR_T13",
-        "eventDate": "2022-10-18T12:54:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221018_125400_MUR_T13",
+        "date_time": "2022-10-18 12:54:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -19780,13 +19417,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221018_132700_MUR_T11",
-        "eventDate": "2022-10-18T13:27:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221018_132700_MUR_T11",
+        "date_time": "2022-10-18 13:27:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -19904,13 +19538,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221027_105500_MUR_T25",
-        "eventDate": "2022-10-27T10:55:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221027_105500_MUR_T25",
+        "date_time": "2022-10-27 10:55:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -20108,13 +19739,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221027_112000_MUR_T24",
-        "eventDate": "2022-10-27T11:20:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221027_112000_MUR_T24",
+        "date_time": "2022-10-27 11:20:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -20208,13 +19836,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221027_115400_MUR_T23",
-        "eventDate": "2022-10-27T11:54:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221027_115400_MUR_T23",
+        "date_time": "2022-10-27 11:54:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -20300,13 +19925,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221027_121400_MUR_T22",
-        "eventDate": "2022-10-27T12:14:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221027_121400_MUR_T22",
+        "date_time": "2022-10-27 12:14:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -20388,13 +20010,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221027_124300_MUR_T21",
-        "eventDate": "2022-10-27T12:43:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221027_124300_MUR_T21",
+        "date_time": "2022-10-27 12:43:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -20476,13 +20095,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221027_125900_MUR_T20",
-        "eventDate": "2022-10-27T12:59:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221027_125900_MUR_T20",
+        "date_time": "2022-10-27 12:59:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -20556,13 +20172,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221027_131700_MUR_T19",
-        "eventDate": "2022-10-27T13:17:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221027_131700_MUR_T19",
+        "date_time": "2022-10-27 13:17:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -20620,13 +20233,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221027_133700_MUR_T18",
-        "eventDate": "2022-10-27T13:37:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221027_133700_MUR_T18",
+        "date_time": "2022-10-27 13:37:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -20704,13 +20314,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221028_123209_MUR_T28",
-        "eventDate": "2022-10-28T12:32:09",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221028_123209_MUR_T28",
+        "date_time": "2022-10-28 12:32:09",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -20916,13 +20523,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221028_132805_MUR_T27",
-        "eventDate": "2022-10-28T13:28:05",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221028_132805_MUR_T27",
+        "date_time": "2022-10-28 13:28:05",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -21128,13 +20732,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221028_140736_MUR_T26",
-        "eventDate": "2022-10-28T14:07:36",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221028_140736_MUR_T26",
+        "date_time": "2022-10-28 14:07:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -21340,13 +20941,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221108_102700_IF_T21",
-        "eventDate": "2022-11-08T10:27:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221108_102700_IF_T21",
+        "date_time": "2022-11-08 10:27:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -21448,13 +21046,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221108_104022_MUR_T29",
-        "eventDate": "2022-11-08T10:40:22",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221108_104022_MUR_T29",
+        "date_time": "2022-11-08 10:40:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -21660,13 +21255,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221108_104600_IF_T22",
-        "eventDate": "2022-11-08T10:46:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221108_104600_IF_T22",
+        "date_time": "2022-11-08 10:46:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -21748,13 +21340,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221108_110324_MUR_T30",
-        "eventDate": "2022-11-08T11:03:24",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221108_110324_MUR_T30",
+        "date_time": "2022-11-08 11:03:24",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -21960,13 +21549,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221108_112900_IF_T23",
-        "eventDate": "2022-11-08T11:29:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221108_112900_IF_T23",
+        "date_time": "2022-11-08 11:29:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -22092,13 +21678,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221108_113229_MUR_T31",
-        "eventDate": "2022-11-08T11:32:29",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221108_113229_MUR_T31",
+        "date_time": "2022-11-08 11:32:29",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -22304,13 +21887,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221108_113909_MUR_T32",
-        "eventDate": "2022-11-08T11:39:09",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221108_113909_MUR_T32",
+        "date_time": "2022-11-08 11:39:09",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -22516,13 +22096,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221108_115900_IF_T24",
-        "eventDate": "2022-11-08T11:59:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221108_115900_IF_T24",
+        "date_time": "2022-11-08 11:59:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -22620,13 +22197,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221108_120825_MUR_T34",
-        "eventDate": "2022-11-08T12:08:25",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221108_120825_MUR_T34",
+        "date_time": "2022-11-08 12:08:25",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -22832,13 +22406,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221109_102500_MUR_T12",
-        "eventDate": "2022-11-09T10:25:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221109_102500_MUR_T12",
+        "date_time": "2022-11-09 10:25:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -22952,13 +22523,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221109_104013_MUR_T41",
-        "eventDate": "2022-11-09T10:40:13",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221109_104013_MUR_T41",
+        "date_time": "2022-11-09 10:40:13",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -23164,13 +22732,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221109_105423_MUR_T40",
-        "eventDate": "2022-11-09T10:54:23",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221109_105423_MUR_T40",
+        "date_time": "2022-11-09 10:54:23",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -23376,13 +22941,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221109_111846_MUR_T39",
-        "eventDate": "2022-11-09T11:18:46",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221109_111846_MUR_T39",
+        "date_time": "2022-11-09 11:18:46",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -23588,13 +23150,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221109_112500_MUR_T10",
-        "eventDate": "2022-11-09T11:25:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221109_112500_MUR_T10",
+        "date_time": "2022-11-09 11:25:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -23800,13 +23359,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221109_114127_MUR_T38",
-        "eventDate": "2022-11-09T11:41:27",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221109_114127_MUR_T38",
+        "date_time": "2022-11-09 11:41:27",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -24012,13 +23568,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221109_120709_MUR_T35",
-        "eventDate": "2022-11-09T12:07:09",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221109_120709_MUR_T35",
+        "date_time": "2022-11-09 12:07:09",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -24224,13 +23777,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221109_121800_MUR_T9",
-        "eventDate": "2022-11-09T12:18:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221109_121800_MUR_T9",
+        "date_time": "2022-11-09 12:18:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -24352,13 +23902,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221109_123117_MUR_T33",
-        "eventDate": "2022-11-09T12:31:17",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221109_123117_MUR_T33",
+        "date_time": "2022-11-09 12:31:17",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -24564,13 +24111,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221109_130000_MUR_T7",
-        "eventDate": "2022-11-09T13:00:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221109_130000_MUR_T7",
+        "date_time": "2022-11-09 13:00:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -24720,13 +24264,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221110_103437_MUR_T47",
-        "eventDate": "2022-11-10T10:34:37",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221110_103437_MUR_T47",
+        "date_time": "2022-11-10 10:34:37",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -24932,13 +24473,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221110_104817_MUR_T46",
-        "eventDate": "2022-11-10T10:48:17",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221110_104817_MUR_T46",
+        "date_time": "2022-11-10 10:48:17",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -25144,13 +24682,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221110_111251_MUR_T45",
-        "eventDate": "2022-11-10T11:12:51",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221110_111251_MUR_T45",
+        "date_time": "2022-11-10 11:12:51",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -25356,13 +24891,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221110_112616_MUR_T44",
-        "eventDate": "2022-11-10T11:26:16",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221110_112616_MUR_T44",
+        "date_time": "2022-11-10 11:26:16",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -25568,13 +25100,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221110_113906_MUR_T43",
-        "eventDate": "2022-11-10T11:39:06",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221110_113906_MUR_T43",
+        "date_time": "2022-11-10 11:39:06",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -25780,13 +25309,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221110_120048_MUR_T42",
-        "eventDate": "2022-11-10T12:00:48",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221110_120048_MUR_T42",
+        "date_time": "2022-11-10 12:00:48",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -25992,13 +25518,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221110_123454_MUR_T37",
-        "eventDate": "2022-11-10T12:34:54",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221110_123454_MUR_T37",
+        "date_time": "2022-11-10 12:34:54",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -26204,13 +25727,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221110_125828_MUR_T36",
-        "eventDate": "2022-11-10T12:58:28",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221110_125828_MUR_T36",
+        "date_time": "2022-11-10 12:58:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -26416,13 +25936,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221115_105200_IF_T25",
-        "eventDate": "2022-11-15T10:52:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221115_105200_IF_T25",
+        "date_time": "2022-11-15 10:52:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -26628,13 +26145,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221115_121700_IF_T26",
-        "eventDate": "2022-11-15T12:17:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221115_121700_IF_T26",
+        "date_time": "2022-11-15 12:17:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -26840,13 +26354,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221115_142000_IF_T27",
-        "eventDate": "2022-11-15T14:20:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221115_142000_IF_T27",
+        "date_time": "2022-11-15 14:20:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -27052,13 +26563,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221115_163100_IF_T28",
-        "eventDate": "2022-11-15T16:31:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221115_163100_IF_T28",
+        "date_time": "2022-11-15 16:31:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -27264,13 +26772,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221117_112400_IF_T31",
-        "eventDate": "2022-11-17T11:24:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221117_112400_IF_T31",
+        "date_time": "2022-11-17 11:24:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -27408,13 +26913,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221117_115900_IF_T30",
-        "eventDate": "2022-11-17T11:59:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221117_115900_IF_T30",
+        "date_time": "2022-11-17 11:59:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -27620,13 +27122,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221117_125100_IF_T32",
-        "eventDate": "2022-11-17T12:51:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221117_125100_IF_T32",
+        "date_time": "2022-11-17 12:51:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -27832,13 +27331,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221117_133300_IF_T33",
-        "eventDate": "2022-11-17T13:33:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221117_133300_IF_T33",
+        "date_time": "2022-11-17 13:33:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -28044,13 +27540,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221117_152000_IF_T34",
-        "eventDate": "2022-11-17T15:20:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221117_152000_IF_T34",
+        "date_time": "2022-11-17 15:20:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -28232,13 +27725,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221117_161900_IF_T35",
-        "eventDate": "2022-11-17T16:19:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221117_161900_IF_T35",
+        "date_time": "2022-11-17 16:19:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -28444,13 +27934,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20221117_171100_IF_T29",
-        "eventDate": "2022-11-17T17:11:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20221117_171100_IF_T29",
+        "date_time": "2022-11-17 17:11:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -28656,13 +28143,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230502_101600_MUR_T16",
-        "eventDate": "2023-05-02T10:16:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230502_101600_MUR_T16",
+        "date_time": "2023-05-02 10:16:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -28804,13 +28288,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230502_105100_MUR_T15",
-        "eventDate": "2023-05-02T10:51:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230502_105100_MUR_T15",
+        "date_time": "2023-05-02 10:51:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -28992,13 +28473,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230502_111700_MUR_T14",
-        "eventDate": "2023-05-02T11:17:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230502_111700_MUR_T14",
+        "date_time": "2023-05-02 11:17:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -29132,13 +28610,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230502_140400_MUR_T17",
-        "eventDate": "2023-05-02T14:04:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230502_140400_MUR_T17",
+        "date_time": "2023-05-02 14:04:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -29296,13 +28771,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230529_143140_ANDA_T1",
-        "eventDate": "2023-05-29T14:31:40",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230529_143140_ANDA_T1",
+        "date_time": "2023-05-29 14:31:40",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -29508,13 +28980,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230529_151339_ANDA_T2",
-        "eventDate": "2023-05-29T15:13:39",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230529_151339_ANDA_T2",
+        "date_time": "2023-05-29 15:13:39",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -29720,13 +29189,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230529_163020_ANDA_T3",
-        "eventDate": "2023-05-29T16:30:20",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230529_163020_ANDA_T3",
+        "date_time": "2023-05-29 16:30:20",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -29932,13 +29398,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230529_165057_ANDA_T4",
-        "eventDate": "2023-05-29T16:50:57",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230529_165057_ANDA_T4",
+        "date_time": "2023-05-29 16:50:57",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -30144,13 +29607,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230529_175429_ANDA_T5",
-        "eventDate": "2023-05-29T17:54:29",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230529_175429_ANDA_T5",
+        "date_time": "2023-05-29 17:54:29",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -30356,13 +29816,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230530_101806_ANDA_T7",
-        "eventDate": "2023-05-30T10:18:06",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230530_101806_ANDA_T7",
+        "date_time": "2023-05-30 10:18:06",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -30568,13 +30025,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230530_104630_ANDA_T6",
-        "eventDate": "2023-05-30T10:46:30",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230530_104630_ANDA_T6",
+        "date_time": "2023-05-30 10:46:30",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -30780,13 +30234,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230531_111127_ANDA_T12",
-        "eventDate": "2023-05-31T11:11:27",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230531_111127_ANDA_T12",
+        "date_time": "2023-05-31 11:11:27",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -30992,13 +30443,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230531_113048_ANDA_T10",
-        "eventDate": "2023-05-31T11:30:48",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230531_113048_ANDA_T10",
+        "date_time": "2023-05-31 11:30:48",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -31204,13 +30652,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230531_113955_ANDA_T11",
-        "eventDate": "2023-05-31T11:39:55",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230531_113955_ANDA_T11",
+        "date_time": "2023-05-31 11:39:55",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -31416,13 +30861,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230531_121655_ANDA_T9",
-        "eventDate": "2023-05-31T12:16:55",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230531_121655_ANDA_T9",
+        "date_time": "2023-05-31 12:16:55",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -31628,13 +31070,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230531_145541_ANDA_T8",
-        "eventDate": "2023-05-31T14:55:41",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230531_145541_ANDA_T8",
+        "date_time": "2023-05-31 14:55:41",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -31840,13 +31279,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230601_153600_CAN_GC_01_C",
-        "eventDate": "2023-06-01T15:36:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230601_153600_CAN_GC_01_C",
+        "date_time": "2023-06-01 15:36:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -31864,13 +31300,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230601_155000_CAN_GC_01_N",
-        "eventDate": "2023-06-01T15:50:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230601_155000_CAN_GC_01_N",
+        "date_time": "2023-06-01 15:50:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -31888,13 +31321,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230601_160000_CAN_GC_01_S",
-        "eventDate": "2023-06-01T16:00:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230601_160000_CAN_GC_01_S",
+        "date_time": "2023-06-01 16:00:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -31912,13 +31342,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230601_161400_CAN_GC_02_N",
-        "eventDate": "2023-06-01T16:14:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230601_161400_CAN_GC_02_N",
+        "date_time": "2023-06-01 16:14:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -31936,13 +31363,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230601_161900_CAN_GC_02_N",
-        "eventDate": "2023-06-01T16:19:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230601_161900_CAN_GC_02_N",
+        "date_time": "2023-06-01 16:19:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -31960,13 +31384,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230601_162800_CAN_GC_02_C",
-        "eventDate": "2023-06-01T16:28:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230601_162800_CAN_GC_02_C",
+        "date_time": "2023-06-01 16:28:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -31984,13 +31405,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230601_164000_CAN_GC_02_S",
-        "eventDate": "2023-06-01T16:40:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230601_164000_CAN_GC_02_S",
+        "date_time": "2023-06-01 16:40:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32008,13 +31426,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230601_165600_CAN_GC_02_S",
-        "eventDate": "2023-06-01T16:56:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230601_165600_CAN_GC_02_S",
+        "date_time": "2023-06-01 16:56:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32032,13 +31447,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230601_170500_CAN_GC_02_C",
-        "eventDate": "2023-06-01T17:05:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230601_170500_CAN_GC_02_C",
+        "date_time": "2023-06-01 17:05:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32056,13 +31468,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230602_110500_CAN_GC_12_N",
-        "eventDate": "2023-06-02T11:05:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230602_110500_CAN_GC_12_N",
+        "date_time": "2023-06-02 11:05:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32080,13 +31489,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230602_114000_CAN_GC_12_C",
-        "eventDate": "2023-06-02T11:40:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230602_114000_CAN_GC_12_C",
+        "date_time": "2023-06-02 11:40:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32104,13 +31510,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230602_120000_CAN_GC_12_S",
-        "eventDate": "2023-06-02T12:00:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230602_120000_CAN_GC_12_S",
+        "date_time": "2023-06-02 12:00:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32128,13 +31531,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230602_144000_CAN_GC_11_N",
-        "eventDate": "2023-06-02T14:40:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230602_144000_CAN_GC_11_N",
+        "date_time": "2023-06-02 14:40:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32152,13 +31552,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230602_145200_CAN_GC_11_C",
-        "eventDate": "2023-06-02T14:52:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230602_145200_CAN_GC_11_C",
+        "date_time": "2023-06-02 14:52:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32176,13 +31573,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230602_150100_CAN_GC_11_S",
-        "eventDate": "2023-06-02T15:01:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230602_150100_CAN_GC_11_S",
+        "date_time": "2023-06-02 15:01:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32200,13 +31594,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230603_135000_CAN_LG_01_C",
-        "eventDate": "2023-06-03T13:50:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230603_135000_CAN_LG_01_C",
+        "date_time": "2023-06-03 13:50:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32224,13 +31615,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230603_135900_CAN_LG_01_N",
-        "eventDate": "2023-06-03T13:59:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230603_135900_CAN_LG_01_N",
+        "date_time": "2023-06-03 13:59:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32248,13 +31636,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230603_145100_CAN_LG_02_N",
-        "eventDate": "2023-06-03T14:51:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230603_145100_CAN_LG_02_N",
+        "date_time": "2023-06-03 14:51:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32272,13 +31657,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230603_150100_CAN_LG_02_C",
-        "eventDate": "2023-06-03T15:01:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230603_150100_CAN_LG_02_C",
+        "date_time": "2023-06-03 15:01:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32296,13 +31678,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230603_151500_CAN_LG_02_S",
-        "eventDate": "2023-06-03T15:15:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230603_151500_CAN_LG_02_S",
+        "date_time": "2023-06-03 15:15:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32320,13 +31699,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_092623_ANDA_T20",
-        "eventDate": "2023-06-04T09:26:23",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_092623_ANDA_T20",
+        "date_time": "2023-06-04 09:26:23",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32532,13 +31908,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_103206_ANDA_T19",
-        "eventDate": "2023-06-04T10:32:06",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_103206_ANDA_T19",
+        "date_time": "2023-06-04 10:32:06",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32744,13 +32117,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_114200_CAN_TF_07_S",
-        "eventDate": "2023-06-04T11:42:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_114200_CAN_TF_07_S",
+        "date_time": "2023-06-04 11:42:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32768,13 +32138,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_115133_ANDA_T18",
-        "eventDate": "2023-06-04T11:51:33",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_115133_ANDA_T18",
+        "date_time": "2023-06-04 11:51:33",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -32980,13 +32347,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_115400_CAN_TF_07_N",
-        "eventDate": "2023-06-04T11:54:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_115400_CAN_TF_07_N",
+        "date_time": "2023-06-04 11:54:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -33004,13 +32368,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_120900_CAN_TF_07_H",
-        "eventDate": "2023-06-04T12:09:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_120900_CAN_TF_07_H",
+        "date_time": "2023-06-04 12:09:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -33028,13 +32389,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_123200_CAN_TF_06_S",
-        "eventDate": "2023-06-04T12:32:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_123200_CAN_TF_06_S",
+        "date_time": "2023-06-04 12:32:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -33052,13 +32410,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_124800_CAN_TF_06_C",
-        "eventDate": "2023-06-04T12:48:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_124800_CAN_TF_06_C",
+        "date_time": "2023-06-04 12:48:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -33076,13 +32431,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_130900_CAN_TF_06_N",
-        "eventDate": "2023-06-04T13:09:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_130900_CAN_TF_06_N",
+        "date_time": "2023-06-04 13:09:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -33100,13 +32452,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_132800_CAN_TF_05_S",
-        "eventDate": "2023-06-04T13:28:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_132800_CAN_TF_05_S",
+        "date_time": "2023-06-04 13:28:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -33124,13 +32473,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_134500_CAN_TF_05_C",
-        "eventDate": "2023-06-04T13:45:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_134500_CAN_TF_05_C",
+        "date_time": "2023-06-04 13:45:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -33148,13 +32494,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_141200_CAN_TF_05_N",
-        "eventDate": "2023-06-04T14:12:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_141200_CAN_TF_05_N",
+        "date_time": "2023-06-04 14:12:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -33172,13 +32515,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_155428_ANDA_T17",
-        "eventDate": "2023-06-04T15:54:28",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_155428_ANDA_T17",
+        "date_time": "2023-06-04 15:54:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -33384,13 +32724,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_160104_ANDA_T16",
-        "eventDate": "2023-06-04T16:01:04",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_160104_ANDA_T16",
+        "date_time": "2023-06-04 16:01:04",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -33596,13 +32933,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_171113_ANDA_T15",
-        "eventDate": "2023-06-04T17:11:13",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_171113_ANDA_T15",
+        "date_time": "2023-06-04 17:11:13",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -33808,13 +33142,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_172144_ANDA_T13",
-        "eventDate": "2023-06-04T17:21:44",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_172144_ANDA_T13",
+        "date_time": "2023-06-04 17:21:44",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -34020,13 +33351,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230604_173915_ANDA_T14",
-        "eventDate": "2023-06-04T17:39:15",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230604_173915_ANDA_T14",
+        "date_time": "2023-06-04 17:39:15",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -34232,13 +33560,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_102310_ANDA_T21",
-        "eventDate": "2023-06-05T10:23:10",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_102310_ANDA_T21",
+        "date_time": "2023-06-05 10:23:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -34444,13 +33769,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_111101_ANDA_T22",
-        "eventDate": "2023-06-05T11:11:01",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_111101_ANDA_T22",
+        "date_time": "2023-06-05 11:11:01",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -34656,13 +33978,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_111900_CAN_TF_10_S",
-        "eventDate": "2023-06-05T11:19:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_111900_CAN_TF_10_S",
+        "date_time": "2023-06-05 11:19:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -34680,13 +33999,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_113800_CAN_TF_10_C",
-        "eventDate": "2023-06-05T11:38:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_113800_CAN_TF_10_C",
+        "date_time": "2023-06-05 11:38:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -34704,13 +34020,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_115100_CAN_TF_10_N",
-        "eventDate": "2023-06-05T11:51:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_115100_CAN_TF_10_N",
+        "date_time": "2023-06-05 11:51:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -34728,13 +34041,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_122000_CAN_TF_11_S",
-        "eventDate": "2023-06-05T12:20:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_122000_CAN_TF_11_S",
+        "date_time": "2023-06-05 12:20:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -34752,13 +34062,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_130800_CAN_TF_11_C",
-        "eventDate": "2023-06-05T13:08:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_130800_CAN_TF_11_C",
+        "date_time": "2023-06-05 13:08:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -34776,13 +34083,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_132028_ANDA_T23",
-        "eventDate": "2023-06-05T13:20:28",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_132028_ANDA_T23",
+        "date_time": "2023-06-05 13:20:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -34988,13 +34292,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_132500_CAN_TF_11_N",
-        "eventDate": "2023-06-05T13:25:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_132500_CAN_TF_11_N",
+        "date_time": "2023-06-05 13:25:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35012,13 +34313,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_143400_CAN_TF_12_N",
-        "eventDate": "2023-06-05T14:34:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_143400_CAN_TF_12_N",
+        "date_time": "2023-06-05 14:34:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35036,13 +34334,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_145100_CAN_TF_12_C",
-        "eventDate": "2023-06-05T14:51:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_145100_CAN_TF_12_C",
+        "date_time": "2023-06-05 14:51:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35060,13 +34355,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_151200_CAN_TF_12_S",
-        "eventDate": "2023-06-05T15:12:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_151200_CAN_TF_12_S",
+        "date_time": "2023-06-05 15:12:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35084,13 +34376,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_155300_CAN_TF_11_E",
-        "eventDate": "2023-06-05T15:53:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_155300_CAN_TF_11_E",
+        "date_time": "2023-06-05 15:53:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35108,13 +34397,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_171659_ANDA_T24",
-        "eventDate": "2023-06-05T17:16:59",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_171659_ANDA_T24",
+        "date_time": "2023-06-05 17:16:59",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35320,13 +34606,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_173822_ANDA_T25",
-        "eventDate": "2023-06-05T17:38:22",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_173822_ANDA_T25",
+        "date_time": "2023-06-05 17:38:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35532,13 +34815,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230605_180832_ANDA_T26",
-        "eventDate": "2023-06-05T18:08:32",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230605_180832_ANDA_T26",
+        "date_time": "2023-06-05 18:08:32",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35744,13 +35024,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230606_090500_CAN_TF_09_S",
-        "eventDate": "2023-06-06T09:05:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230606_090500_CAN_TF_09_S",
+        "date_time": "2023-06-06 09:05:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35768,13 +35045,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230606_091600_CAN_TF_09_C",
-        "eventDate": "2023-06-06T09:16:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230606_091600_CAN_TF_09_C",
+        "date_time": "2023-06-06 09:16:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35792,13 +35066,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230606_092900_CAN_TF_09_N",
-        "eventDate": "2023-06-06T09:29:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230606_092900_CAN_TF_09_N",
+        "date_time": "2023-06-06 09:29:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35816,13 +35087,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230606_094700_CAN_TF_08_S",
-        "eventDate": "2023-06-06T09:47:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230606_094700_CAN_TF_08_S",
+        "date_time": "2023-06-06 09:47:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35840,13 +35108,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230606_100100_CAN_TF_08_C",
-        "eventDate": "2023-06-06T10:01:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230606_100100_CAN_TF_08_C",
+        "date_time": "2023-06-06 10:01:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35864,13 +35129,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230606_101400_CAN_TF_08_N",
-        "eventDate": "2023-06-06T10:14:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230606_101400_CAN_TF_08_N",
+        "date_time": "2023-06-06 10:14:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35888,13 +35150,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230608_090800_CAN_TF_02_N",
-        "eventDate": "2023-06-08T09:08:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230608_090800_CAN_TF_02_N",
+        "date_time": "2023-06-08 09:08:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35912,13 +35171,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230608_092500_CAN_TF_02_S",
-        "eventDate": "2023-06-08T09:25:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230608_092500_CAN_TF_02_S",
+        "date_time": "2023-06-08 09:25:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35936,13 +35192,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230608_094900_CAN_TF_01_C",
-        "eventDate": "2023-06-08T09:49:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230608_094900_CAN_TF_01_C",
+        "date_time": "2023-06-08 09:49:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35960,13 +35213,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230608_100100_CAN_TF_01_N",
-        "eventDate": "2023-06-08T10:01:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230608_100100_CAN_TF_01_N",
+        "date_time": "2023-06-08 10:01:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -35984,13 +35234,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230608_101100_CAN_TF_01_S",
-        "eventDate": "2023-06-08T10:11:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230608_101100_CAN_TF_01_S",
+        "date_time": "2023-06-08 10:11:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36008,13 +35255,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230608_101900_CAN_TF_01_P",
-        "eventDate": "2023-06-08T10:19:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230608_101900_CAN_TF_01_P",
+        "date_time": "2023-06-08 10:19:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36032,13 +35276,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230612_154600_CAN_GC_09_N",
-        "eventDate": "2023-06-12T15:46:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230612_154600_CAN_GC_09_N",
+        "date_time": "2023-06-12 15:46:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36056,13 +35297,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230612_155300_CAN_GC_09_C",
-        "eventDate": "2023-06-12T15:53:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230612_155300_CAN_GC_09_C",
+        "date_time": "2023-06-12 15:53:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36080,13 +35318,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230612_160100_CAN_GC_09_S",
-        "eventDate": "2023-06-12T16:01:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230612_160100_CAN_GC_09_S",
+        "date_time": "2023-06-12 16:01:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36104,13 +35339,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230612_163800_CAN_GC_10_S",
-        "eventDate": "2023-06-12T16:38:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230612_163800_CAN_GC_10_S",
+        "date_time": "2023-06-12 16:38:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36128,13 +35360,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230612_164600_CAN_GC_10_C",
-        "eventDate": "2023-06-12T16:46:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230612_164600_CAN_GC_10_C",
+        "date_time": "2023-06-12 16:46:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36152,13 +35381,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230612_165400_CAN_GC_10_N",
-        "eventDate": "2023-06-12T16:54:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230612_165400_CAN_GC_10_N",
+        "date_time": "2023-06-12 16:54:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36176,13 +35402,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230612_190800_CAN_GC_08_O",
-        "eventDate": "2023-06-12T19:08:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230612_190800_CAN_GC_08_O",
+        "date_time": "2023-06-12 19:08:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36200,13 +35423,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230612_192000_CAN_GC_08_C",
-        "eventDate": "2023-06-12T19:20:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230612_192000_CAN_GC_08_C",
+        "date_time": "2023-06-12 19:20:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36224,13 +35444,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230612_193000_CAN_GC_08_E",
-        "eventDate": "2023-06-12T19:30:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230612_193000_CAN_GC_08_E",
+        "date_time": "2023-06-12 19:30:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36248,13 +35465,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230613_102000_CAN_GC_07_S",
-        "eventDate": "2023-06-13T10:20:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230613_102000_CAN_GC_07_S",
+        "date_time": "2023-06-13 10:20:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36272,13 +35486,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230613_102900_CAN_GC_07_C",
-        "eventDate": "2023-06-13T10:29:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230613_102900_CAN_GC_07_C",
+        "date_time": "2023-06-13 10:29:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36296,13 +35507,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230613_103900_CAN_GC_07_N",
-        "eventDate": "2023-06-13T10:39:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230613_103900_CAN_GC_07_N",
+        "date_time": "2023-06-13 10:39:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36320,13 +35528,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230613_110400_CAN_GC_06_S",
-        "eventDate": "2023-06-13T11:04:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230613_110400_CAN_GC_06_S",
+        "date_time": "2023-06-13 11:04:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36344,13 +35549,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230613_112800_CAN_GC_06_C",
-        "eventDate": "2023-06-13T11:28:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230613_112800_CAN_GC_06_C",
+        "date_time": "2023-06-13 11:28:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36368,13 +35570,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230613_115700_CAN_GC_06_N",
-        "eventDate": "2023-06-13T11:57:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230613_115700_CAN_GC_06_N",
+        "date_time": "2023-06-13 11:57:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36392,13 +35591,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230613_122300_CAN_GC_05_S",
-        "eventDate": "2023-06-13T12:23:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230613_122300_CAN_GC_05_S",
+        "date_time": "2023-06-13 12:23:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36416,13 +35612,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230613_123600_CAN_GC_05_C",
-        "eventDate": "2023-06-13T12:36:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230613_123600_CAN_GC_05_C",
+        "date_time": "2023-06-13 12:36:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36440,13 +35633,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230613_124900_CAN_GC_05_N",
-        "eventDate": "2023-06-13T12:49:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230613_124900_CAN_GC_05_N",
+        "date_time": "2023-06-13 12:49:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36464,13 +35654,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230619_105000_CAN_LZ_04_N",
-        "eventDate": "2023-06-19T10:50:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230619_105000_CAN_LZ_04_N",
+        "date_time": "2023-06-19 10:50:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36488,13 +35675,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230619_110400_CAN_LZ_04_C",
-        "eventDate": "2023-06-19T11:04:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230619_110400_CAN_LZ_04_C",
+        "date_time": "2023-06-19 11:04:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36512,13 +35696,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230619_111700_CAN_LZ_04_S",
-        "eventDate": "2023-06-19T11:17:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230619_111700_CAN_LZ_04_S",
+        "date_time": "2023-06-19 11:17:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36536,13 +35717,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230619_112900_CAN_LZ_03_C",
-        "eventDate": "2023-06-19T11:29:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230619_112900_CAN_LZ_03_C",
+        "date_time": "2023-06-19 11:29:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36560,13 +35738,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230619_114500_CAN_LZ_03_N",
-        "eventDate": "2023-06-19T11:45:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230619_114500_CAN_LZ_03_N",
+        "date_time": "2023-06-19 11:45:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36584,13 +35759,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230619_121400_CAN_LZ_03_S",
-        "eventDate": "2023-06-19T12:14:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230619_121400_CAN_LZ_03_S",
+        "date_time": "2023-06-19 12:14:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36608,13 +35780,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_103000_CAN_LZ_08_O",
-        "eventDate": "2023-06-20T10:30:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_103000_CAN_LZ_08_O",
+        "date_time": "2023-06-20 10:30:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36632,13 +35801,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_104200_CAN_LZ_08_C",
-        "eventDate": "2023-06-20T10:42:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_104200_CAN_LZ_08_C",
+        "date_time": "2023-06-20 10:42:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36656,13 +35822,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_105700_CAN_LZ_08_E",
-        "eventDate": "2023-06-20T10:57:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_105700_CAN_LZ_08_E",
+        "date_time": "2023-06-20 10:57:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36680,13 +35843,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_112300_CAN_LZ_09_E",
-        "eventDate": "2023-06-20T11:23:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_112300_CAN_LZ_09_E",
+        "date_time": "2023-06-20 11:23:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36704,13 +35864,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_114200_CAN_LZ_09_C",
-        "eventDate": "2023-06-20T11:42:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_114200_CAN_LZ_09_C",
+        "date_time": "2023-06-20 11:42:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36728,13 +35885,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_115900_CAN_LZ_09_O",
-        "eventDate": "2023-06-20T11:59:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_115900_CAN_LZ_09_O",
+        "date_time": "2023-06-20 11:59:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36752,13 +35906,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_120424_ANDA_T66",
-        "eventDate": "2023-06-20T12:04:24",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_120424_ANDA_T66",
+        "date_time": "2023-06-20 12:04:24",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -36964,13 +36115,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_121350_ANDA_T65",
-        "eventDate": "2023-06-20T12:13:50",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_121350_ANDA_T65",
+        "date_time": "2023-06-20 12:13:50",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -37176,13 +36324,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_122812_ANDA_T68",
-        "eventDate": "2023-06-20T12:28:12",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_122812_ANDA_T68",
+        "date_time": "2023-06-20 12:28:12",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -37388,13 +36533,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_122900_CAN_LZ_10_E",
-        "eventDate": "2023-06-20T12:29:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_122900_CAN_LZ_10_E",
+        "date_time": "2023-06-20 12:29:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -37412,13 +36554,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_123552_ANDA_T67",
-        "eventDate": "2023-06-20T12:35:52",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_123552_ANDA_T67",
+        "date_time": "2023-06-20 12:35:52",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -37624,13 +36763,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_124100_CAN_LZ_10_C",
-        "eventDate": "2023-06-20T12:41:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_124100_CAN_LZ_10_C",
+        "date_time": "2023-06-20 12:41:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -37648,13 +36784,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_124946_ANDA_T64",
-        "eventDate": "2023-06-20T12:49:46",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_124946_ANDA_T64",
+        "date_time": "2023-06-20 12:49:46",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -37860,13 +36993,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_130000_CAN_LZ_10_O",
-        "eventDate": "2023-06-20T13:00:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_130000_CAN_LZ_10_O",
+        "date_time": "2023-06-20 13:00:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -37884,13 +37014,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_130830_ANDA_T69",
-        "eventDate": "2023-06-20T13:08:30",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_130830_ANDA_T69",
+        "date_time": "2023-06-20 13:08:30",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -38096,13 +37223,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_131830_ANDA_T70",
-        "eventDate": "2023-06-20T13:18:30",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_131830_ANDA_T70",
+        "date_time": "2023-06-20 13:18:30",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -38308,13 +37432,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_132000_CAN_LZ_11_E",
-        "eventDate": "2023-06-20T13:20:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_132000_CAN_LZ_11_E",
+        "date_time": "2023-06-20 13:20:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -38332,13 +37453,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_134200_CAN_LZ_11_C",
-        "eventDate": "2023-06-20T13:42:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_134200_CAN_LZ_11_C",
+        "date_time": "2023-06-20 13:42:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -38356,13 +37474,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_135210_ANDA_T63",
-        "eventDate": "2023-06-20T13:52:10",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_135210_ANDA_T63",
+        "date_time": "2023-06-20 13:52:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -38568,13 +37683,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_135400_CAN_LZ_11_O",
-        "eventDate": "2023-06-20T13:54:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_135400_CAN_LZ_11_O",
+        "date_time": "2023-06-20 13:54:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -38592,13 +37704,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_140452_ANDA_T62",
-        "eventDate": "2023-06-20T14:04:52",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_140452_ANDA_T62",
+        "date_time": "2023-06-20 14:04:52",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -38804,13 +37913,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_143442_ANDA_T61",
-        "eventDate": "2023-06-20T14:34:42",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_143442_ANDA_T61",
+        "date_time": "2023-06-20 14:34:42",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39016,13 +38122,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230620_150435_ANDA_T60",
-        "eventDate": "2023-06-20T15:04:35",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230620_150435_ANDA_T60",
+        "date_time": "2023-06-20 15:04:35",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39228,13 +38331,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230623_101600_CAN_FTV_01_S",
-        "eventDate": "2023-06-23T10:16:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230623_101600_CAN_FTV_01_S",
+        "date_time": "2023-06-23 10:16:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39252,13 +38352,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230623_103900_CAN_FTV_01_C",
-        "eventDate": "2023-06-23T10:39:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230623_103900_CAN_FTV_01_C",
+        "date_time": "2023-06-23 10:39:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39276,13 +38373,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230623_104600_CAN_FTV_01_N",
-        "eventDate": "2023-06-23T10:46:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230623_104600_CAN_FTV_01_N",
+        "date_time": "2023-06-23 10:46:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39300,13 +38394,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230623_111300_CAN_FTV_02_N",
-        "eventDate": "2023-06-23T11:13:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230623_111300_CAN_FTV_02_N",
+        "date_time": "2023-06-23 11:13:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39324,13 +38415,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230623_113500_CAN_FTV_02_C",
-        "eventDate": "2023-06-23T11:35:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230623_113500_CAN_FTV_02_C",
+        "date_time": "2023-06-23 11:35:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39348,13 +38436,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230623_113600_CAN_FTV_02_S",
-        "eventDate": "2023-06-23T11:36:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230623_113600_CAN_FTV_02_S",
+        "date_time": "2023-06-23 11:36:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39372,13 +38457,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230624_165100_CAN_FTV_08_S",
-        "eventDate": "2023-06-24T16:51:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230624_165100_CAN_FTV_08_S",
+        "date_time": "2023-06-24 16:51:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39396,13 +38478,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230624_170100_CAN_FTV_08_C",
-        "eventDate": "2023-06-24T17:01:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230624_170100_CAN_FTV_08_C",
+        "date_time": "2023-06-24 17:01:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39420,13 +38499,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230624_173000_CAN_FTV_08_N",
-        "eventDate": "2023-06-24T17:30:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230624_173000_CAN_FTV_08_N",
+        "date_time": "2023-06-24 17:30:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39444,13 +38520,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230625_093200_CAN_FTV_06_S",
-        "eventDate": "2023-06-25T09:32:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230625_093200_CAN_FTV_06_S",
+        "date_time": "2023-06-25 09:32:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39468,13 +38541,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230625_093900_CAN_FTV_06_C",
-        "eventDate": "2023-06-25T09:39:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230625_093900_CAN_FTV_06_C",
+        "date_time": "2023-06-25 09:39:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39492,13 +38562,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230625_094700_CAN_FTV_06_N",
-        "eventDate": "2023-06-25T09:47:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230625_094700_CAN_FTV_06_N",
+        "date_time": "2023-06-25 09:47:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39516,13 +38583,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230625_102100_CAN_FTV_07_S",
-        "eventDate": "2023-06-25T10:21:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230625_102100_CAN_FTV_07_S",
+        "date_time": "2023-06-25 10:21:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39540,13 +38604,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230625_102800_CAN_FTV_07_C",
-        "eventDate": "2023-06-25T10:28:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230625_102800_CAN_FTV_07_C",
+        "date_time": "2023-06-25 10:28:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39564,13 +38625,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230625_103800_CAN_FTV_07_N",
-        "eventDate": "2023-06-25T10:38:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230625_103800_CAN_FTV_07_N",
+        "date_time": "2023-06-25 10:38:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39588,13 +38646,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230703_161847_ANDA_T27",
-        "eventDate": "2023-07-03T16:18:47",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230703_161847_ANDA_T27",
+        "date_time": "2023-07-03 16:18:47",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -39800,13 +38855,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230703_170737_ANDA_T28",
-        "eventDate": "2023-07-03T17:07:37",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230703_170737_ANDA_T28",
+        "date_time": "2023-07-03 17:07:37",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -40012,13 +39064,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230703_173555_ANDA_T29",
-        "eventDate": "2023-07-03T17:35:55",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230703_173555_ANDA_T29",
+        "date_time": "2023-07-03 17:35:55",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -40224,13 +39273,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230703_181755_ANDA_T30",
-        "eventDate": "2023-07-03T18:17:55",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230703_181755_ANDA_T30",
+        "date_time": "2023-07-03 18:17:55",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -40436,13 +39482,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230703_185341_ANDA_T31",
-        "eventDate": "2023-07-03T18:53:41",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230703_185341_ANDA_T31",
+        "date_time": "2023-07-03 18:53:41",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -40648,13 +39691,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230705_174042_ANDA_T32",
-        "eventDate": "2023-07-05T17:40:42",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230705_174042_ANDA_T32",
+        "date_time": "2023-07-05 17:40:42",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -40860,13 +39900,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230705_185715_ANDA_T33",
-        "eventDate": "2023-07-05T18:57:15",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230705_185715_ANDA_T33",
+        "date_time": "2023-07-05 18:57:15",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -41072,13 +40109,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230705_191928_ANDA_T34",
-        "eventDate": "2023-07-05T19:19:28",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230705_191928_ANDA_T34",
+        "date_time": "2023-07-05 19:19:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -41284,13 +40318,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230705_193247_ANDA_T35",
-        "eventDate": "2023-07-05T19:32:47",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230705_193247_ANDA_T35",
+        "date_time": "2023-07-05 19:32:47",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -41496,13 +40527,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230707_132354_ANDA_T40",
-        "eventDate": "2023-07-07T13:23:54",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230707_132354_ANDA_T40",
+        "date_time": "2023-07-07 13:23:54",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -41708,13 +40736,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230707_133828_ANDA_T39",
-        "eventDate": "2023-07-07T13:38:28",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230707_133828_ANDA_T39",
+        "date_time": "2023-07-07 13:38:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -41920,13 +40945,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230707_135814_ANDA_T38",
-        "eventDate": "2023-07-07T13:58:14",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230707_135814_ANDA_T38",
+        "date_time": "2023-07-07 13:58:14",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -42132,13 +41154,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230707_141529_ANDA_T36",
-        "eventDate": "2023-07-07T14:15:29",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230707_141529_ANDA_T36",
+        "date_time": "2023-07-07 14:15:29",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -42344,13 +41363,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230707_143542_ANDA_T37",
-        "eventDate": "2023-07-07T14:35:42",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230707_143542_ANDA_T37",
+        "date_time": "2023-07-07 14:35:42",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -42556,13 +41572,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230707_150504_ANDA_T42",
-        "eventDate": "2023-07-07T15:05:04",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230707_150504_ANDA_T42",
+        "date_time": "2023-07-07 15:05:04",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -42768,13 +41781,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230707_164723_ANDA_T43",
-        "eventDate": "2023-07-07T16:47:23",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230707_164723_ANDA_T43",
+        "date_time": "2023-07-07 16:47:23",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -42980,13 +41990,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230707_172022_ANDA_T44",
-        "eventDate": "2023-07-07T17:20:22",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230707_172022_ANDA_T44",
+        "date_time": "2023-07-07 17:20:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -43192,13 +42199,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230708_095239_ANDA_T45",
-        "eventDate": "2023-07-08T09:52:39",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230708_095239_ANDA_T45",
+        "date_time": "2023-07-08 09:52:39",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -43404,13 +42408,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230708_102317_ANDA_T46",
-        "eventDate": "2023-07-08T10:23:17",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230708_102317_ANDA_T46",
+        "date_time": "2023-07-08 10:23:17",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -43616,13 +42617,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230708_105358_ANDA_T47",
-        "eventDate": "2023-07-08T10:53:58",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230708_105358_ANDA_T47",
+        "date_time": "2023-07-08 10:53:58",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -43828,13 +42826,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230708_112157_ANDA_T48",
-        "eventDate": "2023-07-08T11:21:57",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230708_112157_ANDA_T48",
+        "date_time": "2023-07-08 11:21:57",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -44040,13 +43035,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230708_115501_ANDA_T49",
-        "eventDate": "2023-07-08T11:55:01",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230708_115501_ANDA_T49",
+        "date_time": "2023-07-08 11:55:01",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -44252,13 +43244,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230708_122854_ANDA_T50",
-        "eventDate": "2023-07-08T12:28:54",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230708_122854_ANDA_T50",
+        "date_time": "2023-07-08 12:28:54",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -44464,13 +43453,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230708_131448_ANDA_T51",
-        "eventDate": "2023-07-08T13:14:48",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230708_131448_ANDA_T51",
+        "date_time": "2023-07-08 13:14:48",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -44676,13 +43662,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230711_095522_ANDA_T52",
-        "eventDate": "2023-07-11T09:55:22",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230711_095522_ANDA_T52",
+        "date_time": "2023-07-11 09:55:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -44888,13 +43871,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230711_110239_ANDA_T53",
-        "eventDate": "2023-07-11T11:02:39",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230711_110239_ANDA_T53",
+        "date_time": "2023-07-11 11:02:39",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -45100,13 +44080,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230711_122145_ANDA_T54",
-        "eventDate": "2023-07-11T12:21:45",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230711_122145_ANDA_T54",
+        "date_time": "2023-07-11 12:21:45",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -45312,13 +44289,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230711_130645_ANDA_T57",
-        "eventDate": "2023-07-11T13:06:45",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230711_130645_ANDA_T57",
+        "date_time": "2023-07-11 13:06:45",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -45524,13 +44498,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230711_141311_ANDA_T58",
-        "eventDate": "2023-07-11T14:13:11",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230711_141311_ANDA_T58",
+        "date_time": "2023-07-11 14:13:11",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -45736,13 +44707,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230711_145653_ANDA_T59",
-        "eventDate": "2023-07-11T14:56:53",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230711_145653_ANDA_T59",
+        "date_time": "2023-07-11 14:56:53",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -45948,13 +44916,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230711_153245_ANDA_T56",
-        "eventDate": "2023-07-11T15:32:45",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230711_153245_ANDA_T56",
+        "date_time": "2023-07-11 15:32:45",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -46160,13 +45125,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230711_161432_ANDA_T55",
-        "eventDate": "2023-07-11T16:14:32",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230711_161432_ANDA_T55",
+        "date_time": "2023-07-11 16:14:32",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -46372,13 +45334,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230712_190011_ANDA_T41",
-        "eventDate": "2023-07-12T19:00:11",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230712_190011_ANDA_T41",
+        "date_time": "2023-07-12 19:00:11",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -46584,13 +45543,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230905_102457_CAT1_T1",
-        "eventDate": "2023-09-05T10:24:57",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230905_102457_CAT1_T1",
+        "date_time": "2023-09-05 10:24:57",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -46796,13 +45752,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230905_104833_CAT1_T2",
-        "eventDate": "2023-09-05T10:48:33",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230905_104833_CAT1_T2",
+        "date_time": "2023-09-05 10:48:33",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -47008,13 +45961,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230905_111522_CAT1_T5",
-        "eventDate": "2023-09-05T11:15:22",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230905_111522_CAT1_T5",
+        "date_time": "2023-09-05 11:15:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -47220,13 +46170,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230905_113649_CAT1_T6",
-        "eventDate": "2023-09-05T11:36:49",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230905_113649_CAT1_T6",
+        "date_time": "2023-09-05 11:36:49",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -47432,13 +46379,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230905_120908_CAT1_T7",
-        "eventDate": "2023-09-05T12:09:08",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230905_120908_CAT1_T7",
+        "date_time": "2023-09-05 12:09:08",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -47644,13 +46588,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230905_172918_CAT1_T8",
-        "eventDate": "2023-09-05T17:29:18",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230905_172918_CAT1_T8",
+        "date_time": "2023-09-05 17:29:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -47856,13 +46797,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230905_180924_CAT1_T9",
-        "eventDate": "2023-09-05T18:09:24",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230905_180924_CAT1_T9",
+        "date_time": "2023-09-05 18:09:24",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -48068,13 +47006,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230905_191001_CAT1_T10",
-        "eventDate": "2023-09-05T19:10:01",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230905_191001_CAT1_T10",
+        "date_time": "2023-09-05 19:10:01",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -48280,13 +47215,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230907_190938_CAT1_T3",
-        "eventDate": "2023-09-07T19:09:38",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230907_190938_CAT1_T3",
+        "date_time": "2023-09-07 19:09:38",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -48492,13 +47424,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230907_192847_CAT1_T4",
-        "eventDate": "2023-09-07T19:28:47",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230907_192847_CAT1_T4",
+        "date_time": "2023-09-07 19:28:47",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -48704,13 +47633,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230916_100049_CAT2_T22",
-        "eventDate": "2023-09-16T10:00:49",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230916_100049_CAT2_T22",
+        "date_time": "2023-09-16 10:00:49",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -48916,13 +47842,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230917_093014_CAT2_T20",
-        "eventDate": "2023-09-17T09:30:14",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230917_093014_CAT2_T20",
+        "date_time": "2023-09-17 09:30:14",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -49128,13 +48051,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230917_101136_CAT2_T21",
-        "eventDate": "2023-09-17T10:11:36",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230917_101136_CAT2_T21",
+        "date_time": "2023-09-17 10:11:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -49340,13 +48260,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230919_084427_CAT2_T10",
-        "eventDate": "2023-09-19T08:44:27",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230919_084427_CAT2_T10",
+        "date_time": "2023-09-19 08:44:27",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -49552,13 +48469,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230919_085242_CAT2_T11",
-        "eventDate": "2023-09-19T08:52:42",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230919_085242_CAT2_T11",
+        "date_time": "2023-09-19 08:52:42",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -49764,13 +48678,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230919_092300_CAT2_T13",
-        "eventDate": "2023-09-19T09:23:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230919_092300_CAT2_T13",
+        "date_time": "2023-09-19 09:23:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -49976,13 +48887,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230919_092902_CAT2_T14",
-        "eventDate": "2023-09-19T09:29:02",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230919_092902_CAT2_T14",
+        "date_time": "2023-09-19 09:29:02",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -50188,13 +49096,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230919_094003_CAT2_T12",
-        "eventDate": "2023-09-19T09:40:03",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230919_094003_CAT2_T12",
+        "date_time": "2023-09-19 09:40:03",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -50400,13 +49305,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230919_101017_CAT2_T9",
-        "eventDate": "2023-09-19T10:10:17",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230919_101017_CAT2_T9",
+        "date_time": "2023-09-19 10:10:17",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -50612,13 +49514,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230919_110109_CAT2_T3",
-        "eventDate": "2023-09-19T11:01:09",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230919_110109_CAT2_T3",
+        "date_time": "2023-09-19 11:01:09",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -50824,13 +49723,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230919_112010_CAT2_T4",
-        "eventDate": "2023-09-19T11:20:10",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230919_112010_CAT2_T4",
+        "date_time": "2023-09-19 11:20:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -51036,13 +49932,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230919_113300_CAT2_T5",
-        "eventDate": "2023-09-19T11:33:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230919_113300_CAT2_T5",
+        "date_time": "2023-09-19 11:33:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -51248,13 +50141,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230919_114601_CAT2_T6",
-        "eventDate": "2023-09-19T11:46:01",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230919_114601_CAT2_T6",
+        "date_time": "2023-09-19 11:46:01",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -51460,13 +50350,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230919_115942_CAT2_T7",
-        "eventDate": "2023-09-19T11:59:42",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230919_115942_CAT2_T7",
+        "date_time": "2023-09-19 11:59:42",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -51672,13 +50559,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230919_120707_CAT2_T8",
-        "eventDate": "2023-09-19T12:07:07",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230919_120707_CAT2_T8",
+        "date_time": "2023-09-19 12:07:07",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -51884,13 +50768,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230921_084439_CAT2_T1",
-        "eventDate": "2023-09-21T08:44:39",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230921_084439_CAT2_T1",
+        "date_time": "2023-09-21 08:44:39",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -52096,13 +50977,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230921_085147_CAT2_T2",
-        "eventDate": "2023-09-21T08:51:47",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230921_085147_CAT2_T2",
+        "date_time": "2023-09-21 08:51:47",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -52308,13 +51186,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230923_090636_CAT2_T18",
-        "eventDate": "2023-09-23T09:06:36",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230923_090636_CAT2_T18",
+        "date_time": "2023-09-23 09:06:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -52520,13 +51395,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230923_095617_CAT2_T17",
-        "eventDate": "2023-09-23T09:56:17",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230923_095617_CAT2_T17",
+        "date_time": "2023-09-23 09:56:17",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -52732,13 +51604,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230923_104814_CAT2_T16",
-        "eventDate": "2023-09-23T10:48:14",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230923_104814_CAT2_T16",
+        "date_time": "2023-09-23 10:48:14",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -52944,13 +51813,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230923_115831_CAT2_T15",
-        "eventDate": "2023-09-23T11:58:31",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230923_115831_CAT2_T15",
+        "date_time": "2023-09-23 11:58:31",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -53156,13 +52022,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20230924_084535_CAT2_T19",
-        "eventDate": "2023-09-24T08:45:35",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "MSFD & BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20230924_084535_CAT2_T19",
+        "date_time": "2023-09-24 08:45:35",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "EEMM & BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -53368,13 +52231,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240523_160300_NORGRASS24_EO_T1",
-        "eventDate": "2024-05-23T16:03:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/20240523_160300_NORGRASS24_EO_T1.mp4",
-        "thumbnail_url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/thumbnails/20240523_160300_NORGRASS24_EO_T1.png",
+        "track_id": "20240523_160300_NORGRASS24_EO_T1",
+        "date_time": "2024-05-23 16:03:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -53580,13 +52440,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240523_161247_NORGRASS24_EO_T2",
-        "eventDate": "2024-05-23T16:12:47",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/20240523_161247_NORGRASS24_EO_T2.mp4",
-        "thumbnail_url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/thumbnails/20240523_161247_NORGRASS24_EO_T2.png",
+        "track_id": "20240523_161247_NORGRASS24_EO_T2",
+        "date_time": "2024-05-23 16:12:47",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -53792,13 +52649,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240523_165456_NORGRASS24_EO_T3",
-        "eventDate": "2024-05-23T16:54:56",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/20240523_165456_NORGRASS24_EO_T3.mp4",
-        "thumbnail_url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/thumbnails/20240523_165456_NORGRASS24_EO_T3.png",
+        "track_id": "20240523_165456_NORGRASS24_EO_T3",
+        "date_time": "2024-05-23 16:54:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -54004,13 +52858,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240523_174227_NORGRASS24_EO_T4",
-        "eventDate": "2024-05-23T17:42:27",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/20240523_174227_NORGRASS24_EO_T4.mp4",
-        "thumbnail_url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/thumbnails/20240523_174227_NORGRASS24_EO_T4.png",
+        "track_id": "20240523_174227_NORGRASS24_EO_T4",
+        "date_time": "2024-05-23 17:42:27",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -54216,13 +53067,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240523_182408_NORGRASS24_EO_T5",
-        "eventDate": "2024-05-23T18:24:08",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/20240523_182408_NORGRASS24_EO_T5.mp4",
-        "thumbnail_url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/thumbnails/20240523_182408_NORGRASS24_EO_T5.png",
+        "track_id": "20240523_182408_NORGRASS24_EO_T5",
+        "date_time": "2024-05-23 18:24:08",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -54428,13 +53276,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240528_100656_NORGRASS24_BARQUEIRO_T1",
-        "eventDate": "2024-05-28T10:06:56",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/20240528_100656_NORGRASS24_BARQUEIRO_T1.mp4",
-        "thumbnail_url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/thumbnails/20240528_100656_NORGRASS24_BARQUEIRO_T1.png",
+        "track_id": "20240528_100656_NORGRASS24_BARQUEIRO_T1",
+        "date_time": "2024-05-28 10:06:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -54640,13 +53485,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240528_104235_NORGRASS24_BARQUEIRO_T2",
-        "eventDate": "2024-05-28T10:42:35",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/20240528_104235_NORGRASS24_BARQUEIRO_T2.mp4",
-        "thumbnail_url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/thumbnails/20240528_104235_NORGRASS24_BARQUEIRO_T2.png",
+        "track_id": "20240528_104235_NORGRASS24_BARQUEIRO_T2",
+        "date_time": "2024-05-28 10:42:35",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -54852,13 +53694,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240529_102136_NORGRASS24_VIVEIRO_T1",
-        "eventDate": "2024-05-29T10:21:36",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/20240529_102136_NORGRASS24_VIVEIRO_T1.mp4",
-        "thumbnail_url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/thumbnails/20240529_102136_NORGRASS24_VIVEIRO_T1.png",
+        "track_id": "20240529_102136_NORGRASS24_VIVEIRO_T1",
+        "date_time": "2024-05-29 10:21:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -55064,13 +53903,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240529_112356_NORGRASS24_VIVEIRO_T2",
-        "eventDate": "2024-05-29T11:23:56",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/20240529_112356_NORGRASS24_VIVEIRO_T2.mp4",
-        "thumbnail_url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/thumbnails/20240529_112356_NORGRASS24_VIVEIRO_T2.png",
+        "track_id": "20240529_112356_NORGRASS24_VIVEIRO_T2",
+        "date_time": "2024-05-29 11:23:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -55276,13 +54112,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240529_122722_NORGRASS24_VIVEIRO_T3",
-        "eventDate": "2024-05-29T12:27:22",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/20240529_122722_NORGRASS24_VIVEIRO_T3.mp4",
-        "thumbnail_url": "https://filedn.eu/lxdSetOgU6G8FNMH4dxBDJQ/GEAM_GDB/3_UV_TRACKS/NORGRASS24/thumbnails/20240529_122722_NORGRASS24_VIVEIRO_T3.png",
+        "track_id": "20240529_122722_NORGRASS24_VIVEIRO_T3",
+        "date_time": "2024-05-29 12:27:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -55488,13 +54321,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240905_122120_CHEGRASS24_T1",
-        "eventDate": "2024-09-05T12:21:20",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240905_122120_CHEGRASS24_T1",
+        "date_time": "2024-09-05 12:21:20",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -55700,13 +54530,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240905_133451_CHEGRASS24_T2",
-        "eventDate": "2024-09-05T13:34:51",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240905_133451_CHEGRASS24_T2",
+        "date_time": "2024-09-05 13:34:51",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -55912,13 +54739,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240905_145110_CHEGRASS24_T3",
-        "eventDate": "2024-09-05T14:51:10",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240905_145110_CHEGRASS24_T3",
+        "date_time": "2024-09-05 14:51:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -56124,13 +54948,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240905_160823_CHEGRASS24_T4",
-        "eventDate": "2024-09-05T16:08:23",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240905_160823_CHEGRASS24_T4",
+        "date_time": "2024-09-05 16:08:23",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -56336,13 +55157,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240905_184353_CHEGRASS24_T7",
-        "eventDate": "2024-09-05T18:43:53",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240905_184353_CHEGRASS24_T7",
+        "date_time": "2024-09-05 18:43:53",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -56548,13 +55366,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240905_200315_CHEGRASS24_T6",
-        "eventDate": "2024-09-05T20:03:15",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240905_200315_CHEGRASS24_T6",
+        "date_time": "2024-09-05 20:03:15",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -56760,13 +55575,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240906_123506_CHEGRASS24_T5",
-        "eventDate": "2024-09-06T12:35:06",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240906_123506_CHEGRASS24_T5",
+        "date_time": "2024-09-06 12:35:06",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -56972,13 +55784,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240907_105812_CHEGRASS24_T10",
-        "eventDate": "2024-09-07T10:58:12",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240907_105812_CHEGRASS24_T10",
+        "date_time": "2024-09-07 10:58:12",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -57184,13 +55993,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240907_122133_CHEGRASS24_T9",
-        "eventDate": "2024-09-07T12:21:33",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240907_122133_CHEGRASS24_T9",
+        "date_time": "2024-09-07 12:21:33",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -57396,13 +56202,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240907_132310_CHEGRASS24_T8",
-        "eventDate": "2024-09-07T13:23:10",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240907_132310_CHEGRASS24_T8",
+        "date_time": "2024-09-07 13:23:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -57608,13 +56411,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240908_150606_CHEGRASS24_T11",
-        "eventDate": "2024-09-08T15:06:06",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240908_150606_CHEGRASS24_T11",
+        "date_time": "2024-09-08 15:06:06",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -57820,13 +56620,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240908_160954_CHEGRASS24_T14",
-        "eventDate": "2024-09-08T16:09:54",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240908_160954_CHEGRASS24_T14",
+        "date_time": "2024-09-08 16:09:54",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -58032,13 +56829,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240908_174113_CHEGRASS24_T12",
-        "eventDate": "2024-09-08T17:41:13",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240908_174113_CHEGRASS24_T12",
+        "date_time": "2024-09-08 17:41:13",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -58244,13 +57038,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240908_180900_CHEGRASS24_T13",
-        "eventDate": "2024-09-08T18:09:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240908_180900_CHEGRASS24_T13",
+        "date_time": "2024-09-08 18:09:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -58456,13 +57247,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240908_183514_CHEGRASS24_T15",
-        "eventDate": "2024-09-08T18:35:14",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240908_183514_CHEGRASS24_T15",
+        "date_time": "2024-09-08 18:35:14",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -58668,13 +57456,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240908_195559_CHEGRASS24_T17",
-        "eventDate": "2024-09-08T19:55:59",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240908_195559_CHEGRASS24_T17",
+        "date_time": "2024-09-08 19:55:59",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -58880,13 +57665,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240909_150023_CHEGRASS24_T16",
-        "eventDate": "2024-09-09T15:00:23",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240909_150023_CHEGRASS24_T16",
+        "date_time": "2024-09-09 15:00:23",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -59092,13 +57874,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240909_154736_CHEGRASS24_T18",
-        "eventDate": "2024-09-09T15:47:36",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240909_154736_CHEGRASS24_T18",
+        "date_time": "2024-09-09 15:47:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -59304,13 +58083,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240909_163913_CHEGRASS24_T21",
-        "eventDate": "2024-09-09T16:39:13",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240909_163913_CHEGRASS24_T21",
+        "date_time": "2024-09-09 16:39:13",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -59516,13 +58292,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240911_095550_CHEGRASS24_T30",
-        "eventDate": "2024-09-11T09:55:50",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240911_095550_CHEGRASS24_T30",
+        "date_time": "2024-09-11 09:55:50",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -59728,13 +58501,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240911_102811_CHEGRASS24_T29",
-        "eventDate": "2024-09-11T10:28:11",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240911_102811_CHEGRASS24_T29",
+        "date_time": "2024-09-11 10:28:11",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -59940,13 +58710,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240911_105957_CHEGRASS24_T28",
-        "eventDate": "2024-09-11T10:59:57",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240911_105957_CHEGRASS24_T28",
+        "date_time": "2024-09-11 10:59:57",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -60152,13 +58919,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240911_115125_CHEGRASS24_T27",
-        "eventDate": "2024-09-11T11:51:25",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240911_115125_CHEGRASS24_T27",
+        "date_time": "2024-09-11 11:51:25",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -60364,13 +59128,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240911_123707_CHEGRASS24_T26",
-        "eventDate": "2024-09-11T12:37:07",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240911_123707_CHEGRASS24_T26",
+        "date_time": "2024-09-11 12:37:07",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -60576,13 +59337,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240911_130624_CHEGRASS24_T25",
-        "eventDate": "2024-09-11T13:06:24",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240911_130624_CHEGRASS24_T25",
+        "date_time": "2024-09-11 13:06:24",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -60788,13 +59546,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240911_140226_CHEGRASS24_T24",
-        "eventDate": "2024-09-11T14:02:26",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240911_140226_CHEGRASS24_T24",
+        "date_time": "2024-09-11 14:02:26",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -61000,13 +59755,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240911_151541_CHEGRASS24_T23",
-        "eventDate": "2024-09-11T15:15:41",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240911_151541_CHEGRASS24_T23",
+        "date_time": "2024-09-11 15:15:41",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -61212,13 +59964,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240912_172039_CHEGRASS24_T22",
-        "eventDate": "2024-09-12T17:20:39",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240912_172039_CHEGRASS24_T22",
+        "date_time": "2024-09-12 17:20:39",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -61424,13 +60173,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240912_183127_CHEGRASS24_T20",
-        "eventDate": "2024-09-12T18:31:27",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240912_183127_CHEGRASS24_T20",
+        "date_time": "2024-09-12 18:31:27",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -61636,13 +60382,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240912_191144_CHEGRASS24_T19",
-        "eventDate": "2024-09-12T19:11:44",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240912_191144_CHEGRASS24_T19",
+        "date_time": "2024-09-12 19:11:44",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -61848,13 +60591,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240914_101543_CHEGRASS24_T31",
-        "eventDate": "2024-09-14T10:15:43",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240914_101543_CHEGRASS24_T31",
+        "date_time": "2024-09-14 10:15:43",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -62060,13 +60800,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240914_111107_CHEGRASS24_T32",
-        "eventDate": "2024-09-14T11:11:07",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240914_111107_CHEGRASS24_T32",
+        "date_time": "2024-09-14 11:11:07",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -62272,13 +61009,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240914_122604_CHEGRASS24_T33",
-        "eventDate": "2024-09-14T12:26:04",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240914_122604_CHEGRASS24_T33",
+        "date_time": "2024-09-14 12:26:04",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -62484,13 +61218,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240914_142856_CHEGRASS24_T34",
-        "eventDate": "2024-09-14T14:28:56",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240914_142856_CHEGRASS24_T34",
+        "date_time": "2024-09-14 14:28:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -62696,13 +61427,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240925_164422_CHEGRASS24_T36",
-        "eventDate": "2024-09-25T16:44:22",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240925_164422_CHEGRASS24_T36",
+        "date_time": "2024-09-25 16:44:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -62908,13 +61636,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240925_175740_CHEGRASS24_T35",
-        "eventDate": "2024-09-25T17:57:40",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240925_175740_CHEGRASS24_T35",
+        "date_time": "2024-09-25 17:57:40",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -63120,13 +61845,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240925_182037_CHEGRASS24_T37",
-        "eventDate": "2024-09-25T18:20:37",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240925_182037_CHEGRASS24_T37",
+        "date_time": "2024-09-25 18:20:37",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -63332,13 +62054,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240925_192143_CHEGRASS24_T38",
-        "eventDate": "2024-09-25T19:21:43",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240925_192143_CHEGRASS24_T38",
+        "date_time": "2024-09-25 19:21:43",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -63544,13 +62263,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240925_195626_CHEGRASS24_T39",
-        "eventDate": "2024-09-25T19:56:26",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240925_195626_CHEGRASS24_T39",
+        "date_time": "2024-09-25 19:56:26",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -63756,13 +62472,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240926_170539_CHEGRASS24_T41",
-        "eventDate": "2024-09-26T17:05:39",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240926_170539_CHEGRASS24_T41",
+        "date_time": "2024-09-26 17:05:39",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -63968,13 +62681,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240926_173241_CHEGRASS24_T40",
-        "eventDate": "2024-09-26T17:32:41",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240926_173241_CHEGRASS24_T40",
+        "date_time": "2024-09-26 17:32:41",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -64180,13 +62890,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240926_175915_CHEGRASS24_T42",
-        "eventDate": "2024-09-26T17:59:15",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240926_175915_CHEGRASS24_T42",
+        "date_time": "2024-09-26 17:59:15",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -64392,13 +63099,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240926_183333_CHEGRASS24_T43",
-        "eventDate": "2024-09-26T18:33:33",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240926_183333_CHEGRASS24_T43",
+        "date_time": "2024-09-26 18:33:33",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -64604,13 +63308,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240926_184839_CHEGRASS24_T44",
-        "eventDate": "2024-09-26T18:48:39",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240926_184839_CHEGRASS24_T44",
+        "date_time": "2024-09-26 18:48:39",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -64816,13 +63517,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240926_190457_CHEGRASS24_T45",
-        "eventDate": "2024-09-26T19:04:57",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240926_190457_CHEGRASS24_T45",
+        "date_time": "2024-09-26 19:04:57",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -65028,13 +63726,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240926_192120_CHEGRASS24_T46",
-        "eventDate": "2024-09-26T19:21:20",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240926_192120_CHEGRASS24_T46",
+        "date_time": "2024-09-26 19:21:20",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -65240,13 +63935,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240926_195705_CHEGRASS24_T47",
-        "eventDate": "2024-09-26T19:57:05",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240926_195705_CHEGRASS24_T47",
+        "date_time": "2024-09-26 19:57:05",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -65452,13 +64144,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240928_175220_CHEGRASS24_T55",
-        "eventDate": "2024-09-28T17:52:20",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240928_175220_CHEGRASS24_T55",
+        "date_time": "2024-09-28 17:52:20",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -65664,13 +64353,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240928_180146_CHEGRASS24_T54",
-        "eventDate": "2024-09-28T18:01:46",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240928_180146_CHEGRASS24_T54",
+        "date_time": "2024-09-28 18:01:46",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -65876,13 +64562,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240928_185542_CHEGRASS24_T53",
-        "eventDate": "2024-09-28T18:55:42",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240928_185542_CHEGRASS24_T53",
+        "date_time": "2024-09-28 18:55:42",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -66088,13 +64771,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240928_191951_CHEGRASS24_T52",
-        "eventDate": "2024-09-28T19:19:51",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240928_191951_CHEGRASS24_T52",
+        "date_time": "2024-09-28 19:19:51",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -66300,13 +64980,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241001_095750_CHEGRASS24_T59",
-        "eventDate": "2024-10-01T09:57:50",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241001_095750_CHEGRASS24_T59",
+        "date_time": "2024-10-01 09:57:50",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -66512,13 +65189,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241001_101610_CHEGRASS24_T58",
-        "eventDate": "2024-10-01T10:16:10",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241001_101610_CHEGRASS24_T58",
+        "date_time": "2024-10-01 10:16:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -66724,13 +65398,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241001_103408_CHEGRASS24_T57",
-        "eventDate": "2024-10-01T10:34:08",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241001_103408_CHEGRASS24_T57",
+        "date_time": "2024-10-01 10:34:08",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -66936,13 +65607,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241001_105934_CHEGRASS24_T56",
-        "eventDate": "2024-10-01T10:59:34",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241001_105934_CHEGRASS24_T56",
+        "date_time": "2024-10-01 10:59:34",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -67148,13 +65816,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241003_084852_CHEGRASS24_T60",
-        "eventDate": "2024-10-03T08:48:52",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241003_084852_CHEGRASS24_T60",
+        "date_time": "2024-10-03 08:48:52",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -67360,13 +66025,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241003_092453_CHEGRASS24_T62",
-        "eventDate": "2024-10-03T09:24:53",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241003_092453_CHEGRASS24_T62",
+        "date_time": "2024-10-03 09:24:53",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -67572,13 +66234,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241003_093033_CHEGRASS24_T61",
-        "eventDate": "2024-10-03T09:30:33",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241003_093033_CHEGRASS24_T61",
+        "date_time": "2024-10-03 09:30:33",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -67784,13 +66443,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241003_101318_CHEGRASS24_T63",
-        "eventDate": "2024-10-03T10:13:18",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241003_101318_CHEGRASS24_T63",
+        "date_time": "2024-10-03 10:13:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -67996,13 +66652,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241003_110005_CHEGRASS24_T65",
-        "eventDate": "2024-10-03T11:00:05",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241003_110005_CHEGRASS24_T65",
+        "date_time": "2024-10-03 11:00:05",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -68208,13 +66861,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241003_111116_CHEGRASS24_T64",
-        "eventDate": "2024-10-03T11:11:16",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241003_111116_CHEGRASS24_T64",
+        "date_time": "2024-10-03 11:11:16",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -68420,13 +67070,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241003_114211_CHEGRASS24_T67",
-        "eventDate": "2024-10-03T11:42:11",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241003_114211_CHEGRASS24_T67",
+        "date_time": "2024-10-03 11:42:11",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -68632,13 +67279,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241003_115130_CHEGRASS24_T66",
-        "eventDate": "2024-10-03T11:51:30",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241003_115130_CHEGRASS24_T66",
+        "date_time": "2024-10-03 11:51:30",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -68844,13 +67488,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_112302_CHEGRASS24_T69",
-        "eventDate": "2024-10-11T11:23:02",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_112302_CHEGRASS24_T69",
+        "date_time": "2024-10-11 11:23:02",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -69056,13 +67697,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_114817_CHEGRASS24_T68",
-        "eventDate": "2024-10-11T11:48:17",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_114817_CHEGRASS24_T68",
+        "date_time": "2024-10-11 11:48:17",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -69268,13 +67906,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_121257_CHEGRASS24_T70",
-        "eventDate": "2024-10-11T12:12:57",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_121257_CHEGRASS24_T70",
+        "date_time": "2024-10-11 12:12:57",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -69480,13 +68115,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_121940_CHEGRASS24_T71",
-        "eventDate": "2024-10-11T12:19:40",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_121940_CHEGRASS24_T71",
+        "date_time": "2024-10-11 12:19:40",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -69692,13 +68324,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_122700_CHEGRASS24_T72",
-        "eventDate": "2024-10-11T12:27:00",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_122700_CHEGRASS24_T72",
+        "date_time": "2024-10-11 12:27:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -69904,13 +68533,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_125637_CHEGRASS24_T73",
-        "eventDate": "2024-10-11T12:56:37",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_125637_CHEGRASS24_T73",
+        "date_time": "2024-10-11 12:56:37",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -70116,13 +68742,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_130354_CHEGRASS24_T74",
-        "eventDate": "2024-10-11T13:03:54",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_130354_CHEGRASS24_T74",
+        "date_time": "2024-10-11 13:03:54",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -70328,13 +68951,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_134412_CHEGRASS24_T75",
-        "eventDate": "2024-10-11T13:44:12",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_134412_CHEGRASS24_T75",
+        "date_time": "2024-10-11 13:44:12",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -70540,13 +69160,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_141210_CHEGRASS24_T77",
-        "eventDate": "2024-10-11T14:12:10",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_141210_CHEGRASS24_T77",
+        "date_time": "2024-10-11 14:12:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -70752,13 +69369,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_143036_CHEGRASS24_T76",
-        "eventDate": "2024-10-11T14:30:36",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_143036_CHEGRASS24_T76",
+        "date_time": "2024-10-11 14:30:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -70964,13 +69578,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_151831_CHEGRASS24_T80",
-        "eventDate": "2024-10-11T15:18:31",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_151831_CHEGRASS24_T80",
+        "date_time": "2024-10-11 15:18:31",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -71176,13 +69787,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_154132_CHEGRASS24_T78",
-        "eventDate": "2024-10-11T15:41:32",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_154132_CHEGRASS24_T78",
+        "date_time": "2024-10-11 15:41:32",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -71388,13 +69996,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_155856_CHEGRASS24_T79",
-        "eventDate": "2024-10-11T15:58:56",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_155856_CHEGRASS24_T79",
+        "date_time": "2024-10-11 15:58:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -71600,13 +70205,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_163639_CHEGRASS24_T81",
-        "eventDate": "2024-10-11T16:36:39",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_163639_CHEGRASS24_T81",
+        "date_time": "2024-10-11 16:36:39",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -71812,13 +70414,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241011_171428_CHEGRASS24_T83",
-        "eventDate": "2024-10-11T17:14:28",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241011_171428_CHEGRASS24_T83",
+        "date_time": "2024-10-11 17:14:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -72024,13 +70623,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241018_104805_CHEGRASS24_T84",
-        "eventDate": "2024-10-18T10:48:05",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241018_104805_CHEGRASS24_T84",
+        "date_time": "2024-10-18 10:48:05",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -72236,13 +70832,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241018_111459_CHEGRASS24_T86",
-        "eventDate": "2024-10-18T11:14:59",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241018_111459_CHEGRASS24_T86",
+        "date_time": "2024-10-18 11:14:59",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -72448,13 +71041,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241018_113427_CHEGRASS24_T85",
-        "eventDate": "2024-10-18T11:34:27",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241018_113427_CHEGRASS24_T85",
+        "date_time": "2024-10-18 11:34:27",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -72660,13 +71250,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241018_115606_CHEGRASS24_T87",
-        "eventDate": "2024-10-18T11:56:06",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241018_115606_CHEGRASS24_T87",
+        "date_time": "2024-10-18 11:56:06",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -72872,13 +71459,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241018_122724_CHEGRASS24_T89",
-        "eventDate": "2024-10-18T12:27:24",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241018_122724_CHEGRASS24_T89",
+        "date_time": "2024-10-18 12:27:24",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -73084,13 +71668,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241018_124711_CHEGRASS24_T88",
-        "eventDate": "2024-10-18T12:47:11",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241018_124711_CHEGRASS24_T88",
+        "date_time": "2024-10-18 12:47:11",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -73296,13 +71877,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241018_131943_CHEGRASS24_T90",
-        "eventDate": "2024-10-18T13:19:43",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241018_131943_CHEGRASS24_T90",
+        "date_time": "2024-10-18 13:19:43",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -73508,13 +72086,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241018_135206_CHEGRASS24_T82",
-        "eventDate": "2024-10-18T13:52:06",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241018_135206_CHEGRASS24_T82",
+        "date_time": "2024-10-18 13:52:06",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -73720,13 +72295,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241030_133235_CHEGRASS24_T91",
-        "eventDate": "2024-10-30T13:32:35",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241030_133235_CHEGRASS24_T91",
+        "date_time": "2024-10-30 13:32:35",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -73932,13 +72504,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241030_140408_CHEGRASS24_T92",
-        "eventDate": "2024-10-30T14:04:08",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241030_140408_CHEGRASS24_T92",
+        "date_time": "2024-10-30 14:04:08",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -74144,13 +72713,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241031_125450_CHEGRASS24_T93",
-        "eventDate": "2024-10-31T12:54:50",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241031_125450_CHEGRASS24_T93",
+        "date_time": "2024-10-31 12:54:50",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -74356,13 +72922,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241031_131908_CHEGRASS24_T94",
-        "eventDate": "2024-10-31T13:19:08",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241031_131908_CHEGRASS24_T94",
+        "date_time": "2024-10-31 13:19:08",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -74568,13 +73131,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241031_141858_CHEGRASS24_T95",
-        "eventDate": "2024-10-31T14:18:58",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241031_141858_CHEGRASS24_T95",
+        "date_time": "2024-10-31 14:18:58",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -74780,13 +73340,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241031_145731_CHEGRASS24_T96",
-        "eventDate": "2024-10-31T14:57:31",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241031_145731_CHEGRASS24_T96",
+        "date_time": "2024-10-31 14:57:31",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -74992,13 +73549,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241031_153713_CHEGRASS24_T97",
-        "eventDate": "2024-10-31T15:37:13",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241031_153713_CHEGRASS24_T97",
+        "date_time": "2024-10-31 15:37:13",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -75204,13 +73758,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241101_114847_CHEGRASS24_T98",
-        "eventDate": "2024-11-01T11:48:47",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241101_114847_CHEGRASS24_T98",
+        "date_time": "2024-11-01 11:48:47",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -75416,13 +73967,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241101_122746_CHEGRASS24_T99",
-        "eventDate": "2024-11-01T12:27:46",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241101_122746_CHEGRASS24_T99",
+        "date_time": "2024-11-01 12:27:46",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -75628,13 +74176,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241101_130932_CHEGRASS24_T100",
-        "eventDate": "2024-11-01T13:09:32",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241101_130932_CHEGRASS24_T100",
+        "date_time": "2024-11-01 13:09:32",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -75840,13 +74385,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241101_143455_CHEGRASS24_T101",
-        "eventDate": "2024-11-01T14:34:55",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241101_143455_CHEGRASS24_T101",
+        "date_time": "2024-11-01 14:34:55",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -76052,13 +74594,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20241101_153222_CHEGRASS24_T102",
-        "eventDate": "2024-11-01T15:32:22",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": NaN,
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20241101_153222_CHEGRASS24_T102",
+        "date_time": "2024-11-01 15:32:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -76264,13 +74803,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250522_133742_NORGRASS25_T1",
-        "eventDate": "2025-05-22T13:37:42",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250522_133742_NORGRASS25_T1",
+        "date_time": "2025-05-22 13:37:42",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -76476,13 +75012,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250522_142159_NORGRASS25_T2",
-        "eventDate": "2025-05-22T14:21:59",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250522_142159_NORGRASS25_T2",
+        "date_time": "2025-05-22 14:21:59",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -76688,13 +75221,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250522_155041_NORGRASS25_T3",
-        "eventDate": "2025-05-22T15:50:41",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250522_155041_NORGRASS25_T3",
+        "date_time": "2025-05-22 15:50:41",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -76900,13 +75430,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250522_155656_NORGRASS25_T4",
-        "eventDate": "2025-05-22T15:56:56",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250522_155656_NORGRASS25_T4",
+        "date_time": "2025-05-22 15:56:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -77112,13 +75639,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250523_123423_NORGRASS25_T5",
-        "eventDate": "2025-05-23T12:34:23",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250523_123423_NORGRASS25_T5",
+        "date_time": "2025-05-23 12:34:23",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -77324,13 +75848,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250523_132628_NORGRASS25_T6",
-        "eventDate": "2025-05-23T13:26:28",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250523_132628_NORGRASS25_T6",
+        "date_time": "2025-05-23 13:26:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -77536,13 +76057,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250523_141235_NORGRASS25_T7",
-        "eventDate": "2025-05-23T14:12:35",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250523_141235_NORGRASS25_T7",
+        "date_time": "2025-05-23 14:12:35",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -77748,13 +76266,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250523_150157_NORGRASS25_T8",
-        "eventDate": "2025-05-23T15:01:57",
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250523_150157_NORGRASS25_T8",
+        "date_time": "2025-05-23 15:01:57",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -77960,13 +76475,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250605_103045_CANGRASS25_T1",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250605_103045_CANGRASS25_T1",
+        "date_time": "2025-06-05 10:30:45",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -78172,13 +76684,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250605_105452_CANGRASS25_T2",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250605_105452_CANGRASS25_T2",
+        "date_time": "2025-06-05 10:54:52",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -78384,13 +76893,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250605_112527_CANGRASS25_T3",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250605_112527_CANGRASS25_T3",
+        "date_time": "2025-06-05 11:25:27",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -78596,13 +77102,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250605_122125_CANGRASS25_T4",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250605_122125_CANGRASS25_T4",
+        "date_time": "2025-06-05 12:21:25",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -78808,13 +77311,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250605_125733_CANGRASS25_T5",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250605_125733_CANGRASS25_T5",
+        "date_time": "2025-06-05 12:57:33",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -79020,13 +77520,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250605_133257_CANGRASS25_T6",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250605_133257_CANGRASS25_T6",
+        "date_time": "2025-06-05 13:32:57",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -79232,13 +77729,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250606_110518_CANGRASS25_T7",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250606_110518_CANGRASS25_T7",
+        "date_time": "2025-06-06 11:05:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -79444,13 +77938,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250606_112628_CANGRASS25_T8",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250606_112628_CANGRASS25_T8",
+        "date_time": "2025-06-06 11:26:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -79656,13 +78147,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250606_114802_CANGRASS25_T9",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250606_114802_CANGRASS25_T9",
+        "date_time": "2025-06-06 11:48:02",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -79868,13 +78356,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250607_100036_CANGRASS25_T10",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250607_100036_CANGRASS25_T10",
+        "date_time": "2025-06-07 10:00:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -80080,13 +78565,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250607_105335_CANGRASS25_T11",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250607_105335_CANGRASS25_T11",
+        "date_time": "2025-06-07 10:53:35",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -80292,13 +78774,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250607_114415_CANGRASS25_T12",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250607_114415_CANGRASS25_T12",
+        "date_time": "2025-06-07 11:44:15",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -80504,13 +78983,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250607_121821_CANGRASS25_T13",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250607_121821_CANGRASS25_T13",
+        "date_time": "2025-06-07 12:18:21",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -80716,13 +79192,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250607_123112_CANGRASS25_T14",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250607_123112_CANGRASS25_T14",
+        "date_time": "2025-06-07 12:31:12",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -80928,13 +79401,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250607_130333_CANGRASS25_T15",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250607_130333_CANGRASS25_T15",
+        "date_time": "2025-06-07 13:03:33",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -81140,13 +79610,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250607_140056_CANGRASS25_T16",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250607_140056_CANGRASS25_T16",
+        "date_time": "2025-06-07 14:00:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -81352,13 +79819,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250607_150918_CANGRASS25_T17",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250607_150918_CANGRASS25_T17",
+        "date_time": "2025-06-07 15:09:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -81564,13 +80028,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250607_153311_CANGRASS25_T18",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250607_153311_CANGRASS25_T18",
+        "date_time": "2025-06-07 15:33:11",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -81776,13 +80237,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250607_160849_CANGRASS25_T19",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250607_160849_CANGRASS25_T19",
+        "date_time": "2025-06-07 16:08:49",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -81988,13 +80446,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250609_112203_CANGRASS25_T20",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250609_112203_CANGRASS25_T20",
+        "date_time": "2025-06-09 11:22:03",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -82200,13 +80655,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250609_115418_CANGRASS25_T21",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250609_115418_CANGRASS25_T21",
+        "date_time": "2025-06-09 11:54:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -82412,13 +80864,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250609_125527_CANGRASS25_T22",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250609_125527_CANGRASS25_T22",
+        "date_time": "2025-06-09 12:55:27",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -82624,13 +81073,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250610_112723_CANGRASS25_T23",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250610_112723_CANGRASS25_T23",
+        "date_time": "2025-06-10 11:27:23",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -82836,13 +81282,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250610_121601_CANGRASS25_T24",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250610_121601_CANGRASS25_T24",
+        "date_time": "2025-06-10 12:16:01",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -83048,13 +81491,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250610_132806_CANGRASS25_T25",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250610_132806_CANGRASS25_T25",
+        "date_time": "2025-06-10 13:28:06",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -83260,13 +81700,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250610_141622_CANGRASS25_T26",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250610_141622_CANGRASS25_T26",
+        "date_time": "2025-06-10 14:16:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -83472,13 +81909,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250610_151210_CANGRASS25_T27",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250610_151210_CANGRASS25_T27",
+        "date_time": "2025-06-10 15:12:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -83684,13 +82118,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250610_163702_CANGRASS25_T28",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250610_163702_CANGRASS25_T28",
+        "date_time": "2025-06-10 16:37:02",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -83896,13 +82327,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250610_173057_CANGRASS25_T29",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250610_173057_CANGRASS25_T29",
+        "date_time": "2025-06-10 17:30:57",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -84108,13 +82536,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250611_082318_CANGRASS25_T30",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250611_082318_CANGRASS25_T30",
+        "date_time": "2025-06-11 08:23:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -84320,13 +82745,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250611_084540_CANGRASS25_T31",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250611_084540_CANGRASS25_T31",
+        "date_time": "2025-06-11 08:45:40",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -84532,13 +82954,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250611_090430_CANGRASS25_T32",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250611_090430_CANGRASS25_T32",
+        "date_time": "2025-06-11 09:04:30",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -84744,13 +83163,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250615_091853_CANGRASS25_T33 ",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250615_091853_CANGRASS25_T33 ",
+        "date_time": "2025-06-15 09:18:53",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -84956,13 +83372,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250615_103524_CANGRASS25_T34 ",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250615_103524_CANGRASS25_T34 ",
+        "date_time": "2025-06-15 10:35:24",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -85168,13 +83581,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250615_105703_CANGRASS25_T35",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250615_105703_CANGRASS25_T35",
+        "date_time": "2025-06-15 10:57:03",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -85380,13 +83790,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250615_112521_CANGRASS25_T36",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250615_112521_CANGRASS25_T36",
+        "date_time": "2025-06-15 11:25:21",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -85592,13 +83999,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250615_121201_CANGRASS25_T37",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250615_121201_CANGRASS25_T37",
+        "date_time": "2025-06-15 12:12:01",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -85804,13 +84208,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250615_133250_CANGRASS25_T38",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250615_133250_CANGRASS25_T38",
+        "date_time": "2025-06-15 13:32:50",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -86016,13 +84417,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250616_074739_CANGRASS25_T39",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250616_074739_CANGRASS25_T39",
+        "date_time": "2025-06-16 07:47:39",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -86228,13 +84626,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250616_081346_CANGRASS25_T40",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250616_081346_CANGRASS25_T40",
+        "date_time": "2025-06-16 08:13:46",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -86440,13 +84835,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250616_083958_CANGRASS25_T41",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250616_083958_CANGRASS25_T41",
+        "date_time": "2025-06-16 08:39:58",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -86652,13 +85044,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250616_085819_CANGRASS25_T42",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250616_085819_CANGRASS25_T42",
+        "date_time": "2025-06-16 08:58:19",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -86864,13 +85253,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250616_115916_CANGRASS25_T43",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250616_115916_CANGRASS25_T43",
+        "date_time": "2025-06-16 11:59:16",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -87076,13 +85462,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250617_083444_CANGRASS25_T44",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250617_083444_CANGRASS25_T44",
+        "date_time": "2025-06-17 08:34:44",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -87288,13 +85671,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250617_085830_CANGRASS25_T45",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250617_085830_CANGRASS25_T45",
+        "date_time": "2025-06-17 08:58:30",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -87500,13 +85880,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250617_093438_CANGRASS25_T46",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250617_093438_CANGRASS25_T46",
+        "date_time": "2025-06-17 09:34:38",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -87712,13 +86089,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250617_103014_CANGRASS25_T48",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250617_103014_CANGRASS25_T48",
+        "date_time": "2025-06-17 10:30:14",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -87924,13 +86298,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250618_084416_CANGRASS25_T49",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250618_084416_CANGRASS25_T49",
+        "date_time": "2025-06-18 08:44:16",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -88136,13 +86507,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250618_090159_CANGRASS25_T50",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250618_090159_CANGRASS25_T50",
+        "date_time": "2025-06-18 09:01:59",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -88348,13 +86716,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250618_092825_CANGRASS25_T51",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250618_092825_CANGRASS25_T51",
+        "date_time": "2025-06-18 09:28:25",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -88560,13 +86925,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250618_104701_CANGRASS25_T52",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250618_104701_CANGRASS25_T52",
+        "date_time": "2025-06-18 10:47:01",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -88772,13 +87134,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250618_111556_CANGRASS25_T53",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250618_111556_CANGRASS25_T53",
+        "date_time": "2025-06-18 11:15:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -88984,13 +87343,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250618_114725_CANGRASS25_T54",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250618_114725_CANGRASS25_T54",
+        "date_time": "2025-06-18 11:47:25",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -89196,13 +87552,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250618_120623_CANGRASS25_T55",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250618_120623_CANGRASS25_T55",
+        "date_time": "2025-06-18 12:06:23",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -89408,13 +87761,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250623_085813_CANGRASS25_T56",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250623_085813_CANGRASS25_T56",
+        "date_time": "2025-06-23 08:58:13",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -89620,13 +87970,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250623_095514_CANGRASS25_T57",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250623_095514_CANGRASS25_T57",
+        "date_time": "2025-06-23 09:55:14",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -89832,13 +88179,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250623_105220_CANGRASS25_T58",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250623_105220_CANGRASS25_T58",
+        "date_time": "2025-06-23 10:52:20",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -90044,13 +88388,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250623_112052_CANGRASS25_T59",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250623_112052_CANGRASS25_T59",
+        "date_time": "2025-06-23 11:20:52",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -90256,13 +88597,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250623_115557_CANGRASS25_T60",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250623_115557_CANGRASS25_T60",
+        "date_time": "2025-06-23 11:55:57",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -90468,13 +88806,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250623_122816_CANGRASS25_T61",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250623_122816_CANGRASS25_T61",
+        "date_time": "2025-06-23 12:28:16",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -90680,13 +89015,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250623_130128_CANGRASS25_T62",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250623_130128_CANGRASS25_T62",
+        "date_time": "2025-06-23 13:01:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -90892,13 +89224,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250624_092317_CANGRASS25_T63",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250624_092317_CANGRASS25_T63",
+        "date_time": "2025-06-24 09:23:17",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -91104,13 +89433,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250624_095133_CANGRASS25_T64",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250624_095133_CANGRASS25_T64",
+        "date_time": "2025-06-24 09:51:33",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -91316,13 +89642,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250624_102349_CANGRASS25_T65",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250624_102349_CANGRASS25_T65",
+        "date_time": "2025-06-24 10:23:49",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -91528,13 +89851,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250624_105226_CANGRASS25_T66",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250624_105226_CANGRASS25_T66",
+        "date_time": "2025-06-24 10:52:26",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -91740,13 +90060,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250624_111832_CANGRASS25_T67",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250624_111832_CANGRASS25_T67",
+        "date_time": "2025-06-24 11:18:32",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -91952,13 +90269,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250624_121948_CANGRASS25_T68",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250624_121948_CANGRASS25_T68",
+        "date_time": "2025-06-24 12:19:48",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -92164,13 +90478,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250625_090817_CANGRASS25_T69",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250625_090817_CANGRASS25_T69",
+        "date_time": "2025-06-25 09:08:17",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -92376,13 +90687,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250625_103638_CANGRASS25_T70",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250625_103638_CANGRASS25_T70",
+        "date_time": "2025-06-25 10:36:38",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -92588,13 +90896,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250625_121924_CANGRASS25_T71",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250625_121924_CANGRASS25_T71",
+        "date_time": "2025-06-25 12:19:24",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -92800,13 +91105,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250626_073928_CANGRASS25_T72",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250626_073928_CANGRASS25_T72",
+        "date_time": "2025-06-26 07:39:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -93012,13 +91314,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250626_083800_CANGRASS25_T73",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250626_083800_CANGRASS25_T73",
+        "date_time": "2025-06-26 08:38:00",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -93224,13 +91523,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250626_092401_CANGRASS25_T74",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250626_092401_CANGRASS25_T74",
+        "date_time": "2025-06-26 09:24:01",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -93436,13 +91732,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250626_094110_CANGRASS25_T75",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250626_094110_CANGRASS25_T75",
+        "date_time": "2025-06-26 09:41:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -93648,13 +91941,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250626_101149_CANGRASS25_T76",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250626_101149_CANGRASS25_T76",
+        "date_time": "2025-06-26 10:11:49",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -93860,13 +92150,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250626_103653_CANGRASS25_T77",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250626_103653_CANGRASS25_T77",
+        "date_time": "2025-06-26 10:36:53",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -94072,13 +92359,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250627_163745_CANGRASS25_T78",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250627_163745_CANGRASS25_T78",
+        "date_time": "2025-06-27 16:37:45",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -94284,13 +92568,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250627_171655_CANGRASS25_T79",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250627_171655_CANGRASS25_T79",
+        "date_time": "2025-06-27 17:16:55",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -94496,13 +92777,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250627_173553_CANGRASS25_T80",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250627_173553_CANGRASS25_T80",
+        "date_time": "2025-06-27 17:35:53",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -94708,13 +92986,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250627_183805_CANGRASS25_T82",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250627_183805_CANGRASS25_T82",
+        "date_time": "2025-06-27 18:38:05",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -94920,13 +93195,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250627_181510_CANGRASS25_T81",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250627_181510_CANGRASS25_T81",
+        "date_time": "2025-06-27 18:15:10",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -95132,13 +93404,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250627_190531_CANGRASS25_T83",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250627_190531_CANGRASS25_T83",
+        "date_time": "2025-06-27 19:05:31",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -95344,13 +93613,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250628_090831_CANGRASS25_T84",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250628_090831_CANGRASS25_T84",
+        "date_time": "2025-06-28 09:08:31",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -95556,13 +93822,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250628_092759_CANGRASS25_T85",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250628_092759_CANGRASS25_T85",
+        "date_time": "2025-06-28 09:27:59",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -95768,13 +94031,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250628_094025_CANGRASS25_T86",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250628_094025_CANGRASS25_T86",
+        "date_time": "2025-06-28 09:40:25",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -95980,13 +94240,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250628_100216_CANGRASS25_T87",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250628_100216_CANGRASS25_T87",
+        "date_time": "2025-06-28 10:02:16",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -96192,13 +94449,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250628_102557_CANGRASS25_T88",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250628_102557_CANGRASS25_T88",
+        "date_time": "2025-06-28 10:25:57",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -96404,13 +94658,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250628_103732_CANGRASS25_T89",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250628_103732_CANGRASS25_T89",
+        "date_time": "2025-06-28 10:37:32",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -96616,13 +94867,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250628_110258_CANGRASS25_T90",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250628_110258_CANGRASS25_T90",
+        "date_time": "2025-06-28 11:02:58",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -96828,13 +95076,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250628_111356_CANGRASS25_T91",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250628_111356_CANGRASS25_T91",
+        "date_time": "2025-06-28 11:13:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -97040,13 +95285,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250628_114852_CANGRASS25_T92",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250628_114852_CANGRASS25_T92",
+        "date_time": "2025-06-28 11:48:52",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -97252,13 +95494,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250628_121650_CANGRASS25_T93",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250628_121650_CANGRASS25_T93",
+        "date_time": "2025-06-28 12:16:50",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -97464,13 +95703,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250628_123059_CANGRASS25_T94",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250628_123059_CANGRASS25_T94",
+        "date_time": "2025-06-28 12:30:59",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -97676,13 +95912,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250628_124135_CANGRASS25_T95",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250628_124135_CANGRASS25_T95",
+        "date_time": "2025-06-28 12:41:35",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -97888,13 +96121,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250722_101548_ACHOGRASS25_T1",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250722_101548_ACHOGRASS25_T1",
+        "date_time": "2025-07-22 10:15:48",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -98100,13 +96330,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250722_115308_ACHOGRASS25_T2",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250722_115308_ACHOGRASS25_T2",
+        "date_time": "2025-07-22 11:53:08",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -98312,13 +96539,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250723_143335_ACHOGRASS25_T3",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250723_143335_ACHOGRASS25_T3",
+        "date_time": "2025-07-23 14:33:35",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -98524,13 +96748,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240927_182136_CHEGRASS24_T48",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240927_182136_CHEGRASS24_T48",
+        "date_time": "2024-09-27 18:21:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -98736,13 +96957,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20240927_191928_CHEGRASS24_T50",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20240927_191928_CHEGRASS24_T50",
+        "date_time": "2024-09-27 19:19:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -98948,13 +97166,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250917_111026_ANDAGRASS25_T1",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250917_111026_ANDAGRASS25_T1",
+        "date_time": "2025-09-17 11:10:26",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -99160,13 +97375,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250917_114407_ANDAGRASS25_T2",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250917_114407_ANDAGRASS25_T2",
+        "date_time": "2025-09-17 11:44:07",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -99372,13 +97584,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250917_120654_ANDAGRASS25_T3",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250917_120654_ANDAGRASS25_T3",
+        "date_time": "2025-09-17 12:06:54",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -99584,13 +97793,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250917_123141_ANDAGRASS25_T4",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250917_123141_ANDAGRASS25_T4",
+        "date_time": "2025-09-17 12:31:41",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -99796,13 +98002,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250917_124759_ANDAGRASS25_T5",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250917_124759_ANDAGRASS25_T5",
+        "date_time": "2025-09-17 12:47:59",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -100008,13 +98211,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250919_184303_ANDAGRASS25_T6",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250919_184303_ANDAGRASS25_T6",
+        "date_time": "2025-09-19 18:43:03",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -100220,13 +98420,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250919_191858_ANDAGRASS25_T7",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250919_191858_ANDAGRASS25_T7",
+        "date_time": "2025-09-19 19:18:58",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -100432,13 +98629,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_092405_ANDAGRASS25_T8",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_092405_ANDAGRASS25_T8",
+        "date_time": "2025-09-20 09:24:05",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -100644,13 +98838,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_095622_ANDAGRASS25_T9",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_095622_ANDAGRASS25_T9",
+        "date_time": "2025-09-20 09:56:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -100856,13 +99047,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_101307_ANDAGRASS25_T10",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_101307_ANDAGRASS25_T10",
+        "date_time": "2025-09-20 10:13:07",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -101068,13 +99256,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_104255_ANDAGRASS25_T11",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_104255_ANDAGRASS25_T11",
+        "date_time": "2025-09-20 10:42:55",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -101280,13 +99465,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_110112_ANDAGRASS25_T12",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_110112_ANDAGRASS25_T12",
+        "date_time": "2025-09-20 11:01:12",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -101492,13 +99674,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_114913_ANDAGRASS25_T13",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_114913_ANDAGRASS25_T13",
+        "date_time": "2025-09-20 11:49:13",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -101704,13 +99883,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_121813_ANDAGRASS25_T14",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_121813_ANDAGRASS25_T14",
+        "date_time": "2025-09-20 12:18:13",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -101916,13 +100092,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_125118_ANDAGRASS25_T15",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_125118_ANDAGRASS25_T15",
+        "date_time": "2025-09-20 12:51:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -102128,13 +100301,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_131947_ANDAGRASS25_T16",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_131947_ANDAGRASS25_T16",
+        "date_time": "2025-09-20 13:19:47",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -102340,13 +100510,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_152521_ANDAGRASS25_T17",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_152521_ANDAGRASS25_T17",
+        "date_time": "2025-09-20 15:25:21",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -102552,13 +100719,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_154520_ANDAGRASS25_T18",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_154520_ANDAGRASS25_T18",
+        "date_time": "2025-09-20 15:45:20",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -102764,13 +100928,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_160940_ANDAGRASS25_T19",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_160940_ANDAGRASS25_T19",
+        "date_time": "2025-09-20 16:09:40",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -102976,13 +101137,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_163608_ANDAGRASS25_T20",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_163608_ANDAGRASS25_T20",
+        "date_time": "2025-09-20 16:36:08",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -103188,13 +101346,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_171102_ANDAGRASS25_T21",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_171102_ANDAGRASS25_T21",
+        "date_time": "2025-09-20 17:11:02",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -103400,13 +101555,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_173905_ANDAGRASS25_T22",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_173905_ANDAGRASS25_T22",
+        "date_time": "2025-09-20 17:39:05",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -103612,13 +101764,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20250920_184256_ANDAGRASS25_T23",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Jose Martinez Garrido (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20250920_184256_ANDAGRASS25_T23",
+        "date_time": "2025-09-20 18:42:56",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -103824,13 +101973,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251008_125229_ANDAGRASS25_T24",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251008_125229_ANDAGRASS25_T24",
+        "date_time": "2025-10-08 12:52:29",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -104036,13 +102182,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251008_131231_ANDAGRASS25_T25",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251008_131231_ANDAGRASS25_T25",
+        "date_time": "2025-10-08 13:12:31",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -104248,13 +102391,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251008_135903_ANDAGRASS25_T26",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251008_135903_ANDAGRASS25_T26",
+        "date_time": "2025-10-08 13:59:03",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -104460,13 +102600,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251008_143933_ANDAGRASS25_T29",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251008_143933_ANDAGRASS25_T29",
+        "date_time": "2025-10-08 14:39:33",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -104672,13 +102809,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251008_145641_ANDAGRASS25_T28",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251008_145641_ANDAGRASS25_T28",
+        "date_time": "2025-10-08 14:56:41",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -104884,13 +103018,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251008_151327_ANDAGRASS25_T27",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251008_151327_ANDAGRASS25_T27",
+        "date_time": "2025-10-08 15:13:27",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -105096,13 +103227,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251009_160322_ANDAGRASS25_T30",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251009_160322_ANDAGRASS25_T30",
+        "date_time": "2025-10-09 16:03:22",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -105308,13 +103436,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251010_095941_ANDAGRASS25_T31",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251010_095941_ANDAGRASS25_T31",
+        "date_time": "2025-10-10 09:59:41",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -105520,13 +103645,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251010_103844_ANDAGRASS25_T32",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251010_103844_ANDAGRASS25_T32",
+        "date_time": "2025-10-10 10:38:44",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -105732,13 +103854,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251010_111648_ANDAGRASS25_T33",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251010_111648_ANDAGRASS25_T33",
+        "date_time": "2025-10-10 11:16:48",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -105944,13 +104063,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251010_121503_ANDAGRASS25_T34",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251010_121503_ANDAGRASS25_T34",
+        "date_time": "2025-10-10 12:15:03",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -106156,13 +104272,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251013_095158_ANDAGRASS25_T35",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251013_095158_ANDAGRASS25_T35",
+        "date_time": "2025-10-13 09:51:58",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -106368,13 +104481,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251013_095927_ANDAGRASS25_T36",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251013_095927_ANDAGRASS25_T36",
+        "date_time": "2025-10-13 09:59:27",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -106580,13 +104690,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251013_100544_ANDAGRASS25_T37",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251013_100544_ANDAGRASS25_T37",
+        "date_time": "2025-10-13 10:05:44",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -106792,13 +104899,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251013_101405_ANDAGRASS25_T38",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251013_101405_ANDAGRASS25_T38",
+        "date_time": "2025-10-13 10:14:05",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -107004,13 +105108,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251013_102441_ANDAGRASS25_T39",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251013_102441_ANDAGRASS25_T39",
+        "date_time": "2025-10-13 10:24:41",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -107216,13 +105317,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251014_101413_ANDAGRASS25_T40",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251014_101413_ANDAGRASS25_T40",
+        "date_time": "2025-10-14 10:14:13",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -107428,13 +105526,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251014_103936_ANDAGRASS25_T41",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251014_103936_ANDAGRASS25_T41",
+        "date_time": "2025-10-14 10:39:36",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -107640,13 +105735,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251014_111116_ANDAGRASS25_T42",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251014_111116_ANDAGRASS25_T42",
+        "date_time": "2025-10-14 11:11:16",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -107852,13 +105944,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251014_113244_ANDAGRASS25_T43",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251014_113244_ANDAGRASS25_T43",
+        "date_time": "2025-10-14 11:32:44",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -108064,13 +106153,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251014_114954_ANDAGRASS25_T44",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251014_114954_ANDAGRASS25_T44",
+        "date_time": "2025-10-14 11:49:54",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -108276,13 +106362,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251014_122842_ANDAGRASS25_T45",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251014_122842_ANDAGRASS25_T45",
+        "date_time": "2025-10-14 12:28:42",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -108488,13 +106571,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251014_130558_ANDAGRASS25_T46",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251014_130558_ANDAGRASS25_T46",
+        "date_time": "2025-10-14 13:05:58",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -108700,13 +106780,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251014_131215_ANDAGRASS25_T47",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251014_131215_ANDAGRASS25_T47",
+        "date_time": "2025-10-14 13:12:15",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -108912,13 +106989,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251014_140704_ANDAGRASS25_T48",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251014_140704_ANDAGRASS25_T48",
+        "date_time": "2025-10-14 14:07:04",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -109124,13 +107198,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251014_145645_ANDAGRASS25_T49",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251014_145645_ANDAGRASS25_T49",
+        "date_time": "2025-10-14 14:56:45",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -109336,13 +107407,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251014_152202_ANDAGRASS25_T50",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251014_152202_ANDAGRASS25_T50",
+        "date_time": "2025-10-14 15:22:02",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -109548,13 +107616,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251014_154643_ANDAGRASS25_T51",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251014_154643_ANDAGRASS25_T51",
+        "date_time": "2025-10-14 15:46:43",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -109760,13 +107825,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251015_104024_ANDAGRASS25_T52",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251015_104024_ANDAGRASS25_T52",
+        "date_time": "2025-10-15 10:40:24",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -109972,13 +108034,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251015_111904_ANDAGRASS25_T53",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251015_111904_ANDAGRASS25_T53",
+        "date_time": "2025-10-15 11:19:04",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -110184,13 +108243,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251015_120826_ANDAGRASS25_T54",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251015_120826_ANDAGRASS25_T54",
+        "date_time": "2025-10-15 12:08:26",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -110396,13 +108452,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251015_124319_ANDAGRASS25_T55",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251015_124319_ANDAGRASS25_T55",
+        "date_time": "2025-10-15 12:43:19",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -110608,13 +108661,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251015_131218_ANDAGRASS25_T56",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251015_131218_ANDAGRASS25_T56",
+        "date_time": "2025-10-15 13:12:18",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [
@@ -110820,13 +108870,10 @@ var uv_tracks = [
         ]
     },
     {
-        "eventID": "20251015_140928_ANDAGRASS25_T57",
-        "eventDate": NaN,
-        "institutionCode": "GEAM IEO-CSIC",
-        "datasetName": "BIODIV (MITECO-IEO-CSIC)",
-        "recordedBy": "Maria Dolores Belando Torrentes (GEAM IEO-CSIC)",
-        "url": NaN,
-        "thumbnail_url": NaN,
+        "track_id": "20251015_140928_ANDAGRASS25_T57",
+        "date_time": "2025-10-15 14:09:28",
+        "recorded_by_institution": "GEAM IEO-CSIC",
+        "project": "BIODIV (MITECO-IEO-CSIC)",
         "contact": "jose.martinez@ieo.csic.es",
         "line": [
             [

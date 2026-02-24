@@ -79,7 +79,7 @@ header {
 
 
 .leaflet-popup-content {
-    width: 600px !important; /* Set your desired width */
+    width: auto !important; /* Let content determine width */
     max-width: 100%; /* Ensure it doesn't exceed the viewport */
     box-sizing: border-box; /* Include padding in width calculation */
 }
@@ -126,6 +126,8 @@ header {
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
 }
 
 .info.legend div {
@@ -136,8 +138,8 @@ header {
 
 /* Green Dot for Seagrass Presence/Absence */
 .green-dot {
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
     background-color: green;
     border-radius: 50%;
 }
@@ -152,8 +154,8 @@ header {
 
 /* Red Line for Underwater Video Tracks */
 .red-line {
-    width: 15px;
-    height: 2px;
+    width: 20px;
+    height: 3px;
     background-color: red;
 }
 
