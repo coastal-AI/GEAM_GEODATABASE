@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <script src="https://unpkg.com/pmtiles@3.0.6/dist/pmtiles.js"></script>
+    <script src="https://unpkg.com/protomaps-leaflet@3.1.0/dist/protomaps-leaflet.js"></script>
     <script src="data/1_SEATRUTH_table.js"></script> 
     <script src="data/2_DRONE_table.js"></script> 
     <script src="data/3_VIDEO_TRACKS_table.js"></script> 
@@ -86,9 +88,6 @@
         };
 
 
-
-
-
         // Helper function to determine layer name
         function getLayerName(layer) {
             if (layer === stationsLayer) {
@@ -158,20 +157,7 @@
         }
 
 
-        // LAYERS
-        var seatruthLayer = L.markerClusterGroup({
-            maxClusterRadius: 60, // Cluster if markers within 60px radius
-            disableClusteringAtZoom: 13, 
-            iconCreateFunction: function(cluster) {
-                return L.divIcon({
-                    html: '<svg width="40" height="40" viewBox="0 0 40 40" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));"><circle cx="20" cy="20" r="15" fill="#2ecc71" fill-opacity="0.7" stroke="#2ecc71" stroke-width="2" /><text x="20" y="25" text-anchor="middle" fill="white" font-weight="bold" font-size="14">' + cluster.getChildCount() + '</text></svg>',
-                    iconSize: [40, 40],
-                    className: 'seatruth-cluster'
-                });
-            }
-        });
-        var droneLayer = L.layerGroup();
-        var tracksLayer = L.layerGroup();
+        // INITIALIZE LAYERS
         var stationsLayer = L.markerClusterGroup({
             maxClusterRadius: 50, // Cluster if markers within 50px radius
             disableClusteringAtZoom: 9, 
@@ -183,13 +169,28 @@
                 });
             }
         });
-  
+
+        var seatruthLayer = L.markerClusterGroup({
+            maxClusterRadius: 60, // Cluster if markers within 60px radius
+            disableClusteringAtZoom: 13, 
+            iconCreateFunction: function(cluster) {
+                return L.divIcon({
+                    html: '<svg width="40" height="40" viewBox="0 0 40 40" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));"><circle cx="20" cy="20" r="15" fill="#9b59b6" fill-opacity="0.7" stroke="#9b59b6" stroke-width="2" /><text x="20" y="25" text-anchor="middle" fill="white" font-weight="bold" font-size="14">' + cluster.getChildCount() + '</text></svg>',
+                    iconSize: [40, 40],
+                    className: 'seatruth-cluster'
+                });
+            }
+        });
+        var droneLayer = L.layerGroup();
+        var tracksLayer = L.layerGroup();
+        
+        
 
         //SEATRUTH
         seatruth.forEach(function(item) {
             var marker = L.circleMarker([item.lat, item.lon], {
                 radius: 0.5, // Adjust the radius as needed
-                color: 'green', // Adjust the color as needed
+                color: '#9b59b6', // Adjust the color as needed
                 fillOpacity: 0.5 // Adjust the fill opacity as needed
             }).addTo(seatruthLayer);
             ;
@@ -257,13 +258,39 @@
             });
         });
 
+        // SEAGRASS ATLAS - Load PMTiles (renders in tilePane, naturally below overlayPane)
+        let protocol = new pmtiles.Protocol();
+        pmtiles.Protocol.prototype.add = function(){}; // compatibility
+        
+        var atlasLayer = protomapsL.leafletLayer({
+            url: 'data/atlas_seagrass.pmtiles',
+            paintRules: [
+                {
+                    dataLayer: 'atlas_seagrass',
+                    symbolizer: new protomapsL.PolygonSymbolizer({
+                        fill: '#90EE90',
+                        opacity: 0.2,
+                        stroke: '#228B22',
+                        width: 1
+                    })
+                }
+            ],
+            labelRules: [],
+            attribution: ''
+        });
+    
+
     
         // Add layers to the map 
+        
+        stationsLayer.addTo(map);
         seatruthLayer.addTo(map);
         droneLayer.addTo(map);
         tracksLayer.addTo(map);
-        stationsLayer.addTo(map);
+        atlasLayer.addTo(map);
+        
 
+        
 
         L.control.scale({ position: 'bottomright' }).addTo(map);
 
@@ -283,7 +310,7 @@
                 },
                 { 
                     label: 'Seagrass Presence/Absence', 
-                    symbol: '<svg width="20" height="20" viewBox="0 0 20 20" style="display: inline-block; vertical-align: middle;"><circle cx="10" cy="10" r="8" fill="#2ecc71" fill-opacity="0.8" stroke="#2ecc71" stroke-width="1.5" /></svg>'  // Green circle with edge and 0.8 opacity fill
+                    symbol: '<svg width="20" height="20" viewBox="0 0 20 20" style="display: inline-block; vertical-align: middle;"><circle cx="10" cy="10" r="8" fill="#9b59b6" fill-opacity="0.8" stroke="#9b59b6" stroke-width="1.5" /></svg>'  // Purple circle with edge and 0.8 opacity fill
                 },
                 { 
                     label: 'Drone Surveys', 
@@ -292,8 +319,11 @@
                 { 
                     label: 'Underwater Video Tracks', 
                     symbol: '<div class="red-line"></div>'  // Red line for Underwater Video Tracks
+                },
+                { 
+                    label: 'Spanish Seagrass Atlas 2015', 
+                    symbol: '<svg width="20" height="20" viewBox="0 0 20 20" style="display: inline-block; vertical-align: middle;"><rect x="2" y="2" width="16" height="16" fill="#90EE90" fill-opacity="0.5" stroke="#228B22" stroke-width="1.5" /></svg>'  // Light green rectangle
                 }
-               
             ];
 
             // Add all layers to legend
@@ -308,10 +338,11 @@
 
                 // Add layer control for toggling layers
         var overlayMaps = {
+            "Monitoring Stations": stationsLayer,
             "Seagrass Presence/Absence data": seatruthLayer,
             "Drone Surveys": droneLayer,
             "Underwater Video Tracks": tracksLayer,
-            "Monitoring Stations": stationsLayer,
+            "Spanish Seagrass Atlas": atlasLayer,
         };
 
         L.control.layers(null, overlayMaps, {
